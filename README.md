@@ -7,22 +7,34 @@
 - 推荐阈值：0.74（纯度-数量拐点）
 
 ## 文件
-outputs/
-├── embeddings_qwen3.npy        # Qwen3 向量
-├── dependencies_qwen3.json     # 最终依赖图（阈值0.74）
-├── dependency_graph_qwen3.png  # 可视化图
-├── threshold_curve_qwen3.txt   # 阈值-纯度曲线
-├── compare_dependencies_result.txt   # MiniLM vs Qwen3 对比
-└── tag_purity_result.txt       # 模块纯度报告
-
-models/                         # 需手动下载大模型
-src/                            # 全部脚本
-├── 02_embed_qwen3.py           # 生成 embedding
-├── 03_build_dependencies_v2.py # 构建依赖（参数化阈值）
-├── 04_visualize_v2.py          # 可视化
-├── compare_dependencies.py     # 量化对比
-├── tag_purity.py               # 模块纯度
-└── threshold_curve.py          # 阈值曲线
+Gitlab-Api-Embedding/
+├── README.md                           # 本文件
+├── requirements.txt                    # 依赖包列表
+├── data/
+│   └── openapi.yaml                    # 原始 OpenAPI 文件
+├── models/
+│   ├── all-MiniLM-L6-v2/               # MiniLM 模型（需下载）
+│   └── Qwen3-Embedding-0.6B/           # Qwen3 模型（需下载）
+├── outputs/
+│   ├── compare_dependencies_result.txt # MiniLM vs Qwen3 量化对比
+│   ├── dependencies.json               # MiniLM 依赖图（对比用）
+│   ├── dependencies_qwen3.json         # Qwen3 最终依赖图（阈值0.74）
+│   ├── dependency_graph.png            # MiniLM 可视化（对比用）
+│   ├── dependency_graph_qwen3.png      # Qwen3 可视化图
+│   ├── embeddings.npy                  # MiniLM 向量（对比用）
+│   ├── embeddings_qwen3.npy            # Qwen3 向量
+│   ├── operations.json                 # 提取的 operation 列表
+│   ├── tag_purity_result.txt           # 模块纯度报告
+│   └── threshold_curve_qwen3.txt       # 阈值-纯度曲线
+└── src/
+├── build_dependencies.py           # 构建依赖（参数化阈值）
+├── compare_dependencies.py         # 量化对比
+├── embed_operations.py             # MiniLM embedding（对比用）
+├── embed_qwen3.py                  # 生成 Qwen3 embedding
+├── parse_openapi.py                # 提取 operation
+├── tag_purity.py                   # 模块纯度计算
+├── threshold_curve.py              # 阈值曲线
+└── visualize.py                    # 可视化（对比用）
 
 ## 复现
 1. 下载模型到 models/ 目录
