@@ -1,0 +1,1570 @@
+{
+  "getApiV4GroupsIdBadgesBadgeId": [
+    {
+      "operationId": "putApiV4GroupsIdBadgesBadgeId",
+      "score": 0.9149723649024963
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+      "score": 0.903112530708313
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadges",
+      "score": 0.9091103076934814
+    },
+    {
+      "operationId": "postApiV4GroupsIdBadges",
+      "score": 0.9188899993896484
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadgesRender",
+      "score": 0.9031398892402649
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.9129992127418518
+    },
+    {
+      "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8370442390441895
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8364633321762085
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.8308408856391907
+    },
+    {
+      "operationId": "postApiV4ProjectsIdBadges",
+      "score": 0.8371070623397827
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesRender",
+      "score": 0.8333728313446045
+    }
+  ],
+  "putApiV4GroupsIdBadgesBadgeId": [
+    {
+      "operationId": "getApiV4GroupsIdBadgesBadgeId",
+      "score": 0.9149723649024963
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8965142965316772
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadges",
+      "score": 0.8427146673202515
+    },
+    {
+      "operationId": "postApiV4GroupsIdBadges",
+      "score": 0.9460776448249817
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadgesRender",
+      "score": 0.864186704158783
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8368885517120361
+    },
+    {
+      "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.9250178337097168
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8309552669525146
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.7735973596572876
+    },
+    {
+      "operationId": "postApiV4ProjectsIdBadges",
+      "score": 0.8667489290237427
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesRender",
+      "score": 0.7976878881454468
+    }
+  ],
+  "deleteApiV4GroupsIdBadgesBadgeId": [
+    {
+      "operationId": "getApiV4GroupsIdBadgesBadgeId",
+      "score": 0.903112530708313
+    },
+    {
+      "operationId": "putApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8965142965316772
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadges",
+      "score": 0.8222755193710327
+    },
+    {
+      "operationId": "postApiV4GroupsIdBadges",
+      "score": 0.8886362910270691
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadgesRender",
+      "score": 0.8322531580924988
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8315811157226562
+    },
+    {
+      "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.82940673828125
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.9402496814727783
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.7608447670936584
+    },
+    {
+      "operationId": "postApiV4ProjectsIdBadges",
+      "score": 0.8169167041778564
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesRender",
+      "score": 0.7674888372421265
+    }
+  ],
+  "getApiV4GroupsIdBadges": [
+    {
+      "operationId": "getApiV4GroupsIdBadgesBadgeId",
+      "score": 0.9091103076934814
+    },
+    {
+      "operationId": "putApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8427146673202515
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8222755193710327
+    },
+    {
+      "operationId": "postApiV4GroupsIdBadges",
+      "score": 0.8340851664543152
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadgesRender",
+      "score": 0.854482114315033
+    },
+    {
+      "operationId": "getApiV4GroupsIdAccessRequests",
+      "score": 0.7745028138160706
+    },
+    {
+      "operationId": "postApiV4GroupsIdAccessRequests",
+      "score": 0.8292966485023499
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8173336386680603
+    },
+    {
+      "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.7564206123352051
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.9019591212272644
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesRender",
+      "score": 0.7802263498306274
+    }
+  ],
+  "postApiV4GroupsIdBadges": [
+    {
+      "operationId": "getApiV4GroupsIdBadgesBadgeId",
+      "score": 0.9188899993896484
+    },
+    {
+      "operationId": "putApiV4GroupsIdBadgesBadgeId",
+      "score": 0.9460776448249817
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8886362910270691
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadges",
+      "score": 0.8340851664543152
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadgesRender",
+      "score": 0.8620860576629639
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8261908888816833
+    },
+    {
+      "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8578780293464661
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8099045753479004
+    },
+    {
+      "operationId": "postApiV4ProjectsIdBadges",
+      "score": 0.9030109643936157
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesRender",
+      "score": 0.7830106019973755
+    }
+  ],
+  "getApiV4GroupsIdBadgesRender": [
+    {
+      "operationId": "getApiV4GroupsIdBadgesBadgeId",
+      "score": 0.9031398892402649
+    },
+    {
+      "operationId": "putApiV4GroupsIdBadgesBadgeId",
+      "score": 0.864186704158783
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8322531580924988
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadges",
+      "score": 0.854482114315033
+    },
+    {
+      "operationId": "postApiV4GroupsIdBadges",
+      "score": 0.8620860576629639
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8720153570175171
+    },
+    {
+      "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8333686590194702
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8116641044616699
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.8325269222259521
+    },
+    {
+      "operationId": "postApiV4ProjectsIdBadges",
+      "score": 0.833663821220398
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesRender",
+      "score": 0.9576945900917053
+    }
+  ],
+  "deleteApiV4GroupsIdAccessRequestsUserId": [
+    {
+      "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+      "score": 0.8885692358016968
+    },
+    {
+      "operationId": "getApiV4GroupsIdAccessRequests",
+      "score": 0.7762495875358582
+    },
+    {
+      "operationId": "postApiV4GroupsIdAccessRequests",
+      "score": 0.822629451751709
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdAccessRequestsUserId",
+      "score": 1.0000004768371582
+    },
+    {
+      "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+      "score": 0.8885692358016968
+    },
+    {
+      "operationId": "getApiV4ProjectsIdAccessRequests",
+      "score": 0.7754794359207153
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.8226335048675537
+    }
+  ],
+  "putApiV4GroupsIdAccessRequestsUserIdApprove": [
+    {
+      "operationId": "deleteApiV4GroupsIdAccessRequestsUserId",
+      "score": 0.8885692358016968
+    },
+    {
+      "operationId": "getApiV4GroupsIdAccessRequests",
+      "score": 0.8117110729217529
+    },
+    {
+      "operationId": "postApiV4GroupsIdAccessRequests",
+      "score": 0.8402331471443176
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdAccessRequestsUserId",
+      "score": 0.8885692358016968
+    },
+    {
+      "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+      "score": 1.0000003576278687
+    },
+    {
+      "operationId": "getApiV4ProjectsIdAccessRequests",
+      "score": 0.8143438100814819
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.84882652759552
+    }
+  ],
+  "getApiV4GroupsIdAccessRequests": [
+    {
+      "operationId": "getApiV4GroupsIdBadges",
+      "score": 0.7745028138160706
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdAccessRequestsUserId",
+      "score": 0.7762495875358582
+    },
+    {
+      "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+      "score": 0.8117110729217529
+    },
+    {
+      "operationId": "postApiV4GroupsIdAccessRequests",
+      "score": 0.9159781336784363
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdAccessRequestsUserId",
+      "score": 0.7762495875358582
+    },
+    {
+      "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+      "score": 0.8117110729217529
+    },
+    {
+      "operationId": "getApiV4ProjectsIdAccessRequests",
+      "score": 0.9326483011245728
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.8363468647003174
+    }
+  ],
+  "postApiV4GroupsIdAccessRequests": [
+    {
+      "operationId": "getApiV4GroupsIdBadges",
+      "score": 0.8292966485023499
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdAccessRequestsUserId",
+      "score": 0.822629451751709
+    },
+    {
+      "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+      "score": 0.8402331471443176
+    },
+    {
+      "operationId": "getApiV4GroupsIdAccessRequests",
+      "score": 0.9159781336784363
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.759930431842804
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdAccessRequestsUserId",
+      "score": 0.822629451751709
+    },
+    {
+      "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+      "score": 0.8402331471443176
+    },
+    {
+      "operationId": "getApiV4ProjectsIdAccessRequests",
+      "score": 0.8416428565979004
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.9036256670951843
+    }
+  ],
+  "deleteApiV4ProjectsIdRepositoryMergedBranches": [
+    {
+      "operationId": "deleteApiV4ProjectsIdRepositoryBranchesBranch",
+      "score": 0.7594806551933289
+    }
+  ],
+  "getApiV4ProjectsIdRepositoryBranchesBranch": [
+    {
+      "operationId": "getApiV4ProjectsIdRepositoryBranches",
+      "score": 0.8671831488609314
+    }
+  ],
+  "deleteApiV4ProjectsIdRepositoryBranchesBranch": [
+    {
+      "operationId": "deleteApiV4ProjectsIdRepositoryMergedBranches",
+      "score": 0.7594806551933289
+    }
+  ],
+  "headApiV4ProjectsIdRepositoryBranchesBranch": [
+    {
+      "operationId": "postApiV4ProjectsIdRepositoryBranches",
+      "score": 0.7713589072227478
+    }
+  ],
+  "getApiV4ProjectsIdRepositoryBranches": [
+    {
+      "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+      "score": 0.8671831488609314
+    }
+  ],
+  "postApiV4ProjectsIdRepositoryBranches": [
+    {
+      "operationId": "headApiV4ProjectsIdRepositoryBranchesBranch",
+      "score": 0.7713589072227478
+    }
+  ],
+  "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect": [
+    {
+      "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+      "score": 0.8788753747940063
+    }
+  ],
+  "putApiV4ProjectsIdRepositoryBranchesBranchProtect": [
+    {
+      "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+      "score": 0.8788753747940063
+    }
+  ],
+  "getApiV4ProjectsIdBadgesBadgeId": [
+    {
+      "operationId": "getApiV4GroupsIdBadgesBadgeId",
+      "score": 0.9129992127418518
+    },
+    {
+      "operationId": "putApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8368885517120361
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8315811157226562
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadges",
+      "score": 0.8173336386680603
+    },
+    {
+      "operationId": "postApiV4GroupsIdBadges",
+      "score": 0.8261908888816833
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadgesRender",
+      "score": 0.8720153570175171
+    },
+    {
+      "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.9189255833625793
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.9040781855583191
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.9128572344779968
+    },
+    {
+      "operationId": "postApiV4ProjectsIdBadges",
+      "score": 0.9260444045066833
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesRender",
+      "score": 0.9182687997817993
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.76788729429245
+    },
+    {
+      "operationId": "getApiV4Metadata",
+      "score": 0.7554545998573303
+    }
+  ],
+  "putApiV4ProjectsIdBadgesBadgeId": [
+    {
+      "operationId": "getApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8370442390441895
+    },
+    {
+      "operationId": "putApiV4GroupsIdBadgesBadgeId",
+      "score": 0.9250178337097168
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+      "score": 0.82940673828125
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadges",
+      "score": 0.7564206123352051
+    },
+    {
+      "operationId": "postApiV4GroupsIdBadges",
+      "score": 0.8578780293464661
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadgesRender",
+      "score": 0.8333686590194702
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.9189255833625793
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.893344521522522
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.8477724194526672
+    },
+    {
+      "operationId": "postApiV4ProjectsIdBadges",
+      "score": 0.9474668502807617
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesRender",
+      "score": 0.8744667172431946
+    }
+  ],
+  "deleteApiV4ProjectsIdBadgesBadgeId": [
+    {
+      "operationId": "getApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8364633321762085
+    },
+    {
+      "operationId": "putApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8309552669525146
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+      "score": 0.9402496814727783
+    },
+    {
+      "operationId": "postApiV4GroupsIdBadges",
+      "score": 0.8099045753479004
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadgesRender",
+      "score": 0.8116641044616699
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.9040781855583191
+    },
+    {
+      "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.893344521522522
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.8211410641670227
+    },
+    {
+      "operationId": "postApiV4ProjectsIdBadges",
+      "score": 0.8856009244918823
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesRender",
+      "score": 0.8407511115074158
+    }
+  ],
+  "getApiV4ProjectsIdBadges": [
+    {
+      "operationId": "getApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8308408856391907
+    },
+    {
+      "operationId": "putApiV4GroupsIdBadgesBadgeId",
+      "score": 0.7735973596572876
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+      "score": 0.7608447670936584
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadges",
+      "score": 0.9019591212272644
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadgesRender",
+      "score": 0.8325269222259521
+    },
+    {
+      "operationId": "postApiV4GroupsIdAccessRequests",
+      "score": 0.759930431842804
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.9128572344779968
+    },
+    {
+      "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8477724194526672
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8211410641670227
+    },
+    {
+      "operationId": "postApiV4ProjectsIdBadges",
+      "score": 0.8412721157073975
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesRender",
+      "score": 0.8730653524398804
+    },
+    {
+      "operationId": "getApiV4ProjectsIdAccessRequests",
+      "score": 0.7931821346282959
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.8442285060882568
+    },
+    {
+      "operationId": "getApiV4Metadata",
+      "score": 0.7586069703102112
+    },
+    {
+      "operationId": "getApiV4Version",
+      "score": 0.7515199780464172
+    }
+  ],
+  "postApiV4ProjectsIdBadges": [
+    {
+      "operationId": "getApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8371070623397827
+    },
+    {
+      "operationId": "putApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8667489290237427
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8169167041778564
+    },
+    {
+      "operationId": "postApiV4GroupsIdBadges",
+      "score": 0.9030109643936157
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadgesRender",
+      "score": 0.833663821220398
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.9260444045066833
+    },
+    {
+      "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.9474668502807617
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8856009244918823
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.8412721157073975
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesRender",
+      "score": 0.8767292499542236
+    }
+  ],
+  "getApiV4ProjectsIdBadgesRender": [
+    {
+      "operationId": "getApiV4GroupsIdBadgesBadgeId",
+      "score": 0.8333728313446045
+    },
+    {
+      "operationId": "putApiV4GroupsIdBadgesBadgeId",
+      "score": 0.7976878881454468
+    },
+    {
+      "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+      "score": 0.7674888372421265
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadges",
+      "score": 0.7802263498306274
+    },
+    {
+      "operationId": "postApiV4GroupsIdBadges",
+      "score": 0.7830106019973755
+    },
+    {
+      "operationId": "getApiV4GroupsIdBadgesRender",
+      "score": 0.9576945900917053
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.9182687997817993
+    },
+    {
+      "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8744667172431946
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.8407511115074158
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.8730653524398804
+    },
+    {
+      "operationId": "postApiV4ProjectsIdBadges",
+      "score": 0.8767292499542236
+    }
+  ],
+  "deleteApiV4ProjectsIdAccessRequestsUserId": [
+    {
+      "operationId": "deleteApiV4GroupsIdAccessRequestsUserId",
+      "score": 1.0000004768371582
+    },
+    {
+      "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+      "score": 0.8885692358016968
+    },
+    {
+      "operationId": "getApiV4GroupsIdAccessRequests",
+      "score": 0.7762495875358582
+    },
+    {
+      "operationId": "postApiV4GroupsIdAccessRequests",
+      "score": 0.822629451751709
+    },
+    {
+      "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+      "score": 0.8885692358016968
+    },
+    {
+      "operationId": "getApiV4ProjectsIdAccessRequests",
+      "score": 0.7754794359207153
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.8226335048675537
+    }
+  ],
+  "putApiV4ProjectsIdAccessRequestsUserIdApprove": [
+    {
+      "operationId": "deleteApiV4GroupsIdAccessRequestsUserId",
+      "score": 0.8885692358016968
+    },
+    {
+      "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+      "score": 1.0000003576278687
+    },
+    {
+      "operationId": "getApiV4GroupsIdAccessRequests",
+      "score": 0.8117110729217529
+    },
+    {
+      "operationId": "postApiV4GroupsIdAccessRequests",
+      "score": 0.8402331471443176
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdAccessRequestsUserId",
+      "score": 0.8885692358016968
+    },
+    {
+      "operationId": "getApiV4ProjectsIdAccessRequests",
+      "score": 0.8143438100814819
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.84882652759552
+    }
+  ],
+  "getApiV4ProjectsIdAccessRequests": [
+    {
+      "operationId": "deleteApiV4GroupsIdAccessRequestsUserId",
+      "score": 0.7754794359207153
+    },
+    {
+      "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+      "score": 0.8143438100814819
+    },
+    {
+      "operationId": "getApiV4GroupsIdAccessRequests",
+      "score": 0.9326483011245728
+    },
+    {
+      "operationId": "postApiV4GroupsIdAccessRequests",
+      "score": 0.8416428565979004
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.7931821346282959
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdAccessRequestsUserId",
+      "score": 0.7754794359207153
+    },
+    {
+      "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+      "score": 0.8143438100814819
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.918510913848877
+    }
+  ],
+  "postApiV4ProjectsIdAccessRequests": [
+    {
+      "operationId": "deleteApiV4GroupsIdAccessRequestsUserId",
+      "score": 0.8226335048675537
+    },
+    {
+      "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+      "score": 0.84882652759552
+    },
+    {
+      "operationId": "getApiV4GroupsIdAccessRequests",
+      "score": 0.8363468647003174
+    },
+    {
+      "operationId": "postApiV4GroupsIdAccessRequests",
+      "score": 0.9036256670951843
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.76788729429245
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.8442285060882568
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdAccessRequestsUserId",
+      "score": 0.8226335048675537
+    },
+    {
+      "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+      "score": 0.84882652759552
+    },
+    {
+      "operationId": "getApiV4ProjectsIdAccessRequests",
+      "score": 0.918510913848877
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+      "score": 0.7659876346588135
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntities",
+      "score": 0.764997124671936
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportId",
+      "score": 0.7692961692810059
+    },
+    {
+      "operationId": "getApiV4Metadata",
+      "score": 0.7800232172012329
+    },
+    {
+      "operationId": "getApiV4Version",
+      "score": 0.7610315680503845
+    }
+  ],
+  "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId": [
+    {
+      "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+      "score": 0.8274049162864685
+    },
+    {
+      "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+      "score": 0.7953501343727112
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+      "score": 0.8880492448806763
+    }
+  ],
+  "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId": [
+    {
+      "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+      "score": 0.8274049162864685
+    },
+    {
+      "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+      "score": 0.8045246601104736
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+      "score": 0.8067281246185303
+    }
+  ],
+  "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages": [
+    {
+      "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+      "score": 0.7953501343727112
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+      "score": 0.8045246601104736
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+      "score": 0.8484834432601929
+    }
+  ],
+  "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages": [
+    {
+      "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+      "score": 0.8880492448806763
+    },
+    {
+      "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+      "score": 0.8067281246185303
+    },
+    {
+      "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+      "score": 0.8484834432601929
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesAuthorize",
+      "score": 0.8058270812034607
+    }
+  ],
+  "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesAuthorize": [
+    {
+      "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+      "score": 0.8058270812034607
+    }
+  ],
+  "getApiV4AdminBatchedBackgroundMigrationsId": [
+    {
+      "operationId": "getApiV4AdminBatchedBackgroundMigrations",
+      "score": 0.9151586890220642
+    },
+    {
+      "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
+      "score": 0.8883278369903564
+    },
+    {
+      "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
+      "score": 0.8572789430618286
+    }
+  ],
+  "getApiV4AdminBatchedBackgroundMigrations": [
+    {
+      "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
+      "score": 0.9151586890220642
+    },
+    {
+      "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
+      "score": 0.7867375612258911
+    },
+    {
+      "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
+      "score": 0.7757015228271484
+    }
+  ],
+  "putApiV4AdminBatchedBackgroundMigrationsIdResume": [
+    {
+      "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
+      "score": 0.8883278369903564
+    },
+    {
+      "operationId": "getApiV4AdminBatchedBackgroundMigrations",
+      "score": 0.7867375612258911
+    },
+    {
+      "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
+      "score": 0.8883159756660461
+    }
+  ],
+  "putApiV4AdminBatchedBackgroundMigrationsIdPause": [
+    {
+      "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
+      "score": 0.8572789430618286
+    },
+    {
+      "operationId": "getApiV4AdminBatchedBackgroundMigrations",
+      "score": 0.7757015228271484
+    },
+    {
+      "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
+      "score": 0.8883159756660461
+    }
+  ],
+  "getApiV4AdminCiVariablesKey": [
+    {
+      "operationId": "deleteApiV4AdminCiVariablesKey",
+      "score": 0.7616227269172668
+    },
+    {
+      "operationId": "getApiV4AdminCiVariables",
+      "score": 0.8183211088180542
+    }
+  ],
+  "putApiV4AdminCiVariablesKey": [
+    {
+      "operationId": "deleteApiV4AdminCiVariablesKey",
+      "score": 0.7810010313987732
+    },
+    {
+      "operationId": "postApiV4AdminCiVariables",
+      "score": 0.7700799703598022
+    }
+  ],
+  "deleteApiV4AdminCiVariablesKey": [
+    {
+      "operationId": "getApiV4AdminCiVariablesKey",
+      "score": 0.7616227269172668
+    },
+    {
+      "operationId": "putApiV4AdminCiVariablesKey",
+      "score": 0.7810010313987732
+    },
+    {
+      "operationId": "postApiV4AdminCiVariables",
+      "score": 0.7639666795730591
+    }
+  ],
+  "getApiV4AdminCiVariables": [
+    {
+      "operationId": "getApiV4AdminCiVariablesKey",
+      "score": 0.8183211088180542
+    }
+  ],
+  "postApiV4AdminCiVariables": [
+    {
+      "operationId": "putApiV4AdminCiVariablesKey",
+      "score": 0.7700799703598022
+    },
+    {
+      "operationId": "deleteApiV4AdminCiVariablesKey",
+      "score": 0.7639666795730591
+    }
+  ],
+  "getApiV4AdminDatabasesDatabaseNameDictionaryTablesTableName": [],
+  "getApiV4AdminClustersClusterId": [
+    {
+      "operationId": "putApiV4AdminClustersClusterId",
+      "score": 0.8697875738143921
+    },
+    {
+      "operationId": "deleteApiV4AdminClustersClusterId",
+      "score": 0.8563135266304016
+    },
+    {
+      "operationId": "postApiV4AdminClustersAdd",
+      "score": 0.8730459213256836
+    },
+    {
+      "operationId": "getApiV4AdminClusters",
+      "score": 0.9162880182266235
+    },
+    {
+      "operationId": "getApiV4Metadata",
+      "score": 0.7643375992774963
+    }
+  ],
+  "putApiV4AdminClustersClusterId": [
+    {
+      "operationId": "getApiV4AdminClustersClusterId",
+      "score": 0.8697875738143921
+    },
+    {
+      "operationId": "deleteApiV4AdminClustersClusterId",
+      "score": 0.861624538898468
+    },
+    {
+      "operationId": "postApiV4AdminClustersAdd",
+      "score": 0.9274574518203735
+    },
+    {
+      "operationId": "getApiV4AdminClusters",
+      "score": 0.851817786693573
+    }
+  ],
+  "deleteApiV4AdminClustersClusterId": [
+    {
+      "operationId": "getApiV4AdminClustersClusterId",
+      "score": 0.8563135266304016
+    },
+    {
+      "operationId": "putApiV4AdminClustersClusterId",
+      "score": 0.861624538898468
+    },
+    {
+      "operationId": "postApiV4AdminClustersAdd",
+      "score": 0.8621376752853394
+    },
+    {
+      "operationId": "getApiV4AdminClusters",
+      "score": 0.8363403677940369
+    }
+  ],
+  "postApiV4AdminClustersAdd": [
+    {
+      "operationId": "getApiV4AdminClustersClusterId",
+      "score": 0.8730459213256836
+    },
+    {
+      "operationId": "putApiV4AdminClustersClusterId",
+      "score": 0.9274574518203735
+    },
+    {
+      "operationId": "deleteApiV4AdminClustersClusterId",
+      "score": 0.8621376752853394
+    },
+    {
+      "operationId": "getApiV4AdminClusters",
+      "score": 0.8514699935913086
+    }
+  ],
+  "getApiV4AdminClusters": [
+    {
+      "operationId": "getApiV4AdminClustersClusterId",
+      "score": 0.9162880182266235
+    },
+    {
+      "operationId": "putApiV4AdminClustersClusterId",
+      "score": 0.851817786693573
+    },
+    {
+      "operationId": "deleteApiV4AdminClustersClusterId",
+      "score": 0.8363403677940369
+    },
+    {
+      "operationId": "postApiV4AdminClustersAdd",
+      "score": 0.8514699935913086
+    },
+    {
+      "operationId": "getApiV4Metadata",
+      "score": 0.7594837546348572
+    }
+  ],
+  "postApiV4AdminMigrationsTimestampMark": [],
+  "deleteApiV4ApplicationsId": [],
+  "getApiV4Applications": [],
+  "postApiV4Applications": [
+    {
+      "operationId": "postApiV4BulkImports",
+      "score": 0.7797404527664185
+    }
+  ],
+  "getApiV4Avatar": [],
+  "getApiV4BroadcastMessagesId": [
+    {
+      "operationId": "putApiV4BroadcastMessagesId",
+      "score": 0.8328847885131836
+    },
+    {
+      "operationId": "deleteApiV4BroadcastMessagesId",
+      "score": 0.8331504464149475
+    },
+    {
+      "operationId": "getApiV4BroadcastMessages",
+      "score": 0.9341499209403992
+    },
+    {
+      "operationId": "postApiV4BroadcastMessages",
+      "score": 0.8782815337181091
+    }
+  ],
+  "putApiV4BroadcastMessagesId": [
+    {
+      "operationId": "getApiV4BroadcastMessagesId",
+      "score": 0.8328847885131836
+    },
+    {
+      "operationId": "deleteApiV4BroadcastMessagesId",
+      "score": 0.817608118057251
+    },
+    {
+      "operationId": "getApiV4BroadcastMessages",
+      "score": 0.8072398900985718
+    },
+    {
+      "operationId": "postApiV4BroadcastMessages",
+      "score": 0.8776158094406128
+    }
+  ],
+  "deleteApiV4BroadcastMessagesId": [
+    {
+      "operationId": "getApiV4BroadcastMessagesId",
+      "score": 0.8331504464149475
+    },
+    {
+      "operationId": "putApiV4BroadcastMessagesId",
+      "score": 0.817608118057251
+    },
+    {
+      "operationId": "getApiV4BroadcastMessages",
+      "score": 0.8089854717254639
+    },
+    {
+      "operationId": "postApiV4BroadcastMessages",
+      "score": 0.8373411297798157
+    }
+  ],
+  "getApiV4BroadcastMessages": [
+    {
+      "operationId": "getApiV4BroadcastMessagesId",
+      "score": 0.9341499209403992
+    },
+    {
+      "operationId": "putApiV4BroadcastMessagesId",
+      "score": 0.8072398900985718
+    },
+    {
+      "operationId": "deleteApiV4BroadcastMessagesId",
+      "score": 0.8089854717254639
+    },
+    {
+      "operationId": "postApiV4BroadcastMessages",
+      "score": 0.8665949106216431
+    }
+  ],
+  "postApiV4BroadcastMessages": [
+    {
+      "operationId": "getApiV4BroadcastMessagesId",
+      "score": 0.8782815337181091
+    },
+    {
+      "operationId": "putApiV4BroadcastMessagesId",
+      "score": 0.8776158094406128
+    },
+    {
+      "operationId": "deleteApiV4BroadcastMessagesId",
+      "score": 0.8373411297798157
+    },
+    {
+      "operationId": "getApiV4BroadcastMessages",
+      "score": 0.8665949106216431
+    }
+  ],
+  "getApiV4BulkImportsImportIdEntitiesEntityId": [
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.7659876346588135
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntities",
+      "score": 0.9800581932067871
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportId",
+      "score": 0.9786658883094788
+    },
+    {
+      "operationId": "getApiV4BulkImportsEntities",
+      "score": 0.9301155805587769
+    },
+    {
+      "operationId": "getApiV4BulkImports",
+      "score": 0.9332205653190613
+    },
+    {
+      "operationId": "postApiV4BulkImports",
+      "score": 0.9120249152183533
+    },
+    {
+      "operationId": "getApiV4Metadata",
+      "score": 0.8758344650268555
+    },
+    {
+      "operationId": "getApiV4Version",
+      "score": 0.8295048475265503
+    }
+  ],
+  "getApiV4BulkImportsImportIdEntities": [
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.764997124671936
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+      "score": 0.9800581932067871
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportId",
+      "score": 0.9573769569396973
+    },
+    {
+      "operationId": "getApiV4BulkImportsEntities",
+      "score": 0.9441792964935303
+    },
+    {
+      "operationId": "getApiV4BulkImports",
+      "score": 0.9388126134872437
+    },
+    {
+      "operationId": "postApiV4BulkImports",
+      "score": 0.9017654657363892
+    },
+    {
+      "operationId": "getApiV4Metadata",
+      "score": 0.8656822443008423
+    },
+    {
+      "operationId": "getApiV4Version",
+      "score": 0.8259480595588684
+    }
+  ],
+  "getApiV4BulkImportsImportId": [
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.7692961692810059
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+      "score": 0.9786658883094788
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntities",
+      "score": 0.9573769569396973
+    },
+    {
+      "operationId": "getApiV4BulkImportsEntities",
+      "score": 0.9066634178161621
+    },
+    {
+      "operationId": "getApiV4BulkImports",
+      "score": 0.9504578113555908
+    },
+    {
+      "operationId": "postApiV4BulkImports",
+      "score": 0.9240586757659912
+    },
+    {
+      "operationId": "getApiV4Metadata",
+      "score": 0.8785274624824524
+    },
+    {
+      "operationId": "getApiV4Version",
+      "score": 0.8361849784851074
+    }
+  ],
+  "getApiV4BulkImportsEntities": [
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+      "score": 0.9301155805587769
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntities",
+      "score": 0.9441792964935303
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportId",
+      "score": 0.9066634178161621
+    },
+    {
+      "operationId": "getApiV4BulkImports",
+      "score": 0.9727572202682495
+    },
+    {
+      "operationId": "postApiV4BulkImports",
+      "score": 0.8671505451202393
+    },
+    {
+      "operationId": "getApiV4Metadata",
+      "score": 0.7916169762611389
+    },
+    {
+      "operationId": "getApiV4Version",
+      "score": 0.7671453356742859
+    }
+  ],
+  "getApiV4BulkImports": [
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+      "score": 0.9332205653190613
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntities",
+      "score": 0.9388126134872437
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportId",
+      "score": 0.9504578113555908
+    },
+    {
+      "operationId": "getApiV4BulkImportsEntities",
+      "score": 0.9727572202682495
+    },
+    {
+      "operationId": "postApiV4BulkImports",
+      "score": 0.8954542875289917
+    },
+    {
+      "operationId": "getApiV4Metadata",
+      "score": 0.8256872296333313
+    },
+    {
+      "operationId": "getApiV4Version",
+      "score": 0.8013012409210205
+    }
+  ],
+  "postApiV4BulkImports": [
+    {
+      "operationId": "postApiV4Applications",
+      "score": 0.7797404527664185
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+      "score": 0.9120249152183533
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntities",
+      "score": 0.9017654657363892
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportId",
+      "score": 0.9240586757659912
+    },
+    {
+      "operationId": "getApiV4BulkImportsEntities",
+      "score": 0.8671505451202393
+    },
+    {
+      "operationId": "getApiV4BulkImports",
+      "score": 0.8954542875289917
+    },
+    {
+      "operationId": "getApiV4Metadata",
+      "score": 0.7859752178192139
+    },
+    {
+      "operationId": "getApiV4Version",
+      "score": 0.7931810021400452
+    }
+  ],
+  "getApiV4ApplicationAppearance": [],
+  "putApiV4ApplicationAppearance": [],
+  "getApiV4ApplicationPlanLimits": [
+    {
+      "operationId": "putApiV4ApplicationPlanLimits",
+      "score": 0.9179188013076782
+    }
+  ],
+  "putApiV4ApplicationPlanLimits": [
+    {
+      "operationId": "getApiV4ApplicationPlanLimits",
+      "score": 0.9179188013076782
+    }
+  ],
+  "getApiV4Metadata": [
+    {
+      "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+      "score": 0.7554545998573303
+    },
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.7586069703102112
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.7800232172012329
+    },
+    {
+      "operationId": "getApiV4AdminClustersClusterId",
+      "score": 0.7643375992774963
+    },
+    {
+      "operationId": "getApiV4AdminClusters",
+      "score": 0.7594837546348572
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+      "score": 0.8758344650268555
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntities",
+      "score": 0.8656822443008423
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportId",
+      "score": 0.8785274624824524
+    },
+    {
+      "operationId": "getApiV4BulkImportsEntities",
+      "score": 0.7916169762611389
+    },
+    {
+      "operationId": "getApiV4BulkImports",
+      "score": 0.8256872296333313
+    },
+    {
+      "operationId": "postApiV4BulkImports",
+      "score": 0.7859752178192139
+    },
+    {
+      "operationId": "getApiV4Version",
+      "score": 0.8697826266288757
+    }
+  ],
+  "getApiV4Version": [
+    {
+      "operationId": "getApiV4ProjectsIdBadges",
+      "score": 0.7515199780464172
+    },
+    {
+      "operationId": "postApiV4ProjectsIdAccessRequests",
+      "score": 0.7610315680503845
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+      "score": 0.8295048475265503
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportIdEntities",
+      "score": 0.8259480595588684
+    },
+    {
+      "operationId": "getApiV4BulkImportsImportId",
+      "score": 0.8361849784851074
+    },
+    {
+      "operationId": "getApiV4BulkImportsEntities",
+      "score": 0.7671453356742859
+    },
+    {
+      "operationId": "getApiV4BulkImports",
+      "score": 0.8013012409210205
+    },
+    {
+      "operationId": "postApiV4BulkImports",
+      "score": 0.7931810021400452
+    },
+    {
+      "operationId": "getApiV4Metadata",
+      "score": 0.8697826266288757
+    }
+  ],
+  "listProjectJobs": [],
+  "getSingleJob": [],
+  "triggerManualJob": []
+}
