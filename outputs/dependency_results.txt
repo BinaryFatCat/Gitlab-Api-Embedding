@@ -1,0 +1,434 @@
+
+============================================================
+                     接口依赖关系汇总
+============================================================
+
+📊 统计摘要：
+  - 涉及上游接口总数: 27 个
+  - 涉及下游接口总数: 18 个
+  - 总依赖关系数量: 105 组
+  - 依赖最多的上游接口: GET /projects/{id}/access_requests... （关联 12 个下游接口）
+
+========================================
+           完整依赖关系列表
+========================================
+
+ 1. 上游接口 → 下游接口
+    上游: GET /groups/{id}/badges/{badge_id}
+    下游: POST /groups/{id}/badges
+
+ 2. 上游接口 → 下游接口
+    上游: PUT /groups/{id}/badges/{badge_id}
+    下游: POST /groups/{id}/badges
+
+ 3. 上游接口 → 下游接口
+    上游: GET /groups/{id}/badges
+    下游: POST /groups/{id}/badges
+
+ 4. 上游接口 → 下游接口
+    上游: GET /projects/{id}/repository/branches/{branch}
+    下游: DELETE /projects/{id}/repository/branches/{branch}
+
+ 5. 上游接口 → 下游接口
+    上游: GET /projects/{id}/repository/branches/{branch}
+    下游: HEAD /projects/{id}/repository/branches/{branch}
+
+ 6. 上游接口 → 下游接口
+    上游: GET /projects/{id}/repository/branches/{branch}
+    下游: PUT /projects/{id}/repository/branches/{branch}/unprotect
+
+ 7. 上游接口 → 下游接口
+    上游: GET /projects/{id}/repository/branches/{branch}
+    下游: PUT /projects/{id}/repository/branches/{branch}/protect
+
+ 8. 上游接口 → 下游接口
+    上游: GET /projects/{id}/repository/branches
+    下游: DELETE /projects/{id}/repository/branches/{branch}
+
+ 9. 上游接口 → 下游接口
+    上游: GET /projects/{id}/repository/branches
+    下游: HEAD /projects/{id}/repository/branches/{branch}
+
+10. 上游接口 → 下游接口
+    上游: GET /projects/{id}/repository/branches
+    下游: PUT /projects/{id}/repository/branches/{branch}/unprotect
+
+11. 上游接口 → 下游接口
+    上游: GET /projects/{id}/repository/branches
+    下游: PUT /projects/{id}/repository/branches/{branch}/protect
+
+12. 上游接口 → 下游接口
+    上游: POST /projects/{id}/repository/branches
+    下游: DELETE /projects/{id}/repository/branches/{branch}
+
+13. 上游接口 → 下游接口
+    上游: POST /projects/{id}/repository/branches
+    下游: HEAD /projects/{id}/repository/branches/{branch}
+
+14. 上游接口 → 下游接口
+    上游: POST /projects/{id}/repository/branches
+    下游: PUT /projects/{id}/repository/branches/{branch}/unprotect
+
+15. 上游接口 → 下游接口
+    上游: POST /projects/{id}/repository/branches
+    下游: PUT /projects/{id}/repository/branches/{branch}/protect
+
+16. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/repository/branches/{branch}/unprotect
+    下游: DELETE /projects/{id}/repository/branches/{branch}
+
+17. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/repository/branches/{branch}/unprotect
+    下游: HEAD /projects/{id}/repository/branches/{branch}
+
+18. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/repository/branches/{branch}/unprotect
+    下游: PUT /projects/{id}/repository/branches/{branch}/protect
+
+19. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/repository/branches/{branch}/protect
+    下游: DELETE /projects/{id}/repository/branches/{branch}
+
+20. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/repository/branches/{branch}/protect
+    下游: HEAD /projects/{id}/repository/branches/{branch}
+
+21. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/repository/branches/{branch}/protect
+    下游: PUT /projects/{id}/repository/branches/{branch}/unprotect
+
+22. 上游接口 → 下游接口
+    上游: GET /projects/{id}/badges/{badge_id}
+    下游: POST /groups/{id}/badges
+
+23. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/badges/{badge_id}
+    下游: POST /groups/{id}/badges
+
+24. 上游接口 → 下游接口
+    上游: GET /projects/{id}/badges
+    下游: POST /groups/{id}/badges
+
+25. 上游接口 → 下游接口
+    上游: POST /projects/{id}/badges
+    下游: POST /groups/{id}/badges
+
+26. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/access_requests/{user_id}/approve
+    下游: DELETE /projects/{id}/repository/branches/{branch}
+
+27. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/access_requests/{user_id}/approve
+    下游: HEAD /projects/{id}/repository/branches/{branch}
+
+28. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/access_requests/{user_id}/approve
+    下游: PUT /projects/{id}/repository/branches/{branch}/unprotect
+
+29. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/access_requests/{user_id}/approve
+    下游: PUT /projects/{id}/repository/branches/{branch}/protect
+
+30. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/access_requests/{user_id}/approve
+    下游: GET /projects/{id}/badges/{badge_id}
+
+31. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/access_requests/{user_id}/approve
+    下游: PUT /projects/{id}/badges/{badge_id}
+
+32. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/access_requests/{user_id}/approve
+    下游: DELETE /projects/{id}/badges/{badge_id}
+
+33. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/access_requests/{user_id}/approve
+    下游: DELETE /projects/{id}/access_requests/{user_id}
+
+34. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/access_requests/{user_id}/approve
+    下游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+
+35. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/access_requests/{user_id}/approve
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+
+36. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/access_requests/{user_id}/approve
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/authorize
+
+37. 上游接口 → 下游接口
+    上游: GET /projects/{id}/access_requests
+    下游: DELETE /projects/{id}/repository/branches/{branch}
+
+38. 上游接口 → 下游接口
+    上游: GET /projects/{id}/access_requests
+    下游: HEAD /projects/{id}/repository/branches/{branch}
+
+39. 上游接口 → 下游接口
+    上游: GET /projects/{id}/access_requests
+    下游: PUT /projects/{id}/repository/branches/{branch}/unprotect
+
+40. 上游接口 → 下游接口
+    上游: GET /projects/{id}/access_requests
+    下游: PUT /projects/{id}/repository/branches/{branch}/protect
+
+41. 上游接口 → 下游接口
+    上游: GET /projects/{id}/access_requests
+    下游: GET /projects/{id}/badges/{badge_id}
+
+42. 上游接口 → 下游接口
+    上游: GET /projects/{id}/access_requests
+    下游: PUT /projects/{id}/badges/{badge_id}
+
+43. 上游接口 → 下游接口
+    上游: GET /projects/{id}/access_requests
+    下游: DELETE /projects/{id}/badges/{badge_id}
+
+44. 上游接口 → 下游接口
+    上游: GET /projects/{id}/access_requests
+    下游: DELETE /projects/{id}/access_requests/{user_id}
+
+45. 上游接口 → 下游接口
+    上游: GET /projects/{id}/access_requests
+    下游: PUT /projects/{id}/access_requests/{user_id}/approve
+
+46. 上游接口 → 下游接口
+    上游: GET /projects/{id}/access_requests
+    下游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+
+47. 上游接口 → 下游接口
+    上游: GET /projects/{id}/access_requests
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+
+48. 上游接口 → 下游接口
+    上游: GET /projects/{id}/access_requests
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/authorize
+
+49. 上游接口 → 下游接口
+    上游: POST /projects/{id}/access_requests
+    下游: DELETE /projects/{id}/repository/branches/{branch}
+
+50. 上游接口 → 下游接口
+    上游: POST /projects/{id}/access_requests
+    下游: HEAD /projects/{id}/repository/branches/{branch}
+
+51. 上游接口 → 下游接口
+    上游: POST /projects/{id}/access_requests
+    下游: PUT /projects/{id}/repository/branches/{branch}/unprotect
+
+52. 上游接口 → 下游接口
+    上游: POST /projects/{id}/access_requests
+    下游: PUT /projects/{id}/repository/branches/{branch}/protect
+
+53. 上游接口 → 下游接口
+    上游: POST /projects/{id}/access_requests
+    下游: GET /projects/{id}/badges/{badge_id}
+
+54. 上游接口 → 下游接口
+    上游: POST /projects/{id}/access_requests
+    下游: PUT /projects/{id}/badges/{badge_id}
+
+55. 上游接口 → 下游接口
+    上游: POST /projects/{id}/access_requests
+    下游: DELETE /projects/{id}/badges/{badge_id}
+
+56. 上游接口 → 下游接口
+    上游: POST /projects/{id}/access_requests
+    下游: DELETE /projects/{id}/access_requests/{user_id}
+
+57. 上游接口 → 下游接口
+    上游: POST /projects/{id}/access_requests
+    下游: PUT /projects/{id}/access_requests/{user_id}/approve
+
+58. 上游接口 → 下游接口
+    上游: POST /projects/{id}/access_requests
+    下游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+
+59. 上游接口 → 下游接口
+    上游: POST /projects/{id}/access_requests
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+
+60. 上游接口 → 下游接口
+    上游: POST /projects/{id}/access_requests
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/authorize
+
+61. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: GET /projects/{id}/badges/{badge_id}
+
+62. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: PUT /projects/{id}/badges/{badge_id}
+
+63. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: DELETE /projects/{id}/badges/{badge_id}
+
+64. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: DELETE /projects/{id}/access_requests/{user_id}
+
+65. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: PUT /projects/{id}/access_requests/{user_id}/approve
+
+66. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+
+67. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+
+68. 上游接口 → 下游接口
+    上游: PUT /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/authorize
+
+69. 上游接口 → 下游接口
+    上游: DELETE /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: GET /projects/{id}/badges/{badge_id}
+
+70. 上游接口 → 下游接口
+    上游: DELETE /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: PUT /projects/{id}/badges/{badge_id}
+
+71. 上游接口 → 下游接口
+    上游: DELETE /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: DELETE /projects/{id}/badges/{badge_id}
+
+72. 上游接口 → 下游接口
+    上游: DELETE /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: DELETE /projects/{id}/access_requests/{user_id}
+
+73. 上游接口 → 下游接口
+    上游: DELETE /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: PUT /projects/{id}/access_requests/{user_id}/approve
+
+74. 上游接口 → 下游接口
+    上游: DELETE /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+
+75. 上游接口 → 下游接口
+    上游: DELETE /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+
+76. 上游接口 → 下游接口
+    上游: DELETE /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/authorize
+
+77. 上游接口 → 下游接口
+    上游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: GET /projects/{id}/badges/{badge_id}
+
+78. 上游接口 → 下游接口
+    上游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: PUT /projects/{id}/badges/{badge_id}
+
+79. 上游接口 → 下游接口
+    上游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: DELETE /projects/{id}/badges/{badge_id}
+
+80. 上游接口 → 下游接口
+    上游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: DELETE /projects/{id}/access_requests/{user_id}
+
+81. 上游接口 → 下游接口
+    上游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: PUT /projects/{id}/access_requests/{user_id}/approve
+
+82. 上游接口 → 下游接口
+    上游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+
+83. 上游接口 → 下游接口
+    上游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/authorize
+
+84. 上游接口 → 下游接口
+    上游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: GET /projects/{id}/badges/{badge_id}
+
+85. 上游接口 → 下游接口
+    上游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: PUT /projects/{id}/badges/{badge_id}
+
+86. 上游接口 → 下游接口
+    上游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: DELETE /projects/{id}/badges/{badge_id}
+
+87. 上游接口 → 下游接口
+    上游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: DELETE /projects/{id}/access_requests/{user_id}
+
+88. 上游接口 → 下游接口
+    上游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: PUT /projects/{id}/access_requests/{user_id}/approve
+
+89. 上游接口 → 下游接口
+    上游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: GET /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+
+90. 上游接口 → 下游接口
+    上游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images
+    下游: POST /projects/{id}/alert_management_alerts/{alert_iid}/metric_images/authorize
+
+91. 上游接口 → 下游接口
+    上游: GET /admin/ci/variables/{key}
+    下游: PUT /admin/ci/variables/{key}
+
+92. 上游接口 → 下游接口
+    上游: GET /admin/ci/variables/{key}
+    下游: DELETE /admin/ci/variables/{key}
+
+93. 上游接口 → 下游接口
+    上游: PUT /admin/ci/variables/{key}
+    下游: GET /admin/ci/variables/{key}
+
+94. 上游接口 → 下游接口
+    上游: PUT /admin/ci/variables/{key}
+    下游: DELETE /admin/ci/variables/{key}
+
+95. 上游接口 → 下游接口
+    上游: DELETE /admin/ci/variables/{key}
+    下游: GET /admin/ci/variables/{key}
+
+96. 上游接口 → 下游接口
+    上游: DELETE /admin/ci/variables/{key}
+    下游: PUT /admin/ci/variables/{key}
+
+97. 上游接口 → 下游接口
+    上游: GET /admin/ci/variables
+    下游: GET /admin/ci/variables/{key}
+
+98. 上游接口 → 下游接口
+    上游: GET /admin/ci/variables
+    下游: PUT /admin/ci/variables/{key}
+
+99. 上游接口 → 下游接口
+    上游: GET /admin/ci/variables
+    下游: DELETE /admin/ci/variables/{key}
+
+100. 上游接口 → 下游接口
+    上游: POST /admin/ci/variables
+    下游: GET /admin/ci/variables/{key}
+
+101. 上游接口 → 下游接口
+    上游: POST /admin/ci/variables
+    下游: PUT /admin/ci/variables/{key}
+
+102. 上游接口 → 下游接口
+    上游: POST /admin/ci/variables
+    下游: DELETE /admin/ci/variables/{key}
+
+103. 上游接口 → 下游接口
+    上游: GET /bulk_imports
+    下游: GET /bulk_imports/{import_id}
+
+104. 上游接口 → 下游接口
+    上游: POST /bulk_imports
+    下游: GET /bulk_imports/{import_id}
+
+105. 上游接口 → 下游接口
+    上游: GET /projects/{id}/jobs
+    下游: GET /projects/{id}/jobs/{job_id}
