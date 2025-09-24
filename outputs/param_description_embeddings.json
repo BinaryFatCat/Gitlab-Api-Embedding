@@ -1,0 +1,1490 @@
+[
+  {
+    "operationId": "getApiV4GroupsIdBadgesBadgeId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user."
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesBadgeId",
+    "param_name": "badge_id",
+    "param_in": "path",
+    "description": "The badge ID"
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user."
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "param_name": "badge_id",
+    "param_in": "path",
+    "description": ""
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "URL of the badge link"
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "URL of the badge image"
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "Name for the badge"
+  },
+  {
+    "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user."
+  },
+  {
+    "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+    "param_name": "badge_id",
+    "param_in": "path",
+    "description": "The badge ID"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadges",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user."
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadges",
+    "param_name": "page",
+    "param_in": "query",
+    "description": "Current page number"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadges",
+    "param_name": "per_page",
+    "param_in": "query",
+    "description": "Number of items per page"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadges",
+    "param_name": "name",
+    "param_in": "query",
+    "description": "Name for the badge"
+  },
+  {
+    "operationId": "postApiV4GroupsIdBadges",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user."
+  },
+  {
+    "operationId": "postApiV4GroupsIdBadges",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "URL of the badge link"
+  },
+  {
+    "operationId": "postApiV4GroupsIdBadges",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "URL of the badge image"
+  },
+  {
+    "operationId": "postApiV4GroupsIdBadges",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "Name for the badge"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesRender",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user."
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesRender",
+    "param_name": "link_url",
+    "param_in": "query",
+    "description": "URL of the badge link"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesRender",
+    "param_name": "image_url",
+    "param_in": "query",
+    "description": "URL of the badge image"
+  },
+  {
+    "operationId": "deleteApiV4GroupsIdAccessRequestsUserId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user"
+  },
+  {
+    "operationId": "deleteApiV4GroupsIdAccessRequestsUserId",
+    "param_name": "user_id",
+    "param_in": "path",
+    "description": "The user ID of the access requester"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "user_id",
+    "param_in": "path",
+    "description": "The user ID of the access requester"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "access_level",
+    "param_in": "body",
+    "description": "A valid access level (defaults: `30`, the Developer role)"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "page",
+    "param_in": "query",
+    "description": "Current page number"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "per_page",
+    "param_in": "query",
+    "description": "Number of items per page"
+  },
+  {
+    "operationId": "postApiV4GroupsIdAccessRequests",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user"
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdRepositoryMergedBranches",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "branch",
+    "param_in": "path",
+    "description": ""
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "branch",
+    "param_in": "path",
+    "description": "The name of the branch"
+  },
+  {
+    "operationId": "headApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "headApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "branch",
+    "param_in": "path",
+    "description": "The name of the branch"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "page",
+    "param_in": "query",
+    "description": "Current page number"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "per_page",
+    "param_in": "query",
+    "description": "Number of items per page"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "search",
+    "param_in": "query",
+    "description": "Return list of branches matching the search criteria"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "regex",
+    "param_in": "query",
+    "description": "Return list of branches matching the regex"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "sort",
+    "param_in": "query",
+    "description": "Return list of branches sorted by the given field"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "page_token",
+    "param_in": "query",
+    "description": "Name of branch to start the pagination from"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "param_name": "branch",
+    "param_in": "query",
+    "description": "The name of the branch"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "param_name": "ref",
+    "param_in": "query",
+    "description": "Create branch from commit sha or existing branch"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+    "param_name": "branch",
+    "param_in": "path",
+    "description": "The name of the branch"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "branch",
+    "param_in": "path",
+    "description": "The name of the branch"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "developers_can_push",
+    "param_in": "body",
+    "description": "Flag if developers can push to that branch"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "developers_can_merge",
+    "param_in": "body",
+    "description": "Flag if developers can merge to that branch"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "badge_id",
+    "param_in": "path",
+    "description": "The badge ID"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "badge_id",
+    "param_in": "path",
+    "description": ""
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "URL of the badge link"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "URL of the badge image"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "Name for the badge"
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "badge_id",
+    "param_in": "path",
+    "description": "The badge ID"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadges",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadges",
+    "param_name": "page",
+    "param_in": "query",
+    "description": "Current page number"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadges",
+    "param_name": "per_page",
+    "param_in": "query",
+    "description": "Number of items per page"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadges",
+    "param_name": "name",
+    "param_in": "query",
+    "description": "Name for the badge"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdBadges",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "postApiV4ProjectsIdBadges",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "URL of the badge link"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdBadges",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "URL of the badge image"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdBadges",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "Name for the badge"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesRender",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesRender",
+    "param_name": "link_url",
+    "param_in": "query",
+    "description": "URL of the badge link"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesRender",
+    "param_name": "image_url",
+    "param_in": "query",
+    "description": "URL of the badge image"
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAccessRequestsUserId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAccessRequestsUserId",
+    "param_name": "user_id",
+    "param_in": "path",
+    "description": "The user ID of the access requester"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "user_id",
+    "param_in": "path",
+    "description": "The user ID of the access requester"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "access_level",
+    "param_in": "body",
+    "description": "A valid access level (defaults: `30`, the Developer role)"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "page",
+    "param_in": "query",
+    "description": "Current page number"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "per_page",
+    "param_in": "query",
+    "description": "Number of items per page"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAccessRequests",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "alert_iid",
+    "param_in": "path",
+    "description": "The IID of the Alert"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "metric_image_id",
+    "param_in": "path",
+    "description": "The ID of metric image"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "url",
+    "param_in": "body",
+    "description": "The url to view more metric info"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "url_text",
+    "param_in": "body",
+    "description": "A description of the image or URL"
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "alert_iid",
+    "param_in": "path",
+    "description": "The IID of the Alert"
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "metric_image_id",
+    "param_in": "path",
+    "description": "The ID of metric image"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "alert_iid",
+    "param_in": "path",
+    "description": "The IID of the Alert"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "alert_iid",
+    "param_in": "path",
+    "description": "The IID of the Alert"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "file",
+    "param_in": "body",
+    "description": "The image file to be uploaded"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "url",
+    "param_in": "body",
+    "description": "The url to view more metric info"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "url_text",
+    "param_in": "body",
+    "description": "A description of the image or URL"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesAuthorize",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesAuthorize",
+    "param_name": "alert_iid",
+    "param_in": "path",
+    "description": "The IID of the Alert"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
+    "param_name": "database",
+    "param_in": "query",
+    "description": "The name of the database"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The batched background migration id"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrations",
+    "param_name": "database",
+    "param_in": "query",
+    "description": "The name of the database, the default `main`"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The batched background migration id"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
+    "param_name": "database",
+    "param_in": "body",
+    "description": "The name of the database"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The batched background migration id"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
+    "param_name": "database",
+    "param_in": "body",
+    "description": "The name of the database"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariablesKey",
+    "param_name": "key",
+    "param_in": "path",
+    "description": "The key of a variable"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "key",
+    "param_in": "path",
+    "description": "The key of a variable"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "value",
+    "param_in": "body",
+    "description": "The value of a variable"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "protected",
+    "param_in": "body",
+    "description": "Whether the variable is protected"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "masked",
+    "param_in": "body",
+    "description": "Whether the variable is masked"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "raw",
+    "param_in": "body",
+    "description": "Whether the variable will be expanded"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "variable_type",
+    "param_in": "body",
+    "description": "The type of a variable. Available types are: env_var (default) and file"
+  },
+  {
+    "operationId": "deleteApiV4AdminCiVariablesKey",
+    "param_name": "key",
+    "param_in": "path",
+    "description": "The key of a variable"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariables",
+    "param_name": "page",
+    "param_in": "query",
+    "description": "Current page number"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariables",
+    "param_name": "per_page",
+    "param_in": "query",
+    "description": "Number of items per page"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "key",
+    "param_in": "body",
+    "description": "The key of the variable. Max 255 characters"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "value",
+    "param_in": "body",
+    "description": "The value of a variable"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "protected",
+    "param_in": "body",
+    "description": "Whether the variable is protected"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "masked",
+    "param_in": "body",
+    "description": "Whether the variable is masked"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "raw",
+    "param_in": "body",
+    "description": "Whether the variable will be expanded"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "variable_type",
+    "param_in": "body",
+    "description": "The type of a variable. Available types are: env_var (default) and file"
+  },
+  {
+    "operationId": "getApiV4AdminDatabasesDatabaseNameDictionaryTablesTableName",
+    "param_name": "database_name",
+    "param_in": "path",
+    "description": "The database name"
+  },
+  {
+    "operationId": "getApiV4AdminDatabasesDatabaseNameDictionaryTablesTableName",
+    "param_name": "table_name",
+    "param_in": "path",
+    "description": "The table name"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "cluster_id",
+    "param_in": "path",
+    "description": "The cluster ID"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "cluster_id",
+    "param_in": "path",
+    "description": "The cluster ID"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "Cluster name"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "enabled",
+    "param_in": "body",
+    "description": "Enable or disable Gitlab's connection to your Kubernetes cluster"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "environment_scope",
+    "param_in": "body",
+    "description": "The associated environment to the cluster"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "namespace_per_environment",
+    "param_in": "body",
+    "description": "Deploy each environment to a separate Kubernetes namespace"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "domain",
+    "param_in": "body",
+    "description": "Cluster base domain"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "management_project_id",
+    "param_in": "body",
+    "description": "The ID of the management project"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "managed",
+    "param_in": "body",
+    "description": "Determines if GitLab will manage namespaces and service accounts for this cluster"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "platform_kubernetes_attributes[api_url]",
+    "param_in": "body",
+    "description": "URL to access the Kubernetes API"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "platform_kubernetes_attributes[token]",
+    "param_in": "body",
+    "description": "Token to authenticate against Kubernetes"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "platform_kubernetes_attributes[ca_cert]",
+    "param_in": "body",
+    "description": "TLS certificate (needed if API is using a self-signed TLS certificate)"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "platform_kubernetes_attributes[namespace]",
+    "param_in": "body",
+    "description": "Unique namespace related to Project"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "cluster_id",
+    "param_in": "path",
+    "description": "The cluster ID"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "Cluster name"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "enabled",
+    "param_in": "body",
+    "description": "Determines if cluster is active or not, defaults to true"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "environment_scope",
+    "param_in": "body",
+    "description": "The associated environment to the cluster"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "namespace_per_environment",
+    "param_in": "body",
+    "description": "Deploy each environment to a separate Kubernetes namespace"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "domain",
+    "param_in": "body",
+    "description": "Cluster base domain"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "management_project_id",
+    "param_in": "body",
+    "description": "The ID of the management project"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "managed",
+    "param_in": "body",
+    "description": "Determines if GitLab will manage namespaces and service accounts for this cluster, defaults to true"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "platform_kubernetes_attributes[api_url]",
+    "param_in": "body",
+    "description": "URL to access the Kubernetes API"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "platform_kubernetes_attributes[token]",
+    "param_in": "body",
+    "description": "Token to authenticate against Kubernetes"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "platform_kubernetes_attributes[ca_cert]",
+    "param_in": "body",
+    "description": "TLS certificate (needed if API is using a self-signed TLS certificate)"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "platform_kubernetes_attributes[namespace]",
+    "param_in": "body",
+    "description": "Unique namespace related to Project"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "platform_kubernetes_attributes[authorization_type]",
+    "param_in": "body",
+    "description": "Cluster authorization type, defaults to RBAC"
+  },
+  {
+    "operationId": "postApiV4AdminMigrationsTimestampMark",
+    "param_name": "timestamp",
+    "param_in": "path",
+    "description": "The migration version timestamp"
+  },
+  {
+    "operationId": "postApiV4AdminMigrationsTimestampMark",
+    "param_name": "database",
+    "param_in": "body",
+    "description": "The name of the database"
+  },
+  {
+    "operationId": "deleteApiV4ApplicationsId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID of the application (not the application_id)"
+  },
+  {
+    "operationId": "postApiV4Applications",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "Name of the application."
+  },
+  {
+    "operationId": "postApiV4Applications",
+    "param_name": "redirect_uri",
+    "param_in": "body",
+    "description": "Redirect URI of the application."
+  },
+  {
+    "operationId": "postApiV4Applications",
+    "param_name": "scopes",
+    "param_in": "body",
+    "description": "Scopes of the application. You can specify multiple scopes by separating\\\n                                 each scope using a space"
+  },
+  {
+    "operationId": "postApiV4Applications",
+    "param_name": "confidential",
+    "param_in": "body",
+    "description": "The application is used where the client secret can be kept confidential. Native mobile apps \\\n                        and Single Page Apps are considered non-confidential. Defaults to true if not supplied"
+  },
+  {
+    "operationId": "getApiV4Avatar",
+    "param_name": "email",
+    "param_in": "query",
+    "description": "Public email address of the user"
+  },
+  {
+    "operationId": "getApiV4Avatar",
+    "param_name": "size",
+    "param_in": "query",
+    "description": "Single pixel dimension for Gravatar images"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "Broadcast message ID"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "Broadcast message ID"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "message",
+    "param_in": "body",
+    "description": "Message to display"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "starts_at",
+    "param_in": "body",
+    "description": "Starting time"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "ends_at",
+    "param_in": "body",
+    "description": "Ending time"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "color",
+    "param_in": "body",
+    "description": "Background color"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "font",
+    "param_in": "body",
+    "description": "Foreground color"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "target_access_levels",
+    "param_in": "body",
+    "description": "Target user roles"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "target_path",
+    "param_in": "body",
+    "description": "Target path"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "broadcast_type",
+    "param_in": "body",
+    "description": "Broadcast Type"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "dismissable",
+    "param_in": "body",
+    "description": "Is dismissable"
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "Broadcast message ID"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "page",
+    "param_in": "query",
+    "description": "Current page number"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "per_page",
+    "param_in": "query",
+    "description": "Number of items per page"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "message",
+    "param_in": "body",
+    "description": "Message to display"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "starts_at",
+    "param_in": "body",
+    "description": "Starting time"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "ends_at",
+    "param_in": "body",
+    "description": "Ending time"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "color",
+    "param_in": "body",
+    "description": "Background color"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "font",
+    "param_in": "body",
+    "description": "Foreground color"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "target_access_levels",
+    "param_in": "body",
+    "description": "Target user roles"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "target_path",
+    "param_in": "body",
+    "description": "Target path"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "broadcast_type",
+    "param_in": "body",
+    "description": "Broadcast type. Defaults to banner"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "dismissable",
+    "param_in": "body",
+    "description": "Is dismissable"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "import_id",
+    "param_in": "path",
+    "description": "The ID of user's GitLab Migration"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "entity_id",
+    "param_in": "path",
+    "description": "The ID of GitLab Migration entity"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "import_id",
+    "param_in": "path",
+    "description": "The ID of user's GitLab Migration"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "status",
+    "param_in": "query",
+    "description": "Return import entities with specified status"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "page",
+    "param_in": "query",
+    "description": "Current page number"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "per_page",
+    "param_in": "query",
+    "description": "Number of items per page"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportId",
+    "param_name": "import_id",
+    "param_in": "path",
+    "description": "The ID of user's GitLab Migration"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "page",
+    "param_in": "query",
+    "description": "Current page number"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "per_page",
+    "param_in": "query",
+    "description": "Number of items per page"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "sort",
+    "param_in": "query",
+    "description": "Return GitLab Migrations sorted in created by `asc` or `desc` order."
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "status",
+    "param_in": "query",
+    "description": "Return all GitLab Migrations' entities with specified status"
+  },
+  {
+    "operationId": "getApiV4BulkImports",
+    "param_name": "page",
+    "param_in": "query",
+    "description": "Current page number"
+  },
+  {
+    "operationId": "getApiV4BulkImports",
+    "param_name": "per_page",
+    "param_in": "query",
+    "description": "Number of items per page"
+  },
+  {
+    "operationId": "getApiV4BulkImports",
+    "param_name": "sort",
+    "param_in": "query",
+    "description": "Return GitLab Migrations sorted in created by `asc` or `desc` order."
+  },
+  {
+    "operationId": "getApiV4BulkImports",
+    "param_name": "status",
+    "param_in": "query",
+    "description": "Return GitLab Migrations with specified status"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "configuration[url]",
+    "param_in": "body",
+    "description": "Source GitLab instance URL"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "configuration[access_token]",
+    "param_in": "body",
+    "description": "Access token to the source GitLab instance"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "entities[source_type]",
+    "param_in": "body",
+    "description": "Source entity type"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "entities[source_full_path]",
+    "param_in": "body",
+    "description": "Relative path of the source entity to import"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "entities[destination_namespace]",
+    "param_in": "body",
+    "description": "Destination namespace for the entity"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "entities[destination_slug]",
+    "param_in": "body",
+    "description": "Destination slug for the entity"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "entities[destination_name]",
+    "param_in": "body",
+    "description": "Deprecated: Use :destination_slug instead. Destination slug for the entity"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "entities[migrate_projects]",
+    "param_in": "body",
+    "description": "Indicates group migration should include nested projects"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "title",
+    "param_in": "body",
+    "description": "Instance title on the sign in / sign up page"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "description",
+    "param_in": "body",
+    "description": "Markdown text shown on the sign in / sign up page"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "pwa_name",
+    "param_in": "body",
+    "description": "Name of the Progressive Web App"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "pwa_short_name",
+    "param_in": "body",
+    "description": "Optional, short name for Progressive Web App"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "pwa_description",
+    "param_in": "body",
+    "description": "An explanation of what the Progressive Web App does"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "logo",
+    "param_in": "body",
+    "description": "Instance image used on the sign in / sign up page"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "pwa_icon",
+    "param_in": "body",
+    "description": "Icon used for Progressive Web App"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "header_logo",
+    "param_in": "body",
+    "description": "Instance image used for the main navigation bar"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "favicon",
+    "param_in": "body",
+    "description": "Instance favicon in .ico/.png format"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "new_project_guidelines",
+    "param_in": "body",
+    "description": "Markdown text shown on the new project page"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "profile_image_guidelines",
+    "param_in": "body",
+    "description": "Markdown text shown on the profile page below Public Avatar"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "header_message",
+    "param_in": "body",
+    "description": "Message within the system header bar"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "footer_message",
+    "param_in": "body",
+    "description": "Message within the system footer bar"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "message_background_color",
+    "param_in": "body",
+    "description": "Background color for the system header / footer bar"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "message_font_color",
+    "param_in": "body",
+    "description": "Font color for the system header / footer bar"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "email_header_and_footer_enabled",
+    "param_in": "body",
+    "description": "Add header and footer to all outgoing emails if enabled"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "plan_name",
+    "param_in": "query",
+    "description": "Name of the plan to get the limits from. Default: default."
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "plan_name",
+    "param_in": "body",
+    "description": "Name of the plan to update"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_pipeline_size",
+    "param_in": "body",
+    "description": "Maximum number of jobs in a single pipeline"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_active_jobs",
+    "param_in": "body",
+    "description": "Total number of jobs in currently active pipelines"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_project_subscriptions",
+    "param_in": "body",
+    "description": "Maximum number of pipeline subscriptions to and from a project"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_pipeline_schedules",
+    "param_in": "body",
+    "description": "Maximum number of pipeline schedules"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_needs_size_limit",
+    "param_in": "body",
+    "description": "Maximum number of needs dependencies that a job can have"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_registered_group_runners",
+    "param_in": "body",
+    "description": "Maximum number of runners registered per group"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_registered_project_runners",
+    "param_in": "body",
+    "description": "Maximum number of runners registered per project"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "conan_max_file_size",
+    "param_in": "body",
+    "description": "Maximum Conan package file size in bytes"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "enforcement_limit",
+    "param_in": "body",
+    "description": "Maximum storage size for the root namespace enforcement in MiB"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "generic_packages_max_file_size",
+    "param_in": "body",
+    "description": "Maximum generic package file size in bytes"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "helm_max_file_size",
+    "param_in": "body",
+    "description": "Maximum Helm chart file size in bytes"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "maven_max_file_size",
+    "param_in": "body",
+    "description": "Maximum Maven package file size in bytes"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "notification_limit",
+    "param_in": "body",
+    "description": "Maximum storage size for the root namespace notifications in MiB"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "npm_max_file_size",
+    "param_in": "body",
+    "description": "Maximum NPM package file size in bytes"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "nuget_max_file_size",
+    "param_in": "body",
+    "description": "Maximum NuGet package file size in bytes"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "pypi_max_file_size",
+    "param_in": "body",
+    "description": "Maximum PyPI package file size in bytes"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "terraform_module_max_file_size",
+    "param_in": "body",
+    "description": "Maximum Terraform Module package file size in bytes"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "storage_size_limit",
+    "param_in": "body",
+    "description": "Maximum storage size for the root namespace in MiB"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "pipeline_hierarchy_size",
+    "param_in": "body",
+    "description": "Maximum number of downstream pipelines in a pipeline's hierarchy tree"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "scope",
+    "param_in": "query",
+    "description": "Return all jobs with the specified statuses"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "job_id",
+    "param_in": "path",
+    "description": "The ID of the job"
+  },
+  {
+    "operationId": "triggerManualJob",
+    "param_name": "id",
+    "param_in": "path",
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+  },
+  {
+    "operationId": "triggerManualJob",
+    "param_name": "job_id",
+    "param_in": "path",
+    "description": "The ID of the manual job to run"
+  },
+  {
+    "operationId": "triggerManualJob",
+    "param_name": "job_variables_attributes",
+    "param_in": "query",
+    "description": "An array containing the custom variables available to the job"
+  }
+]

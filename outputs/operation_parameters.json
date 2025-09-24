@@ -1,0 +1,3535 @@
+[
+  {
+    "operationId": "getApiV4GroupsIdBadgesBadgeId",
+    "method": "GET",
+    "path": "/groups/{id}/badges/{badge_id}",
+    "summary": "Gets a badge of a group.",
+    "description": "This feature was introduced in GitLab 10.6.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or URL-encoded path of the group owned by the authenticated user.",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "badge_id",
+        "in": "path",
+        "description": "The badge ID",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "method": "PUT",
+    "path": "/groups/{id}/badges/{badge_id}",
+    "summary": "Updates a badge of a group.",
+    "description": "This feature was introduced in GitLab 10.6.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or URL-encoded path of the group owned by the authenticated user.",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "badge_id",
+        "in": "path",
+        "description": "",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "link_url",
+        "in": "body",
+        "description": "URL of the badge link",
+        "schema": {
+          "type": "string",
+          "description": "URL of the badge link"
+        },
+        "required": false
+      },
+      {
+        "name": "image_url",
+        "in": "body",
+        "description": "URL of the badge image",
+        "schema": {
+          "type": "string",
+          "description": "URL of the badge image"
+        },
+        "required": false
+      },
+      {
+        "name": "name",
+        "in": "body",
+        "description": "Name for the badge",
+        "schema": {
+          "type": "string",
+          "description": "Name for the badge"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
+    "method": "DELETE",
+    "path": "/groups/{id}/badges/{badge_id}",
+    "summary": "Removes a badge from the group.",
+    "description": "This feature was introduced in GitLab 10.6.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or URL-encoded path of the group owned by the authenticated user.",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "badge_id",
+        "in": "path",
+        "description": "The badge ID",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadges",
+    "method": "GET",
+    "path": "/groups/{id}/badges",
+    "summary": "Gets a list of group badges viewable by the authenticated user.",
+    "description": "This feature was introduced in GitLab 10.6.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or URL-encoded path of the group owned by the authenticated user.",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "page",
+        "in": "query",
+        "description": "Current page number",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 1
+        },
+        "required": false
+      },
+      {
+        "name": "per_page",
+        "in": "query",
+        "description": "Number of items per page",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 20
+        },
+        "required": false
+      },
+      {
+        "name": "name",
+        "in": "query",
+        "description": "Name for the badge",
+        "schema": {
+          "type": "string"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "postApiV4GroupsIdBadges",
+    "method": "POST",
+    "path": "/groups/{id}/badges",
+    "summary": "Adds a badge to a group.",
+    "description": "This feature was introduced in GitLab 10.6.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or URL-encoded path of the group owned by the authenticated user.",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "link_url",
+        "in": "body",
+        "description": "URL of the badge link",
+        "schema": {
+          "type": "string",
+          "description": "URL of the badge link"
+        },
+        "required": true
+      },
+      {
+        "name": "image_url",
+        "in": "body",
+        "description": "URL of the badge image",
+        "schema": {
+          "type": "string",
+          "description": "URL of the badge image"
+        },
+        "required": true
+      },
+      {
+        "name": "name",
+        "in": "body",
+        "description": "Name for the badge",
+        "schema": {
+          "type": "string",
+          "description": "Name for the badge"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesRender",
+    "method": "GET",
+    "path": "/groups/{id}/badges/render",
+    "summary": "Preview a badge from a group.",
+    "description": "This feature was introduced in GitLab 10.6.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or URL-encoded path of the group owned by the authenticated user.",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "link_url",
+        "in": "query",
+        "description": "URL of the badge link",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "image_url",
+        "in": "query",
+        "description": "URL of the badge image",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "deleteApiV4GroupsIdAccessRequestsUserId",
+    "method": "DELETE",
+    "path": "/groups/{id}/access_requests/{user_id}",
+    "summary": "Denies an access request for the given user.",
+    "description": "This feature was introduced in GitLab 8.11.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or URL-encoded path of the group owned by the authenticated user",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "user_id",
+        "in": "path",
+        "description": "The user ID of the access requester",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "method": "PUT",
+    "path": "/groups/{id}/access_requests/{user_id}/approve",
+    "summary": "Approves an access request for the given user.",
+    "description": "This feature was introduced in GitLab 8.11.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or URL-encoded path of the group owned by the authenticated user",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "user_id",
+        "in": "path",
+        "description": "The user ID of the access requester",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "access_level",
+        "in": "body",
+        "description": "A valid access level (defaults: `30`, the Developer role)",
+        "schema": {
+          "type": "integer",
+          "description": "A valid access level (defaults: `30`, the Developer role)",
+          "format": "int32",
+          "default": 30
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "method": "GET",
+    "path": "/groups/{id}/access_requests",
+    "summary": "Gets a list of access requests for a group.",
+    "description": "This feature was introduced in GitLab 8.11.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or URL-encoded path of the group owned by the authenticated user",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "page",
+        "in": "query",
+        "description": "Current page number",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 1
+        },
+        "required": false
+      },
+      {
+        "name": "per_page",
+        "in": "query",
+        "description": "Number of items per page",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 20
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "postApiV4GroupsIdAccessRequests",
+    "method": "POST",
+    "path": "/groups/{id}/access_requests",
+    "summary": "Requests access for the authenticated user to a group.",
+    "description": "This feature was introduced in GitLab 8.11.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or URL-encoded path of the group owned by the authenticated user",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdRepositoryMergedBranches",
+    "method": "DELETE",
+    "path": "/projects/{id}/repository/merged_branches",
+    "summary": "",
+    "description": "Delete all merged branches",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+    "method": "GET",
+    "path": "/projects/{id}/repository/branches/{branch}",
+    "summary": "",
+    "description": "Get a single repository branch",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "branch",
+        "in": "path",
+        "description": "",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdRepositoryBranchesBranch",
+    "method": "DELETE",
+    "path": "/projects/{id}/repository/branches/{branch}",
+    "summary": "",
+    "description": "Delete a branch",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "branch",
+        "in": "path",
+        "description": "The name of the branch",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "headApiV4ProjectsIdRepositoryBranchesBranch",
+    "method": "HEAD",
+    "path": "/projects/{id}/repository/branches/{branch}",
+    "summary": "",
+    "description": "Check if a branch exists",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "branch",
+        "in": "path",
+        "description": "The name of the branch",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "method": "GET",
+    "path": "/projects/{id}/repository/branches",
+    "summary": "",
+    "description": "Get a project repository branches",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "page",
+        "in": "query",
+        "description": "Current page number",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 1
+        },
+        "required": false
+      },
+      {
+        "name": "per_page",
+        "in": "query",
+        "description": "Number of items per page",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 20
+        },
+        "required": false
+      },
+      {
+        "name": "search",
+        "in": "query",
+        "description": "Return list of branches matching the search criteria",
+        "schema": {
+          "type": "string"
+        },
+        "required": false
+      },
+      {
+        "name": "regex",
+        "in": "query",
+        "description": "Return list of branches matching the regex",
+        "schema": {
+          "type": "string"
+        },
+        "required": false
+      },
+      {
+        "name": "sort",
+        "in": "query",
+        "description": "Return list of branches sorted by the given field",
+        "schema": {
+          "type": "string",
+          "enum": [
+            "name_asc",
+            "updated_asc",
+            "updated_desc"
+          ]
+        },
+        "required": false
+      },
+      {
+        "name": "page_token",
+        "in": "query",
+        "description": "Name of branch to start the pagination from",
+        "schema": {
+          "type": "string"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "method": "POST",
+    "path": "/projects/{id}/repository/branches",
+    "summary": "",
+    "description": "Create branch",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "branch",
+        "in": "query",
+        "description": "The name of the branch",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "ref",
+        "in": "query",
+        "description": "Create branch from commit sha or existing branch",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+    "method": "PUT",
+    "path": "/projects/{id}/repository/branches/{branch}/unprotect",
+    "summary": "",
+    "description": "Unprotect a single branch",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "branch",
+        "in": "path",
+        "description": "The name of the branch",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "method": "PUT",
+    "path": "/projects/{id}/repository/branches/{branch}/protect",
+    "summary": "",
+    "description": "Protect a single branch",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "branch",
+        "in": "path",
+        "description": "The name of the branch",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "developers_can_push",
+        "in": "body",
+        "description": "Flag if developers can push to that branch",
+        "schema": {
+          "type": "boolean",
+          "description": "Flag if developers can push to that branch"
+        },
+        "required": false
+      },
+      {
+        "name": "developers_can_merge",
+        "in": "body",
+        "description": "Flag if developers can merge to that branch",
+        "schema": {
+          "type": "boolean",
+          "description": "Flag if developers can merge to that branch"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+    "method": "GET",
+    "path": "/projects/{id}/badges/{badge_id}",
+    "summary": "Gets a badge of a project.",
+    "description": "This feature was introduced in GitLab 10.6.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "badge_id",
+        "in": "path",
+        "description": "The badge ID",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "method": "PUT",
+    "path": "/projects/{id}/badges/{badge_id}",
+    "summary": "Updates a badge of a project.",
+    "description": "This feature was introduced in GitLab 10.6.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "badge_id",
+        "in": "path",
+        "description": "",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "link_url",
+        "in": "body",
+        "description": "URL of the badge link",
+        "schema": {
+          "type": "string",
+          "description": "URL of the badge link"
+        },
+        "required": false
+      },
+      {
+        "name": "image_url",
+        "in": "body",
+        "description": "URL of the badge image",
+        "schema": {
+          "type": "string",
+          "description": "URL of the badge image"
+        },
+        "required": false
+      },
+      {
+        "name": "name",
+        "in": "body",
+        "description": "Name for the badge",
+        "schema": {
+          "type": "string",
+          "description": "Name for the badge"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
+    "method": "DELETE",
+    "path": "/projects/{id}/badges/{badge_id}",
+    "summary": "Removes a badge from the project.",
+    "description": "This feature was introduced in GitLab 10.6.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "badge_id",
+        "in": "path",
+        "description": "The badge ID",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadges",
+    "method": "GET",
+    "path": "/projects/{id}/badges",
+    "summary": "Gets a list of project badges viewable by the authenticated user.",
+    "description": "This feature was introduced in GitLab 10.6.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "page",
+        "in": "query",
+        "description": "Current page number",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 1
+        },
+        "required": false
+      },
+      {
+        "name": "per_page",
+        "in": "query",
+        "description": "Number of items per page",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 20
+        },
+        "required": false
+      },
+      {
+        "name": "name",
+        "in": "query",
+        "description": "Name for the badge",
+        "schema": {
+          "type": "string"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "postApiV4ProjectsIdBadges",
+    "method": "POST",
+    "path": "/projects/{id}/badges",
+    "summary": "Adds a badge to a project.",
+    "description": "This feature was introduced in GitLab 10.6.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "link_url",
+        "in": "body",
+        "description": "URL of the badge link",
+        "schema": {
+          "type": "string",
+          "description": "URL of the badge link"
+        },
+        "required": true
+      },
+      {
+        "name": "image_url",
+        "in": "body",
+        "description": "URL of the badge image",
+        "schema": {
+          "type": "string",
+          "description": "URL of the badge image"
+        },
+        "required": true
+      },
+      {
+        "name": "name",
+        "in": "body",
+        "description": "Name for the badge",
+        "schema": {
+          "type": "string",
+          "description": "Name for the badge"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesRender",
+    "method": "GET",
+    "path": "/projects/{id}/badges/render",
+    "summary": "Preview a badge from a project.",
+    "description": "This feature was introduced in GitLab 10.6.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "link_url",
+        "in": "query",
+        "description": "URL of the badge link",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "image_url",
+        "in": "query",
+        "description": "URL of the badge image",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAccessRequestsUserId",
+    "method": "DELETE",
+    "path": "/projects/{id}/access_requests/{user_id}",
+    "summary": "Denies an access request for the given user.",
+    "description": "This feature was introduced in GitLab 8.11.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "user_id",
+        "in": "path",
+        "description": "The user ID of the access requester",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "method": "PUT",
+    "path": "/projects/{id}/access_requests/{user_id}/approve",
+    "summary": "Approves an access request for the given user.",
+    "description": "This feature was introduced in GitLab 8.11.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "user_id",
+        "in": "path",
+        "description": "The user ID of the access requester",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "access_level",
+        "in": "body",
+        "description": "A valid access level (defaults: `30`, the Developer role)",
+        "schema": {
+          "type": "integer",
+          "description": "A valid access level (defaults: `30`, the Developer role)",
+          "format": "int32",
+          "default": 30
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "method": "GET",
+    "path": "/projects/{id}/access_requests",
+    "summary": "Gets a list of access requests for a project.",
+    "description": "This feature was introduced in GitLab 8.11.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "page",
+        "in": "query",
+        "description": "Current page number",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 1
+        },
+        "required": false
+      },
+      {
+        "name": "per_page",
+        "in": "query",
+        "description": "Number of items per page",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 20
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAccessRequests",
+    "method": "POST",
+    "path": "/projects/{id}/access_requests",
+    "summary": "Requests access for the authenticated user to a project.",
+    "description": "This feature was introduced in GitLab 8.11.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "method": "PUT",
+    "path": "/projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}",
+    "summary": "",
+    "description": "Update a metric image for an alert",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "alert_iid",
+        "in": "path",
+        "description": "The IID of the Alert",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "metric_image_id",
+        "in": "path",
+        "description": "The ID of metric image",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "url",
+        "in": "body",
+        "description": "The url to view more metric info",
+        "schema": {
+          "type": "string",
+          "description": "The url to view more metric info"
+        },
+        "required": false
+      },
+      {
+        "name": "url_text",
+        "in": "body",
+        "description": "A description of the image or URL",
+        "schema": {
+          "type": "string",
+          "description": "A description of the image or URL"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "method": "DELETE",
+    "path": "/projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}",
+    "summary": "",
+    "description": "Remove a metric image for an alert",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "alert_iid",
+        "in": "path",
+        "description": "The IID of the Alert",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "metric_image_id",
+        "in": "path",
+        "description": "The ID of metric image",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "method": "GET",
+    "path": "/projects/{id}/alert_management_alerts/{alert_iid}/metric_images",
+    "summary": "",
+    "description": "Metric Images for alert",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "alert_iid",
+        "in": "path",
+        "description": "The IID of the Alert",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "method": "POST",
+    "path": "/projects/{id}/alert_management_alerts/{alert_iid}/metric_images",
+    "summary": "",
+    "description": "Upload a metric image for an alert",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "alert_iid",
+        "in": "path",
+        "description": "The IID of the Alert",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "file",
+        "in": "body",
+        "description": "The image file to be uploaded",
+        "schema": {
+          "type": "string",
+          "description": "The image file to be uploaded",
+          "format": "binary"
+        },
+        "required": true
+      },
+      {
+        "name": "url",
+        "in": "body",
+        "description": "The url to view more metric info",
+        "schema": {
+          "type": "string",
+          "description": "The url to view more metric info"
+        },
+        "required": false
+      },
+      {
+        "name": "url_text",
+        "in": "body",
+        "description": "A description of the image or URL",
+        "schema": {
+          "type": "string",
+          "description": "A description of the image or URL"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesAuthorize",
+    "method": "POST",
+    "path": "/projects/{id}/alert_management_alerts/{alert_iid}/metric_images/authorize",
+    "summary": "",
+    "description": "Workhorse authorize metric image file upload",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "alert_iid",
+        "in": "path",
+        "description": "The IID of the Alert",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
+    "method": "GET",
+    "path": "/admin/batched_background_migrations/{id}",
+    "summary": "",
+    "description": "Retrieve a batched background migration",
+    "parameters": [
+      {
+        "name": "database",
+        "in": "query",
+        "description": "The name of the database",
+        "schema": {
+          "type": "string",
+          "default": "main",
+          "enum": [
+            "main",
+            "ci",
+            "embedding",
+            "main_clusterwide",
+            "geo"
+          ]
+        },
+        "required": false
+      },
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The batched background migration id",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrations",
+    "method": "GET",
+    "path": "/admin/batched_background_migrations",
+    "summary": "",
+    "description": "Get the list of batched background migrations",
+    "parameters": [
+      {
+        "name": "database",
+        "in": "query",
+        "description": "The name of the database, the default `main`",
+        "schema": {
+          "type": "string",
+          "default": "main",
+          "enum": [
+            "main",
+            "ci",
+            "embedding",
+            "main_clusterwide",
+            "geo"
+          ]
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
+    "method": "PUT",
+    "path": "/admin/batched_background_migrations/{id}/resume",
+    "summary": "",
+    "description": "Resume a batched background migration",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The batched background migration id",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "database",
+        "in": "body",
+        "description": "The name of the database",
+        "schema": {
+          "type": "string",
+          "description": "The name of the database",
+          "default": "main",
+          "enum": [
+            "main",
+            "ci",
+            "embedding",
+            "main_clusterwide",
+            "geo"
+          ]
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
+    "method": "PUT",
+    "path": "/admin/batched_background_migrations/{id}/pause",
+    "summary": "",
+    "description": "Pause a batched background migration",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The batched background migration id",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "database",
+        "in": "body",
+        "description": "The name of the database",
+        "schema": {
+          "type": "string",
+          "description": "The name of the database",
+          "default": "main",
+          "enum": [
+            "main",
+            "ci",
+            "embedding",
+            "main_clusterwide",
+            "geo"
+          ]
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4AdminCiVariablesKey",
+    "method": "GET",
+    "path": "/admin/ci/variables/{key}",
+    "summary": "",
+    "description": "Get the details of a specific instance-level variable",
+    "parameters": [
+      {
+        "name": "key",
+        "in": "path",
+        "description": "The key of a variable",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "method": "PUT",
+    "path": "/admin/ci/variables/{key}",
+    "summary": "",
+    "description": "Update an instance-level variable",
+    "parameters": [
+      {
+        "name": "key",
+        "in": "path",
+        "description": "The key of a variable",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "value",
+        "in": "body",
+        "description": "The value of a variable",
+        "schema": {
+          "type": "string",
+          "description": "The value of a variable"
+        },
+        "required": false
+      },
+      {
+        "name": "protected",
+        "in": "body",
+        "description": "Whether the variable is protected",
+        "schema": {
+          "type": "boolean",
+          "description": "Whether the variable is protected"
+        },
+        "required": false
+      },
+      {
+        "name": "masked",
+        "in": "body",
+        "description": "Whether the variable is masked",
+        "schema": {
+          "type": "boolean",
+          "description": "Whether the variable is masked"
+        },
+        "required": false
+      },
+      {
+        "name": "raw",
+        "in": "body",
+        "description": "Whether the variable will be expanded",
+        "schema": {
+          "type": "boolean",
+          "description": "Whether the variable will be expanded"
+        },
+        "required": false
+      },
+      {
+        "name": "variable_type",
+        "in": "body",
+        "description": "The type of a variable. Available types are: env_var (default) and file",
+        "schema": {
+          "type": "string",
+          "description": "The type of a variable. Available types are: env_var (default) and file",
+          "enum": [
+            "env_var",
+            "file"
+          ]
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "deleteApiV4AdminCiVariablesKey",
+    "method": "DELETE",
+    "path": "/admin/ci/variables/{key}",
+    "summary": "",
+    "description": "Delete an existing instance-level variable",
+    "parameters": [
+      {
+        "name": "key",
+        "in": "path",
+        "description": "The key of a variable",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4AdminCiVariables",
+    "method": "GET",
+    "path": "/admin/ci/variables",
+    "summary": "",
+    "description": "List all instance-level variables",
+    "parameters": [
+      {
+        "name": "page",
+        "in": "query",
+        "description": "Current page number",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 1
+        },
+        "required": false
+      },
+      {
+        "name": "per_page",
+        "in": "query",
+        "description": "Number of items per page",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 20
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "method": "POST",
+    "path": "/admin/ci/variables",
+    "summary": "",
+    "description": "Create a new instance-level variable",
+    "parameters": [
+      {
+        "name": "key",
+        "in": "body",
+        "description": "The key of the variable. Max 255 characters",
+        "schema": {
+          "type": "string",
+          "description": "The key of the variable. Max 255 characters"
+        },
+        "required": true
+      },
+      {
+        "name": "value",
+        "in": "body",
+        "description": "The value of a variable",
+        "schema": {
+          "type": "string",
+          "description": "The value of a variable"
+        },
+        "required": true
+      },
+      {
+        "name": "protected",
+        "in": "body",
+        "description": "Whether the variable is protected",
+        "schema": {
+          "type": "boolean",
+          "description": "Whether the variable is protected"
+        },
+        "required": false
+      },
+      {
+        "name": "masked",
+        "in": "body",
+        "description": "Whether the variable is masked",
+        "schema": {
+          "type": "boolean",
+          "description": "Whether the variable is masked"
+        },
+        "required": false
+      },
+      {
+        "name": "raw",
+        "in": "body",
+        "description": "Whether the variable will be expanded",
+        "schema": {
+          "type": "boolean",
+          "description": "Whether the variable will be expanded"
+        },
+        "required": false
+      },
+      {
+        "name": "variable_type",
+        "in": "body",
+        "description": "The type of a variable. Available types are: env_var (default) and file",
+        "schema": {
+          "type": "string",
+          "description": "The type of a variable. Available types are: env_var (default) and file",
+          "enum": [
+            "env_var",
+            "file"
+          ]
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4AdminDatabasesDatabaseNameDictionaryTablesTableName",
+    "method": "GET",
+    "path": "/admin/databases/{database_name}/dictionary/tables/{table_name}",
+    "summary": "",
+    "description": "Retrieve dictionary details",
+    "parameters": [
+      {
+        "name": "database_name",
+        "in": "path",
+        "description": "The database name",
+        "schema": {
+          "type": "string",
+          "enum": [
+            "main",
+            "ci"
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "table_name",
+        "in": "path",
+        "description": "The table name",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "method": "GET",
+    "path": "/admin/clusters/{cluster_id}",
+    "summary": "Get a single instance cluster",
+    "description": "This feature was introduced in GitLab 13.2. Returns a single instance cluster.",
+    "parameters": [
+      {
+        "name": "cluster_id",
+        "in": "path",
+        "description": "The cluster ID",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "method": "PUT",
+    "path": "/admin/clusters/{cluster_id}",
+    "summary": "Edit instance cluster",
+    "description": "This feature was introduced in GitLab 13.2. Updates an existing instance cluster.",
+    "parameters": [
+      {
+        "name": "cluster_id",
+        "in": "path",
+        "description": "The cluster ID",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "name",
+        "in": "body",
+        "description": "Cluster name",
+        "schema": {
+          "type": "string",
+          "description": "Cluster name"
+        },
+        "required": false
+      },
+      {
+        "name": "enabled",
+        "in": "body",
+        "description": "Enable or disable Gitlab's connection to your Kubernetes cluster",
+        "schema": {
+          "type": "boolean",
+          "description": "Enable or disable Gitlab's connection to your Kubernetes cluster"
+        },
+        "required": false
+      },
+      {
+        "name": "environment_scope",
+        "in": "body",
+        "description": "The associated environment to the cluster",
+        "schema": {
+          "type": "string",
+          "description": "The associated environment to the cluster"
+        },
+        "required": false
+      },
+      {
+        "name": "namespace_per_environment",
+        "in": "body",
+        "description": "Deploy each environment to a separate Kubernetes namespace",
+        "schema": {
+          "type": "boolean",
+          "description": "Deploy each environment to a separate Kubernetes namespace",
+          "default": true
+        },
+        "required": false
+      },
+      {
+        "name": "domain",
+        "in": "body",
+        "description": "Cluster base domain",
+        "schema": {
+          "type": "string",
+          "description": "Cluster base domain"
+        },
+        "required": false
+      },
+      {
+        "name": "management_project_id",
+        "in": "body",
+        "description": "The ID of the management project",
+        "schema": {
+          "type": "integer",
+          "description": "The ID of the management project",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "managed",
+        "in": "body",
+        "description": "Determines if GitLab will manage namespaces and service accounts for this cluster",
+        "schema": {
+          "type": "boolean",
+          "description": "Determines if GitLab will manage namespaces and service accounts for this cluster"
+        },
+        "required": false
+      },
+      {
+        "name": "platform_kubernetes_attributes[api_url]",
+        "in": "body",
+        "description": "URL to access the Kubernetes API",
+        "schema": {
+          "type": "string",
+          "description": "URL to access the Kubernetes API"
+        },
+        "required": false
+      },
+      {
+        "name": "platform_kubernetes_attributes[token]",
+        "in": "body",
+        "description": "Token to authenticate against Kubernetes",
+        "schema": {
+          "type": "string",
+          "description": "Token to authenticate against Kubernetes"
+        },
+        "required": false
+      },
+      {
+        "name": "platform_kubernetes_attributes[ca_cert]",
+        "in": "body",
+        "description": "TLS certificate (needed if API is using a self-signed TLS certificate)",
+        "schema": {
+          "type": "string",
+          "description": "TLS certificate (needed if API is using a self-signed TLS certificate)"
+        },
+        "required": false
+      },
+      {
+        "name": "platform_kubernetes_attributes[namespace]",
+        "in": "body",
+        "description": "Unique namespace related to Project",
+        "schema": {
+          "type": "string",
+          "description": "Unique namespace related to Project"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "method": "DELETE",
+    "path": "/admin/clusters/{cluster_id}",
+    "summary": "Delete instance cluster",
+    "description": "This feature was introduced in GitLab 13.2. Deletes an existing instance cluster. Does not remove existing resources within the connected Kubernetes cluster.",
+    "parameters": [
+      {
+        "name": "cluster_id",
+        "in": "path",
+        "description": "The cluster ID",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "method": "POST",
+    "path": "/admin/clusters/add",
+    "summary": "Add existing instance cluster",
+    "description": "This feature was introduced in GitLab 13.2. Adds an existing Kubernetes instance cluster.",
+    "parameters": [
+      {
+        "name": "name",
+        "in": "body",
+        "description": "Cluster name",
+        "schema": {
+          "type": "string",
+          "description": "Cluster name"
+        },
+        "required": true
+      },
+      {
+        "name": "enabled",
+        "in": "body",
+        "description": "Determines if cluster is active or not, defaults to true",
+        "schema": {
+          "type": "boolean",
+          "description": "Determines if cluster is active or not, defaults to true",
+          "default": true
+        },
+        "required": false
+      },
+      {
+        "name": "environment_scope",
+        "in": "body",
+        "description": "The associated environment to the cluster",
+        "schema": {
+          "type": "string",
+          "description": "The associated environment to the cluster",
+          "default": "*"
+        },
+        "required": false
+      },
+      {
+        "name": "namespace_per_environment",
+        "in": "body",
+        "description": "Deploy each environment to a separate Kubernetes namespace",
+        "schema": {
+          "type": "boolean",
+          "description": "Deploy each environment to a separate Kubernetes namespace",
+          "default": true
+        },
+        "required": false
+      },
+      {
+        "name": "domain",
+        "in": "body",
+        "description": "Cluster base domain",
+        "schema": {
+          "type": "string",
+          "description": "Cluster base domain"
+        },
+        "required": false
+      },
+      {
+        "name": "management_project_id",
+        "in": "body",
+        "description": "The ID of the management project",
+        "schema": {
+          "type": "integer",
+          "description": "The ID of the management project",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "managed",
+        "in": "body",
+        "description": "Determines if GitLab will manage namespaces and service accounts for this cluster, defaults to true",
+        "schema": {
+          "type": "boolean",
+          "description": "Determines if GitLab will manage namespaces and service accounts for this cluster, defaults to true",
+          "default": true
+        },
+        "required": false
+      },
+      {
+        "name": "platform_kubernetes_attributes[api_url]",
+        "in": "body",
+        "description": "URL to access the Kubernetes API",
+        "schema": {
+          "type": "string",
+          "description": "URL to access the Kubernetes API"
+        },
+        "required": true
+      },
+      {
+        "name": "platform_kubernetes_attributes[token]",
+        "in": "body",
+        "description": "Token to authenticate against Kubernetes",
+        "schema": {
+          "type": "string",
+          "description": "Token to authenticate against Kubernetes"
+        },
+        "required": true
+      },
+      {
+        "name": "platform_kubernetes_attributes[ca_cert]",
+        "in": "body",
+        "description": "TLS certificate (needed if API is using a self-signed TLS certificate)",
+        "schema": {
+          "type": "string",
+          "description": "TLS certificate (needed if API is using a self-signed TLS certificate)"
+        },
+        "required": false
+      },
+      {
+        "name": "platform_kubernetes_attributes[namespace]",
+        "in": "body",
+        "description": "Unique namespace related to Project",
+        "schema": {
+          "type": "string",
+          "description": "Unique namespace related to Project"
+        },
+        "required": false
+      },
+      {
+        "name": "platform_kubernetes_attributes[authorization_type]",
+        "in": "body",
+        "description": "Cluster authorization type, defaults to RBAC",
+        "schema": {
+          "type": "string",
+          "description": "Cluster authorization type, defaults to RBAC",
+          "default": "rbac",
+          "enum": [
+            "unknown_authorization",
+            "rbac",
+            "abac"
+          ]
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "method": "GET",
+    "path": "/admin/clusters",
+    "summary": "List instance clusters",
+    "description": "This feature was introduced in GitLab 13.2. Returns a list of instance clusters.",
+    "parameters": []
+  },
+  {
+    "operationId": "postApiV4AdminMigrationsTimestampMark",
+    "method": "POST",
+    "path": "/admin/migrations/{timestamp}/mark",
+    "summary": "",
+    "description": "Mark the migration as successfully executed",
+    "parameters": [
+      {
+        "name": "timestamp",
+        "in": "path",
+        "description": "The migration version timestamp",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "database",
+        "in": "body",
+        "description": "The name of the database",
+        "schema": {
+          "type": "string",
+          "description": "The name of the database",
+          "default": "main",
+          "enum": [
+            "main",
+            "ci",
+            "embedding",
+            "main_clusterwide",
+            "geo"
+          ]
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "deleteApiV4ApplicationsId",
+    "method": "DELETE",
+    "path": "/applications/{id}",
+    "summary": "Delete an application",
+    "description": "Delete a specific application",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID of the application (not the application_id)",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4Applications",
+    "method": "GET",
+    "path": "/applications",
+    "summary": "Get applications",
+    "description": "List all registered applications",
+    "parameters": []
+  },
+  {
+    "operationId": "postApiV4Applications",
+    "method": "POST",
+    "path": "/applications",
+    "summary": "Create a new application",
+    "description": "This feature was introduced in GitLab 10.5",
+    "parameters": [
+      {
+        "name": "name",
+        "in": "body",
+        "description": "Name of the application.",
+        "schema": {
+          "type": "string",
+          "description": "Name of the application."
+        },
+        "required": true
+      },
+      {
+        "name": "redirect_uri",
+        "in": "body",
+        "description": "Redirect URI of the application.",
+        "schema": {
+          "type": "string",
+          "description": "Redirect URI of the application."
+        },
+        "required": true
+      },
+      {
+        "name": "scopes",
+        "in": "body",
+        "description": "Scopes of the application. You can specify multiple scopes by separating\\\n                                 each scope using a space",
+        "schema": {
+          "type": "string",
+          "description": "Scopes of the application. You can specify multiple scopes by separating\\\n                                 each scope using a space"
+        },
+        "required": true
+      },
+      {
+        "name": "confidential",
+        "in": "body",
+        "description": "The application is used where the client secret can be kept confidential. Native mobile apps \\\n                        and Single Page Apps are considered non-confidential. Defaults to true if not supplied",
+        "schema": {
+          "type": "boolean",
+          "description": "The application is used where the client secret can be kept confidential. Native mobile apps \\\n                        and Single Page Apps are considered non-confidential. Defaults to true if not supplied",
+          "default": true
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4Avatar",
+    "method": "GET",
+    "path": "/avatar",
+    "summary": "",
+    "description": "Return avatar url for a user",
+    "parameters": [
+      {
+        "name": "email",
+        "in": "query",
+        "description": "Public email address of the user",
+        "schema": {
+          "type": "string"
+        },
+        "required": true
+      },
+      {
+        "name": "size",
+        "in": "query",
+        "description": "Single pixel dimension for Gravatar images",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "method": "GET",
+    "path": "/broadcast_messages/{id}",
+    "summary": "Get a specific broadcast message",
+    "description": "This feature was introduced in GitLab 8.12.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "Broadcast message ID",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "method": "PUT",
+    "path": "/broadcast_messages/{id}",
+    "summary": "Update a broadcast message",
+    "description": "This feature was introduced in GitLab 8.12.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "Broadcast message ID",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "message",
+        "in": "body",
+        "description": "Message to display",
+        "schema": {
+          "type": "string",
+          "description": "Message to display"
+        },
+        "required": false
+      },
+      {
+        "name": "starts_at",
+        "in": "body",
+        "description": "Starting time",
+        "schema": {
+          "type": "string",
+          "description": "Starting time",
+          "format": "date-time"
+        },
+        "required": false
+      },
+      {
+        "name": "ends_at",
+        "in": "body",
+        "description": "Ending time",
+        "schema": {
+          "type": "string",
+          "description": "Ending time",
+          "format": "date-time"
+        },
+        "required": false
+      },
+      {
+        "name": "color",
+        "in": "body",
+        "description": "Background color",
+        "schema": {
+          "type": "string",
+          "description": "Background color"
+        },
+        "required": false
+      },
+      {
+        "name": "font",
+        "in": "body",
+        "description": "Foreground color",
+        "schema": {
+          "type": "string",
+          "description": "Foreground color"
+        },
+        "required": false
+      },
+      {
+        "name": "target_access_levels",
+        "in": "body",
+        "description": "Target user roles",
+        "schema": {
+          "type": "array",
+          "description": "Target user roles",
+          "items": {
+            "type": "integer",
+            "format": "int32",
+            "enum": [
+              10,
+              20,
+              30,
+              40,
+              50
+            ]
+          }
+        },
+        "required": false
+      },
+      {
+        "name": "target_path",
+        "in": "body",
+        "description": "Target path",
+        "schema": {
+          "type": "string",
+          "description": "Target path"
+        },
+        "required": false
+      },
+      {
+        "name": "broadcast_type",
+        "in": "body",
+        "description": "Broadcast Type",
+        "schema": {
+          "type": "string",
+          "description": "Broadcast Type",
+          "enum": [
+            "banner",
+            "notification"
+          ]
+        },
+        "required": false
+      },
+      {
+        "name": "dismissable",
+        "in": "body",
+        "description": "Is dismissable",
+        "schema": {
+          "type": "boolean",
+          "description": "Is dismissable"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "method": "DELETE",
+    "path": "/broadcast_messages/{id}",
+    "summary": "Delete a broadcast message",
+    "description": "This feature was introduced in GitLab 8.12.",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "Broadcast message ID",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "method": "GET",
+    "path": "/broadcast_messages",
+    "summary": "Get all broadcast messages",
+    "description": "This feature was introduced in GitLab 8.12.",
+    "parameters": [
+      {
+        "name": "page",
+        "in": "query",
+        "description": "Current page number",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 1
+        },
+        "required": false
+      },
+      {
+        "name": "per_page",
+        "in": "query",
+        "description": "Number of items per page",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 20
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "method": "POST",
+    "path": "/broadcast_messages",
+    "summary": "Create a broadcast message",
+    "description": "This feature was introduced in GitLab 8.12.",
+    "parameters": [
+      {
+        "name": "message",
+        "in": "body",
+        "description": "Message to display",
+        "schema": {
+          "type": "string",
+          "description": "Message to display"
+        },
+        "required": true
+      },
+      {
+        "name": "starts_at",
+        "in": "body",
+        "description": "Starting time",
+        "schema": {
+          "type": "string",
+          "description": "Starting time",
+          "format": "date-time"
+        },
+        "required": false
+      },
+      {
+        "name": "ends_at",
+        "in": "body",
+        "description": "Ending time",
+        "schema": {
+          "type": "string",
+          "description": "Ending time",
+          "format": "date-time"
+        },
+        "required": false
+      },
+      {
+        "name": "color",
+        "in": "body",
+        "description": "Background color",
+        "schema": {
+          "type": "string",
+          "description": "Background color"
+        },
+        "required": false
+      },
+      {
+        "name": "font",
+        "in": "body",
+        "description": "Foreground color",
+        "schema": {
+          "type": "string",
+          "description": "Foreground color"
+        },
+        "required": false
+      },
+      {
+        "name": "target_access_levels",
+        "in": "body",
+        "description": "Target user roles",
+        "schema": {
+          "type": "array",
+          "description": "Target user roles",
+          "items": {
+            "type": "integer",
+            "format": "int32",
+            "enum": [
+              10,
+              20,
+              30,
+              40,
+              50
+            ]
+          }
+        },
+        "required": false
+      },
+      {
+        "name": "target_path",
+        "in": "body",
+        "description": "Target path",
+        "schema": {
+          "type": "string",
+          "description": "Target path"
+        },
+        "required": false
+      },
+      {
+        "name": "broadcast_type",
+        "in": "body",
+        "description": "Broadcast type. Defaults to banner",
+        "schema": {
+          "type": "string",
+          "description": "Broadcast type. Defaults to banner",
+          "enum": [
+            "banner",
+            "notification"
+          ]
+        },
+        "required": false
+      },
+      {
+        "name": "dismissable",
+        "in": "body",
+        "description": "Is dismissable",
+        "schema": {
+          "type": "boolean",
+          "description": "Is dismissable"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "method": "GET",
+    "path": "/bulk_imports/{import_id}/entities/{entity_id}",
+    "summary": "Get GitLab Migration entity details",
+    "description": "This feature was introduced in GitLab 14.1.",
+    "parameters": [
+      {
+        "name": "import_id",
+        "in": "path",
+        "description": "The ID of user's GitLab Migration",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "entity_id",
+        "in": "path",
+        "description": "The ID of GitLab Migration entity",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "method": "GET",
+    "path": "/bulk_imports/{import_id}/entities",
+    "summary": "List GitLab Migration entities",
+    "description": "This feature was introduced in GitLab 14.1.",
+    "parameters": [
+      {
+        "name": "import_id",
+        "in": "path",
+        "description": "The ID of user's GitLab Migration",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      },
+      {
+        "name": "status",
+        "in": "query",
+        "description": "Return import entities with specified status",
+        "schema": {
+          "type": "string",
+          "enum": [
+            "created",
+            "started",
+            "finished",
+            "timeout",
+            "failed"
+          ]
+        },
+        "required": false
+      },
+      {
+        "name": "page",
+        "in": "query",
+        "description": "Current page number",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 1
+        },
+        "required": false
+      },
+      {
+        "name": "per_page",
+        "in": "query",
+        "description": "Number of items per page",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 20
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportId",
+    "method": "GET",
+    "path": "/bulk_imports/{import_id}",
+    "summary": "Get GitLab Migration details",
+    "description": "This feature was introduced in GitLab 14.1.",
+    "parameters": [
+      {
+        "name": "import_id",
+        "in": "path",
+        "description": "The ID of user's GitLab Migration",
+        "schema": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "method": "GET",
+    "path": "/bulk_imports/entities",
+    "summary": "List all GitLab Migrations' entities",
+    "description": "This feature was introduced in GitLab 14.1.",
+    "parameters": [
+      {
+        "name": "page",
+        "in": "query",
+        "description": "Current page number",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 1
+        },
+        "required": false
+      },
+      {
+        "name": "per_page",
+        "in": "query",
+        "description": "Number of items per page",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 20
+        },
+        "required": false
+      },
+      {
+        "name": "sort",
+        "in": "query",
+        "description": "Return GitLab Migrations sorted in created by `asc` or `desc` order.",
+        "schema": {
+          "type": "string",
+          "default": "desc",
+          "enum": [
+            "asc",
+            "desc"
+          ]
+        },
+        "required": false
+      },
+      {
+        "name": "status",
+        "in": "query",
+        "description": "Return all GitLab Migrations' entities with specified status",
+        "schema": {
+          "type": "string",
+          "enum": [
+            "created",
+            "started",
+            "finished",
+            "timeout",
+            "failed"
+          ]
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4BulkImports",
+    "method": "GET",
+    "path": "/bulk_imports",
+    "summary": "List all GitLab Migrations",
+    "description": "This feature was introduced in GitLab 14.1.",
+    "parameters": [
+      {
+        "name": "page",
+        "in": "query",
+        "description": "Current page number",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 1
+        },
+        "required": false
+      },
+      {
+        "name": "per_page",
+        "in": "query",
+        "description": "Number of items per page",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "default": 20
+        },
+        "required": false
+      },
+      {
+        "name": "sort",
+        "in": "query",
+        "description": "Return GitLab Migrations sorted in created by `asc` or `desc` order.",
+        "schema": {
+          "type": "string",
+          "default": "desc",
+          "enum": [
+            "asc",
+            "desc"
+          ]
+        },
+        "required": false
+      },
+      {
+        "name": "status",
+        "in": "query",
+        "description": "Return GitLab Migrations with specified status",
+        "schema": {
+          "type": "string",
+          "enum": [
+            "created",
+            "started",
+            "finished",
+            "timeout",
+            "failed"
+          ]
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "method": "POST",
+    "path": "/bulk_imports",
+    "summary": "Start a new GitLab Migration",
+    "description": "This feature was introduced in GitLab 14.2.",
+    "parameters": [
+      {
+        "name": "configuration[url]",
+        "in": "body",
+        "description": "Source GitLab instance URL",
+        "schema": {
+          "type": "string",
+          "description": "Source GitLab instance URL"
+        },
+        "required": true
+      },
+      {
+        "name": "configuration[access_token]",
+        "in": "body",
+        "description": "Access token to the source GitLab instance",
+        "schema": {
+          "type": "string",
+          "description": "Access token to the source GitLab instance"
+        },
+        "required": true
+      },
+      {
+        "name": "entities[source_type]",
+        "in": "body",
+        "description": "Source entity type",
+        "schema": {
+          "type": "array",
+          "description": "Source entity type",
+          "items": {
+            "type": "string",
+            "enum": [
+              "group_entity",
+              "project_entity"
+            ]
+          }
+        },
+        "required": true
+      },
+      {
+        "name": "entities[source_full_path]",
+        "in": "body",
+        "description": "Relative path of the source entity to import",
+        "schema": {
+          "type": "array",
+          "description": "Relative path of the source entity to import",
+          "items": {
+            "type": "string"
+          }
+        },
+        "required": true
+      },
+      {
+        "name": "entities[destination_namespace]",
+        "in": "body",
+        "description": "Destination namespace for the entity",
+        "schema": {
+          "type": "array",
+          "description": "Destination namespace for the entity",
+          "items": {
+            "type": "string"
+          }
+        },
+        "required": true
+      },
+      {
+        "name": "entities[destination_slug]",
+        "in": "body",
+        "description": "Destination slug for the entity",
+        "schema": {
+          "type": "array",
+          "description": "Destination slug for the entity",
+          "items": {
+            "type": "string"
+          }
+        },
+        "required": false
+      },
+      {
+        "name": "entities[destination_name]",
+        "in": "body",
+        "description": "Deprecated: Use :destination_slug instead. Destination slug for the entity",
+        "schema": {
+          "type": "array",
+          "description": "Deprecated: Use :destination_slug instead. Destination slug for the entity",
+          "items": {
+            "type": "string"
+          }
+        },
+        "required": false
+      },
+      {
+        "name": "entities[migrate_projects]",
+        "in": "body",
+        "description": "Indicates group migration should include nested projects",
+        "schema": {
+          "type": "array",
+          "description": "Indicates group migration should include nested projects",
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "method": "GET",
+    "path": "/application/appearance",
+    "summary": "",
+    "description": "Get the current appearance",
+    "parameters": []
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "method": "PUT",
+    "path": "/application/appearance",
+    "summary": "",
+    "description": "Modify appearance",
+    "parameters": [
+      {
+        "name": "title",
+        "in": "body",
+        "description": "Instance title on the sign in / sign up page",
+        "schema": {
+          "type": "string",
+          "description": "Instance title on the sign in / sign up page"
+        },
+        "required": false
+      },
+      {
+        "name": "description",
+        "in": "body",
+        "description": "Markdown text shown on the sign in / sign up page",
+        "schema": {
+          "type": "string",
+          "description": "Markdown text shown on the sign in / sign up page"
+        },
+        "required": false
+      },
+      {
+        "name": "pwa_name",
+        "in": "body",
+        "description": "Name of the Progressive Web App",
+        "schema": {
+          "type": "string",
+          "description": "Name of the Progressive Web App"
+        },
+        "required": false
+      },
+      {
+        "name": "pwa_short_name",
+        "in": "body",
+        "description": "Optional, short name for Progressive Web App",
+        "schema": {
+          "type": "string",
+          "description": "Optional, short name for Progressive Web App"
+        },
+        "required": false
+      },
+      {
+        "name": "pwa_description",
+        "in": "body",
+        "description": "An explanation of what the Progressive Web App does",
+        "schema": {
+          "type": "string",
+          "description": "An explanation of what the Progressive Web App does"
+        },
+        "required": false
+      },
+      {
+        "name": "logo",
+        "in": "body",
+        "description": "Instance image used on the sign in / sign up page",
+        "schema": {
+          "type": "string",
+          "description": "Instance image used on the sign in / sign up page",
+          "format": "binary"
+        },
+        "required": false
+      },
+      {
+        "name": "pwa_icon",
+        "in": "body",
+        "description": "Icon used for Progressive Web App",
+        "schema": {
+          "type": "string",
+          "description": "Icon used for Progressive Web App",
+          "format": "binary"
+        },
+        "required": false
+      },
+      {
+        "name": "header_logo",
+        "in": "body",
+        "description": "Instance image used for the main navigation bar",
+        "schema": {
+          "type": "string",
+          "description": "Instance image used for the main navigation bar",
+          "format": "binary"
+        },
+        "required": false
+      },
+      {
+        "name": "favicon",
+        "in": "body",
+        "description": "Instance favicon in .ico/.png format",
+        "schema": {
+          "type": "string",
+          "description": "Instance favicon in .ico/.png format",
+          "format": "binary"
+        },
+        "required": false
+      },
+      {
+        "name": "new_project_guidelines",
+        "in": "body",
+        "description": "Markdown text shown on the new project page",
+        "schema": {
+          "type": "string",
+          "description": "Markdown text shown on the new project page"
+        },
+        "required": false
+      },
+      {
+        "name": "profile_image_guidelines",
+        "in": "body",
+        "description": "Markdown text shown on the profile page below Public Avatar",
+        "schema": {
+          "type": "string",
+          "description": "Markdown text shown on the profile page below Public Avatar"
+        },
+        "required": false
+      },
+      {
+        "name": "header_message",
+        "in": "body",
+        "description": "Message within the system header bar",
+        "schema": {
+          "type": "string",
+          "description": "Message within the system header bar"
+        },
+        "required": false
+      },
+      {
+        "name": "footer_message",
+        "in": "body",
+        "description": "Message within the system footer bar",
+        "schema": {
+          "type": "string",
+          "description": "Message within the system footer bar"
+        },
+        "required": false
+      },
+      {
+        "name": "message_background_color",
+        "in": "body",
+        "description": "Background color for the system header / footer bar",
+        "schema": {
+          "type": "string",
+          "description": "Background color for the system header / footer bar"
+        },
+        "required": false
+      },
+      {
+        "name": "message_font_color",
+        "in": "body",
+        "description": "Font color for the system header / footer bar",
+        "schema": {
+          "type": "string",
+          "description": "Font color for the system header / footer bar"
+        },
+        "required": false
+      },
+      {
+        "name": "email_header_and_footer_enabled",
+        "in": "body",
+        "description": "Add header and footer to all outgoing emails if enabled",
+        "schema": {
+          "type": "boolean",
+          "description": "Add header and footer to all outgoing emails if enabled"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "method": "GET",
+    "path": "/application/plan_limits",
+    "summary": "Get current plan limits",
+    "description": "List the current limits of a plan on the GitLab instance.",
+    "parameters": [
+      {
+        "name": "plan_name",
+        "in": "query",
+        "description": "Name of the plan to get the limits from. Default: default.",
+        "schema": {
+          "type": "string",
+          "default": "default",
+          "enum": [
+            "default",
+            "free",
+            "bronze",
+            "silver",
+            "premium",
+            "gold",
+            "ultimate",
+            "ultimate_trial",
+            "premium_trial",
+            "opensource"
+          ]
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "method": "PUT",
+    "path": "/application/plan_limits",
+    "summary": "Change plan limits",
+    "description": "Modify the limits of a plan on the GitLab instance.",
+    "parameters": [
+      {
+        "name": "plan_name",
+        "in": "body",
+        "description": "Name of the plan to update",
+        "schema": {
+          "type": "string",
+          "description": "Name of the plan to update",
+          "enum": [
+            "default",
+            "free",
+            "bronze",
+            "silver",
+            "premium",
+            "gold",
+            "ultimate",
+            "ultimate_trial",
+            "premium_trial",
+            "opensource"
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "ci_pipeline_size",
+        "in": "body",
+        "description": "Maximum number of jobs in a single pipeline",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum number of jobs in a single pipeline",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "ci_active_jobs",
+        "in": "body",
+        "description": "Total number of jobs in currently active pipelines",
+        "schema": {
+          "type": "integer",
+          "description": "Total number of jobs in currently active pipelines",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "ci_project_subscriptions",
+        "in": "body",
+        "description": "Maximum number of pipeline subscriptions to and from a project",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum number of pipeline subscriptions to and from a project",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "ci_pipeline_schedules",
+        "in": "body",
+        "description": "Maximum number of pipeline schedules",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum number of pipeline schedules",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "ci_needs_size_limit",
+        "in": "body",
+        "description": "Maximum number of needs dependencies that a job can have",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum number of needs dependencies that a job can have",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "ci_registered_group_runners",
+        "in": "body",
+        "description": "Maximum number of runners registered per group",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum number of runners registered per group",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "ci_registered_project_runners",
+        "in": "body",
+        "description": "Maximum number of runners registered per project",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum number of runners registered per project",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "conan_max_file_size",
+        "in": "body",
+        "description": "Maximum Conan package file size in bytes",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum Conan package file size in bytes",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "enforcement_limit",
+        "in": "body",
+        "description": "Maximum storage size for the root namespace enforcement in MiB",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum storage size for the root namespace enforcement in MiB",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "generic_packages_max_file_size",
+        "in": "body",
+        "description": "Maximum generic package file size in bytes",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum generic package file size in bytes",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "helm_max_file_size",
+        "in": "body",
+        "description": "Maximum Helm chart file size in bytes",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum Helm chart file size in bytes",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "maven_max_file_size",
+        "in": "body",
+        "description": "Maximum Maven package file size in bytes",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum Maven package file size in bytes",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "notification_limit",
+        "in": "body",
+        "description": "Maximum storage size for the root namespace notifications in MiB",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum storage size for the root namespace notifications in MiB",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "npm_max_file_size",
+        "in": "body",
+        "description": "Maximum NPM package file size in bytes",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum NPM package file size in bytes",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "nuget_max_file_size",
+        "in": "body",
+        "description": "Maximum NuGet package file size in bytes",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum NuGet package file size in bytes",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "pypi_max_file_size",
+        "in": "body",
+        "description": "Maximum PyPI package file size in bytes",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum PyPI package file size in bytes",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "terraform_module_max_file_size",
+        "in": "body",
+        "description": "Maximum Terraform Module package file size in bytes",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum Terraform Module package file size in bytes",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "storage_size_limit",
+        "in": "body",
+        "description": "Maximum storage size for the root namespace in MiB",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum storage size for the root namespace in MiB",
+          "format": "int32"
+        },
+        "required": false
+      },
+      {
+        "name": "pipeline_hierarchy_size",
+        "in": "body",
+        "description": "Maximum number of downstream pipelines in a pipeline's hierarchy tree",
+        "schema": {
+          "type": "integer",
+          "description": "Maximum number of downstream pipelines in a pipeline's hierarchy tree",
+          "format": "int32"
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getApiV4Metadata",
+    "method": "GET",
+    "path": "/metadata",
+    "summary": "Retrieve metadata information for this GitLab instance",
+    "description": "This feature was introduced in GitLab 15.2.",
+    "parameters": []
+  },
+  {
+    "operationId": "getApiV4Version",
+    "method": "GET",
+    "path": "/version",
+    "summary": "Retrieves version information for the GitLab instance",
+    "description": "This feature was introduced in GitLab 8.13 and deprecated in 15.5. We recommend you instead use the Metadata API.",
+    "parameters": []
+  },
+  {
+    "operationId": "listProjectJobs",
+    "method": "GET",
+    "path": "/projects/{id}/jobs",
+    "summary": "List jobs for a project",
+    "description": "",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "scope",
+        "in": "query",
+        "description": "Return all jobs with the specified statuses",
+        "schema": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "required": false
+      }
+    ]
+  },
+  {
+    "operationId": "getSingleJob",
+    "method": "GET",
+    "path": "/projects/{id}/jobs/{job_id}",
+    "summary": "Get a single job by ID",
+    "description": "",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "job_id",
+        "in": "path",
+        "description": "The ID of the job",
+        "schema": {
+          "type": "integer"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "operationId": "triggerManualJob",
+    "method": "POST",
+    "path": "/projects/{id}/jobs/{job_id}/play",
+    "summary": "Run a manual job",
+    "description": "",
+    "parameters": [
+      {
+        "name": "id",
+        "in": "path",
+        "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+        "schema": {
+          "anyOf": [
+            {
+              "type": "string",
+              "example": "gitlab-org/gitlab"
+            },
+            {
+              "type": "integer",
+              "example": 278964
+            }
+          ]
+        },
+        "required": true
+      },
+      {
+        "name": "job_id",
+        "in": "path",
+        "description": "The ID of the manual job to run",
+        "schema": {
+          "type": "integer"
+        },
+        "required": true
+      },
+      {
+        "name": "job_variables_attributes",
+        "in": "query",
+        "description": "An array containing the custom variables available to the job",
+        "schema": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "required": false
+      }
+    ]
+  }
+]
