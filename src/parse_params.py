@@ -4,7 +4,7 @@ from typing import Dict, List, Tuple, Any, Optional
 import os  # 用于处理文件路径
 
 
-# 1. GitLab API 常见字段映射表（根据实际接口扩展）
+# GitLab API 常见字段映射表
 FIELD_MAPPING = {
     "project_id": "id",
     "user_id": "id",
@@ -18,9 +18,8 @@ FIELD_MAPPING = {
     "key": "id"
 }
 
-# 2. 资源类型 → 业务标识映射表
+# 资源类型 → 业务标识映射表
 RESOURCE_BUSINESS_TAG = {
-    # 资源类型关键词: 对应的业务标识
     "projects": "project",
     "jobs": "job",
     "broadcast_messages": "broadcast",
@@ -31,9 +30,8 @@ RESOURCE_BUSINESS_TAG = {
     "batched_background_migrations": "batched_bg_migration"
 }
 
-# 3. 新增：路径参数名 → 业务标识映射
+# 新增：路径参数名 → 业务标识映射
 PATH_PARAM_BUSINESS_TAG = {
-    # 资源类型关键词: 路径参数名（通常是 id）对应的业务标识
     "batched_background_migrations": "batched_bg_migration",
     "broadcast_messages": "broadcast",
     "jobs": "job",
@@ -42,7 +40,6 @@ PATH_PARAM_BUSINESS_TAG = {
 
 
 def load_openapi_dict(file_path: str) -> Dict[str, Any]:
-    """直接加载 OpenAPI 文件为字典"""
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             openapi_dict = yaml.safe_load(f)
@@ -61,20 +58,20 @@ def load_openapi_dict(file_path: str) -> Dict[str, Any]:
 
 
 def _get_response_schema_from_dict(response: Dict[str, Any]) -> Optional[Dict[str, Any]]:
-    """从响应字典中提取 JSON schema"""
+
     json_content_types = [
         "application/json",
         "application/vnd.gitlab+json",
         "application/json; charset=utf-8"
     ]
 
-    # 1. 检查是否有 content
+    # 检查是否有 content
     content = response.get("content", {})
     if not content:
         print("  ❌ 响应无 content 定义")
         return None
 
-    # 2. 查找目标 JSON 类型
+    # 查找目标 JSON 类型
     target_schema = None
     target_type = None
     for content_type in json_content_types:
@@ -87,7 +84,7 @@ def _get_response_schema_from_dict(response: Dict[str, Any]) -> Optional[Dict[st
         print(f"  ❌ 无可用 JSON schema（content 类型: {list(content.keys())}）")
         return None
 
-    # 3. 验证 schema 是字典
+    # 验证 schema 是字典
     if not isinstance(target_schema, dict):
         print(f"  ❌ schema 不是字典类型（实际类型: {type(target_schema)}）")
         return None
@@ -103,17 +100,17 @@ def extract_operations_from_dict(openapi_dict: Dict[str, Any]) -> Dict[str, Dict
     methods = ["get", "post", "put", "delete", "patch", "head", "options"]
 
     for path, path_config in paths.items():
-        # 核心：提取当前接口的业务场景标识
+        # 提取当前接口的业务场景标识
         business_tags = []
         for resource, tag in RESOURCE_BUSINESS_TAG.items():
             if resource in path:
                 business_tags.append(tag)
-        # 去重并优化：保留更具体的子资源标识
+        # 保留更具体的子资源标识
         business_tags = list(set(business_tags))
         if len(business_tags) > 1:
             # 排除通用父资源
             business_tags = [tag for tag in business_tags if tag not in ["project", "group"]]
-        # 兜底：若仍无标识，尝试从路径最后一段提取资源
+        # 若仍无标识，尝试从路径最后一段提取资源
         if not business_tags:
             path_segments = [seg for seg in path.split("/") if seg and not seg.startswith("{")]
             if path_segments:
@@ -277,7 +274,6 @@ def get_output_fields(op_data: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
     return output_fields
 
 def resolve_all_refs(operations: Dict[str, Dict[str, Any]], openapi_dict: Dict[str, Any]) -> None:
-    """解析所有操作中的 $ref 引用（修复数组类型字段计数问题）"""
     print("\n" + "="*50)
     print("开始解析引用关系（$ref）")
     print("="*50)
@@ -299,12 +295,12 @@ def resolve_all_refs(operations: Dict[str, Dict[str, Any]], openapi_dict: Dict[s
                 # 正确计算字段数量
                 if isinstance(resolved_output, dict):
                     prop_count = 0
-                    # 情况1：响应是数组类型 → 统计数组元素的 properties
+                    # 响应是数组类型 → 统计数组元素的 properties
                     if resolved_output.get("type") == "array":
                         items = resolved_output.get("items", {})
                         if isinstance(items, dict) and items.get("type") == "object":
                             prop_count = len(items.get("properties", {}))
-                    # 情况2：响应是对象类型 → 直接统计自身的 properties
+                    # 响应是对象类型 → 直接统计自身的 properties
                     elif resolved_output.get("type") == "object":
                         prop_count = len(resolved_output.get("properties", {}))
 
@@ -316,7 +312,7 @@ def resolve_all_refs(operations: Dict[str, Dict[str, Any]], openapi_dict: Dict[s
             print("  ⚠️  无出参 schema 可解析")
             op_data["output_resolved"] = {}
 
-        # 解析请求体引用（入参中的请求体字段）
+        # 解析请求体引用
         req_body = op_data["input"]["request_body"]
         if req_body:
             try:
@@ -337,7 +333,7 @@ def resolve_all_refs(operations: Dict[str, Dict[str, Any]], openapi_dict: Dict[s
                 print(f"  ❌ 解析请求体失败: {e}")
                 op_data["input"]["request_body_resolved"] = {}
 
-        # 3. 解析参数引用
+        # 解析参数引用
         resolved_params = []
         for param in op_data["input"]["parameters"]:
             try:
@@ -570,7 +566,6 @@ def main(
     file_path: str = "./data/openapi.yaml",
     output_file: str = "./dependency_results.txt"
 ) -> None:
-    """主函数：终端只打印统计，文件保留完整依赖"""
     print("="*60)
     print("           GitLab OpenAPI 接口依赖关系分析工具")
     print("="*60)
