@@ -6,7 +6,7 @@ INPUT_FILE = Path("data/openapi.yaml")
 OUTPUT_FILE = Path("outputs/operation_parameters.json")
 
 def extract_parameters():
-    # ❶ 让 prance 帮你把 $ref 全部解析成完整定义
+    # 让 prance 帮你把 $ref 全部解析成完整定义
     parser = prance.ResolvingParser(str(INPUT_FILE), backend='openapi-spec-validator', strict=False)
     spec = parser.specification   
 
@@ -23,7 +23,7 @@ def extract_parameters():
 
             param_list = []
 
-            # ❷ 路径参数
+            # 路径参数
             for param in op.get("parameters", []):
                 param_list.append({
                     "name": param.get("name"),
@@ -33,7 +33,7 @@ def extract_parameters():
                     "required": param.get("required", False)
                 })
 
-            # ❸ 请求体参数
+            # 请求体参数
             if "requestBody" in op:
                 content = op["requestBody"].get("content", {})
                 for content_type, schema_obj in content.items():
