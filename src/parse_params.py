@@ -1,7 +1,7 @@
 import yaml
 import traceback
 from typing import Dict, List, Tuple, Any, Optional
-import os  # 用于处理文件路径
+import os
 
 
 # GitLab API 常见字段映射表
@@ -30,7 +30,7 @@ RESOURCE_BUSINESS_TAG = {
     "batched_background_migrations": "batched_bg_migration"
 }
 
-# 新增：路径参数名 → 业务标识映射
+# 路径参数名 → 业务标识映射
 PATH_PARAM_BUSINESS_TAG = {
     "batched_background_migrations": "batched_bg_migration",
     "broadcast_messages": "broadcast",
