@@ -3,1488 +3,5789 @@
     "operationId": "getApiV4GroupsIdBadgesBadgeId",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or URL-encoded path of the group owned by the authenticated user."
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user.",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4GroupsIdBadgesBadgeId",
     "param_name": "badge_id",
     "param_in": "path",
-    "description": "The badge ID"
+    "description": "The badge ID",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesBadgeId",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesBadgeId",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesBadgeId",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesBadgeId",
+    "param_name": "rendered_link_url",
+    "param_in": "body",
+    "description": "rendered_link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesBadgeId",
+    "param_name": "rendered_image_url",
+    "param_in": "body",
+    "description": "rendered_image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesBadgeId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesBadgeId",
+    "param_name": "kind",
+    "param_in": "body",
+    "description": "kind",
+    "direction": "response"
   },
   {
     "operationId": "putApiV4GroupsIdBadgesBadgeId",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or URL-encoded path of the group owned by the authenticated user."
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user.",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4GroupsIdBadgesBadgeId",
     "param_name": "badge_id",
     "param_in": "path",
-    "description": ""
+    "description": "badge_id",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4GroupsIdBadgesBadgeId",
     "param_name": "link_url",
     "param_in": "body",
-    "description": "URL of the badge link"
+    "description": "URL of the badge link",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4GroupsIdBadgesBadgeId",
     "param_name": "image_url",
     "param_in": "body",
-    "description": "URL of the badge image"
+    "description": "URL of the badge image",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4GroupsIdBadgesBadgeId",
     "param_name": "name",
     "param_in": "body",
-    "description": "Name for the badge"
+    "description": "Name for the badge",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "param_name": "rendered_link_url",
+    "param_in": "body",
+    "description": "rendered_link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "param_name": "rendered_image_url",
+    "param_in": "body",
+    "description": "rendered_image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdBadgesBadgeId",
+    "param_name": "kind",
+    "param_in": "body",
+    "description": "kind",
+    "direction": "response"
   },
   {
     "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or URL-encoded path of the group owned by the authenticated user."
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user.",
+    "direction": "input"
   },
   {
     "operationId": "deleteApiV4GroupsIdBadgesBadgeId",
     "param_name": "badge_id",
     "param_in": "path",
-    "description": "The badge ID"
+    "description": "The badge ID",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4GroupsIdBadges",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or URL-encoded path of the group owned by the authenticated user."
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user.",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4GroupsIdBadges",
     "param_name": "page",
     "param_in": "query",
-    "description": "Current page number"
+    "description": "Current page number",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4GroupsIdBadges",
     "param_name": "per_page",
     "param_in": "query",
-    "description": "Number of items per page"
+    "description": "Number of items per page",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4GroupsIdBadges",
     "param_name": "name",
     "param_in": "query",
-    "description": "Name for the badge"
+    "description": "Name for the badge",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadges",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadges",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadges",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadges",
+    "param_name": "rendered_link_url",
+    "param_in": "body",
+    "description": "rendered_link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadges",
+    "param_name": "rendered_image_url",
+    "param_in": "body",
+    "description": "rendered_image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadges",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadges",
+    "param_name": "kind",
+    "param_in": "body",
+    "description": "kind",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4GroupsIdBadges",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or URL-encoded path of the group owned by the authenticated user."
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user.",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4GroupsIdBadges",
     "param_name": "link_url",
     "param_in": "body",
-    "description": "URL of the badge link"
+    "description": "URL of the badge link",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4GroupsIdBadges",
     "param_name": "image_url",
     "param_in": "body",
-    "description": "URL of the badge image"
+    "description": "URL of the badge image",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4GroupsIdBadges",
     "param_name": "name",
     "param_in": "body",
-    "description": "Name for the badge"
+    "description": "Name for the badge",
+    "direction": "input"
+  },
+  {
+    "operationId": "postApiV4GroupsIdBadges",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdBadges",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdBadges",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdBadges",
+    "param_name": "rendered_link_url",
+    "param_in": "body",
+    "description": "rendered_link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdBadges",
+    "param_name": "rendered_image_url",
+    "param_in": "body",
+    "description": "rendered_image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdBadges",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdBadges",
+    "param_name": "kind",
+    "param_in": "body",
+    "description": "kind",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4GroupsIdBadgesRender",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or URL-encoded path of the group owned by the authenticated user."
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user.",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4GroupsIdBadgesRender",
     "param_name": "link_url",
     "param_in": "query",
-    "description": "URL of the badge link"
+    "description": "URL of the badge link",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4GroupsIdBadgesRender",
     "param_name": "image_url",
     "param_in": "query",
-    "description": "URL of the badge image"
+    "description": "URL of the badge image",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesRender",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesRender",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesRender",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesRender",
+    "param_name": "rendered_link_url",
+    "param_in": "body",
+    "description": "rendered_link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdBadgesRender",
+    "param_name": "rendered_image_url",
+    "param_in": "body",
+    "description": "rendered_image_url",
+    "direction": "response"
   },
   {
     "operationId": "deleteApiV4GroupsIdAccessRequestsUserId",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or URL-encoded path of the group owned by the authenticated user"
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user",
+    "direction": "input"
   },
   {
     "operationId": "deleteApiV4GroupsIdAccessRequestsUserId",
     "param_name": "user_id",
     "param_in": "path",
-    "description": "The user ID of the access requester"
+    "description": "The user ID of the access requester",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or URL-encoded path of the group owned by the authenticated user"
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
     "param_name": "user_id",
     "param_in": "path",
-    "description": "The user ID of the access requester"
+    "description": "The user ID of the access requester",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
     "param_name": "access_level",
     "param_in": "body",
-    "description": "A valid access level (defaults: `30`, the Developer role)"
+    "description": "A valid access level (defaults: `30`, the Developer role)",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "username",
+    "param_in": "body",
+    "description": "username",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "state",
+    "param_in": "body",
+    "description": "state",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "avatar_url",
+    "param_in": "body",
+    "description": "avatar_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "avatar_path",
+    "param_in": "body",
+    "description": "avatar_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "custom_attributes",
+    "param_in": "body",
+    "description": "custom_attributes",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "web_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "email",
+    "param_in": "body",
+    "description": "email",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4GroupsIdAccessRequestsUserIdApprove",
+    "param_name": "requested_at",
+    "param_in": "body",
+    "description": "requested_at",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4GroupsIdAccessRequests",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or URL-encoded path of the group owned by the authenticated user"
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4GroupsIdAccessRequests",
     "param_name": "page",
     "param_in": "query",
-    "description": "Current page number"
+    "description": "Current page number",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4GroupsIdAccessRequests",
     "param_name": "per_page",
     "param_in": "query",
-    "description": "Number of items per page"
+    "description": "Number of items per page",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "username",
+    "param_in": "body",
+    "description": "username",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "state",
+    "param_in": "body",
+    "description": "state",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "avatar_url",
+    "param_in": "body",
+    "description": "avatar_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "avatar_path",
+    "param_in": "body",
+    "description": "avatar_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "custom_attributes",
+    "param_in": "body",
+    "description": "custom_attributes",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "web_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "email",
+    "param_in": "body",
+    "description": "email",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4GroupsIdAccessRequests",
+    "param_name": "requested_at",
+    "param_in": "body",
+    "description": "requested_at",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4GroupsIdAccessRequests",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or URL-encoded path of the group owned by the authenticated user"
+    "description": "The ID or URL-encoded path of the group owned by the authenticated user",
+    "direction": "input"
+  },
+  {
+    "operationId": "postApiV4GroupsIdAccessRequests",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdAccessRequests",
+    "param_name": "username",
+    "param_in": "body",
+    "description": "username",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdAccessRequests",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdAccessRequests",
+    "param_name": "state",
+    "param_in": "body",
+    "description": "state",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdAccessRequests",
+    "param_name": "avatar_url",
+    "param_in": "body",
+    "description": "avatar_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdAccessRequests",
+    "param_name": "avatar_path",
+    "param_in": "body",
+    "description": "avatar_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdAccessRequests",
+    "param_name": "custom_attributes",
+    "param_in": "body",
+    "description": "custom_attributes",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdAccessRequests",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "web_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdAccessRequests",
+    "param_name": "email",
+    "param_in": "body",
+    "description": "email",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4GroupsIdAccessRequests",
+    "param_name": "requested_at",
+    "param_in": "body",
+    "description": "requested_at",
+    "direction": "response"
   },
   {
     "operationId": "deleteApiV4ProjectsIdRepositoryMergedBranches",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
     "param_name": "branch",
     "param_in": "path",
-    "description": ""
+    "description": "branch",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "commit",
+    "param_in": "body",
+    "description": "commit",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "merged",
+    "param_in": "body",
+    "description": "merged",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "protected",
+    "param_in": "body",
+    "description": "protected",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "developers_can_push",
+    "param_in": "body",
+    "description": "developers_can_push",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "developers_can_merge",
+    "param_in": "body",
+    "description": "developers_can_merge",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "can_push",
+    "param_in": "body",
+    "description": "can_push",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "default",
+    "param_in": "body",
+    "description": "default",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranchesBranch",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "web_url",
+    "direction": "response"
   },
   {
     "operationId": "deleteApiV4ProjectsIdRepositoryBranchesBranch",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "deleteApiV4ProjectsIdRepositoryBranchesBranch",
     "param_name": "branch",
     "param_in": "path",
-    "description": "The name of the branch"
+    "description": "The name of the branch",
+    "direction": "input"
   },
   {
     "operationId": "headApiV4ProjectsIdRepositoryBranchesBranch",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "headApiV4ProjectsIdRepositoryBranchesBranch",
     "param_name": "branch",
     "param_in": "path",
-    "description": "The name of the branch"
+    "description": "The name of the branch",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdRepositoryBranches",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdRepositoryBranches",
     "param_name": "page",
     "param_in": "query",
-    "description": "Current page number"
+    "description": "Current page number",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdRepositoryBranches",
     "param_name": "per_page",
     "param_in": "query",
-    "description": "Number of items per page"
+    "description": "Number of items per page",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdRepositoryBranches",
     "param_name": "search",
     "param_in": "query",
-    "description": "Return list of branches matching the search criteria"
+    "description": "Return list of branches matching the search criteria",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdRepositoryBranches",
     "param_name": "regex",
     "param_in": "query",
-    "description": "Return list of branches matching the regex"
+    "description": "Return list of branches matching the regex",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdRepositoryBranches",
     "param_name": "sort",
     "param_in": "query",
-    "description": "Return list of branches sorted by the given field"
+    "description": "Return list of branches sorted by the given field",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdRepositoryBranches",
     "param_name": "page_token",
     "param_in": "query",
-    "description": "Name of branch to start the pagination from"
+    "description": "Name of branch to start the pagination from",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "commit",
+    "param_in": "body",
+    "description": "commit",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "merged",
+    "param_in": "body",
+    "description": "merged",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "protected",
+    "param_in": "body",
+    "description": "protected",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "developers_can_push",
+    "param_in": "body",
+    "description": "developers_can_push",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "developers_can_merge",
+    "param_in": "body",
+    "description": "developers_can_merge",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "can_push",
+    "param_in": "body",
+    "description": "can_push",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "default",
+    "param_in": "body",
+    "description": "default",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdRepositoryBranches",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "web_url",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4ProjectsIdRepositoryBranches",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4ProjectsIdRepositoryBranches",
     "param_name": "branch",
     "param_in": "query",
-    "description": "The name of the branch"
+    "description": "The name of the branch",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4ProjectsIdRepositoryBranches",
     "param_name": "ref",
     "param_in": "query",
-    "description": "Create branch from commit sha or existing branch"
+    "description": "Create branch from commit sha or existing branch",
+    "direction": "input"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "param_name": "commit",
+    "param_in": "body",
+    "description": "commit",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "param_name": "merged",
+    "param_in": "body",
+    "description": "merged",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "param_name": "protected",
+    "param_in": "body",
+    "description": "protected",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "param_name": "developers_can_push",
+    "param_in": "body",
+    "description": "developers_can_push",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "param_name": "developers_can_merge",
+    "param_in": "body",
+    "description": "developers_can_merge",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "param_name": "can_push",
+    "param_in": "body",
+    "description": "can_push",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "param_name": "default",
+    "param_in": "body",
+    "description": "default",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdRepositoryBranches",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "web_url",
+    "direction": "response"
   },
   {
     "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
     "param_name": "branch",
     "param_in": "path",
-    "description": "The name of the branch"
+    "description": "The name of the branch",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+    "param_name": "commit",
+    "param_in": "body",
+    "description": "commit",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+    "param_name": "merged",
+    "param_in": "body",
+    "description": "merged",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+    "param_name": "protected",
+    "param_in": "body",
+    "description": "protected",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+    "param_name": "developers_can_push",
+    "param_in": "body",
+    "description": "developers_can_push",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+    "param_name": "developers_can_merge",
+    "param_in": "body",
+    "description": "developers_can_merge",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+    "param_name": "can_push",
+    "param_in": "body",
+    "description": "can_push",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+    "param_name": "default",
+    "param_in": "body",
+    "description": "default",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchUnprotect",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "web_url",
+    "direction": "response"
   },
   {
     "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
     "param_name": "branch",
     "param_in": "path",
-    "description": "The name of the branch"
+    "description": "The name of the branch",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
     "param_name": "developers_can_push",
     "param_in": "body",
-    "description": "Flag if developers can push to that branch"
+    "description": "Flag if developers can push to that branch",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
     "param_name": "developers_can_merge",
     "param_in": "body",
-    "description": "Flag if developers can merge to that branch"
+    "description": "Flag if developers can merge to that branch",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "commit",
+    "param_in": "body",
+    "description": "commit",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "merged",
+    "param_in": "body",
+    "description": "merged",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "protected",
+    "param_in": "body",
+    "description": "protected",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "developers_can_push",
+    "param_in": "body",
+    "description": "developers_can_push",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "developers_can_merge",
+    "param_in": "body",
+    "description": "developers_can_merge",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "can_push",
+    "param_in": "body",
+    "description": "can_push",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "default",
+    "param_in": "body",
+    "description": "default",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdRepositoryBranchesBranchProtect",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "web_url",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4ProjectsIdBadgesBadgeId",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdBadgesBadgeId",
     "param_name": "badge_id",
     "param_in": "path",
-    "description": "The badge ID"
+    "description": "The badge ID",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "rendered_link_url",
+    "param_in": "body",
+    "description": "rendered_link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "rendered_image_url",
+    "param_in": "body",
+    "description": "rendered_image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "kind",
+    "param_in": "body",
+    "description": "kind",
+    "direction": "response"
   },
   {
     "operationId": "putApiV4ProjectsIdBadgesBadgeId",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdBadgesBadgeId",
     "param_name": "badge_id",
     "param_in": "path",
-    "description": ""
+    "description": "badge_id",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdBadgesBadgeId",
     "param_name": "link_url",
     "param_in": "body",
-    "description": "URL of the badge link"
+    "description": "URL of the badge link",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdBadgesBadgeId",
     "param_name": "image_url",
     "param_in": "body",
-    "description": "URL of the badge image"
+    "description": "URL of the badge image",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdBadgesBadgeId",
     "param_name": "name",
     "param_in": "body",
-    "description": "Name for the badge"
+    "description": "Name for the badge",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "rendered_link_url",
+    "param_in": "body",
+    "description": "rendered_link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "rendered_image_url",
+    "param_in": "body",
+    "description": "rendered_image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdBadgesBadgeId",
+    "param_name": "kind",
+    "param_in": "body",
+    "description": "kind",
+    "direction": "response"
   },
   {
     "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "deleteApiV4ProjectsIdBadgesBadgeId",
     "param_name": "badge_id",
     "param_in": "path",
-    "description": "The badge ID"
+    "description": "The badge ID",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdBadges",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdBadges",
     "param_name": "page",
     "param_in": "query",
-    "description": "Current page number"
+    "description": "Current page number",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdBadges",
     "param_name": "per_page",
     "param_in": "query",
-    "description": "Number of items per page"
+    "description": "Number of items per page",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdBadges",
     "param_name": "name",
     "param_in": "query",
-    "description": "Name for the badge"
+    "description": "Name for the badge",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadges",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadges",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadges",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadges",
+    "param_name": "rendered_link_url",
+    "param_in": "body",
+    "description": "rendered_link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadges",
+    "param_name": "rendered_image_url",
+    "param_in": "body",
+    "description": "rendered_image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadges",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadges",
+    "param_name": "kind",
+    "param_in": "body",
+    "description": "kind",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4ProjectsIdBadges",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4ProjectsIdBadges",
     "param_name": "link_url",
     "param_in": "body",
-    "description": "URL of the badge link"
+    "description": "URL of the badge link",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4ProjectsIdBadges",
     "param_name": "image_url",
     "param_in": "body",
-    "description": "URL of the badge image"
+    "description": "URL of the badge image",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4ProjectsIdBadges",
     "param_name": "name",
     "param_in": "body",
-    "description": "Name for the badge"
+    "description": "Name for the badge",
+    "direction": "input"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdBadges",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdBadges",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdBadges",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdBadges",
+    "param_name": "rendered_link_url",
+    "param_in": "body",
+    "description": "rendered_link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdBadges",
+    "param_name": "rendered_image_url",
+    "param_in": "body",
+    "description": "rendered_image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdBadges",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdBadges",
+    "param_name": "kind",
+    "param_in": "body",
+    "description": "kind",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4ProjectsIdBadgesRender",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdBadgesRender",
     "param_name": "link_url",
     "param_in": "query",
-    "description": "URL of the badge link"
+    "description": "URL of the badge link",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdBadgesRender",
     "param_name": "image_url",
     "param_in": "query",
-    "description": "URL of the badge image"
+    "description": "URL of the badge image",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesRender",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesRender",
+    "param_name": "link_url",
+    "param_in": "body",
+    "description": "link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesRender",
+    "param_name": "image_url",
+    "param_in": "body",
+    "description": "image_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesRender",
+    "param_name": "rendered_link_url",
+    "param_in": "body",
+    "description": "rendered_link_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdBadgesRender",
+    "param_name": "rendered_image_url",
+    "param_in": "body",
+    "description": "rendered_image_url",
+    "direction": "response"
   },
   {
     "operationId": "deleteApiV4ProjectsIdAccessRequestsUserId",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "deleteApiV4ProjectsIdAccessRequestsUserId",
     "param_name": "user_id",
     "param_in": "path",
-    "description": "The user ID of the access requester"
+    "description": "The user ID of the access requester",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
     "param_name": "user_id",
     "param_in": "path",
-    "description": "The user ID of the access requester"
+    "description": "The user ID of the access requester",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
     "param_name": "access_level",
     "param_in": "body",
-    "description": "A valid access level (defaults: `30`, the Developer role)"
+    "description": "A valid access level (defaults: `30`, the Developer role)",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "username",
+    "param_in": "body",
+    "description": "username",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "state",
+    "param_in": "body",
+    "description": "state",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "avatar_url",
+    "param_in": "body",
+    "description": "avatar_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "avatar_path",
+    "param_in": "body",
+    "description": "avatar_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "custom_attributes",
+    "param_in": "body",
+    "description": "custom_attributes",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "web_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "email",
+    "param_in": "body",
+    "description": "email",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAccessRequestsUserIdApprove",
+    "param_name": "requested_at",
+    "param_in": "body",
+    "description": "requested_at",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4ProjectsIdAccessRequests",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdAccessRequests",
     "param_name": "page",
     "param_in": "query",
-    "description": "Current page number"
+    "description": "Current page number",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdAccessRequests",
     "param_name": "per_page",
     "param_in": "query",
-    "description": "Number of items per page"
+    "description": "Number of items per page",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "username",
+    "param_in": "body",
+    "description": "username",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "state",
+    "param_in": "body",
+    "description": "state",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "avatar_url",
+    "param_in": "body",
+    "description": "avatar_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "avatar_path",
+    "param_in": "body",
+    "description": "avatar_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "custom_attributes",
+    "param_in": "body",
+    "description": "custom_attributes",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "web_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "email",
+    "param_in": "body",
+    "description": "email",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAccessRequests",
+    "param_name": "requested_at",
+    "param_in": "body",
+    "description": "requested_at",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4ProjectsIdAccessRequests",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAccessRequests",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAccessRequests",
+    "param_name": "username",
+    "param_in": "body",
+    "description": "username",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAccessRequests",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAccessRequests",
+    "param_name": "state",
+    "param_in": "body",
+    "description": "state",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAccessRequests",
+    "param_name": "avatar_url",
+    "param_in": "body",
+    "description": "avatar_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAccessRequests",
+    "param_name": "avatar_path",
+    "param_in": "body",
+    "description": "avatar_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAccessRequests",
+    "param_name": "custom_attributes",
+    "param_in": "body",
+    "description": "custom_attributes",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAccessRequests",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "web_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAccessRequests",
+    "param_name": "email",
+    "param_in": "body",
+    "description": "email",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAccessRequests",
+    "param_name": "requested_at",
+    "param_in": "body",
+    "description": "requested_at",
+    "direction": "response"
   },
   {
     "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
     "param_name": "alert_iid",
     "param_in": "path",
-    "description": "The IID of the Alert"
+    "description": "The IID of the Alert",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
     "param_name": "metric_image_id",
     "param_in": "path",
-    "description": "The ID of metric image"
+    "description": "The ID of metric image",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
     "param_name": "url",
     "param_in": "body",
-    "description": "The url to view more metric info"
+    "description": "The url to view more metric info",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
     "param_name": "url_text",
     "param_in": "body",
-    "description": "A description of the image or URL"
+    "description": "A description of the image or URL",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "filename",
+    "param_in": "body",
+    "description": "filename",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "file_path",
+    "param_in": "body",
+    "description": "file_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "url",
+    "param_in": "body",
+    "description": "url",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "url_text",
+    "param_in": "body",
+    "description": "url_text",
+    "direction": "response"
   },
   {
     "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
     "param_name": "alert_iid",
     "param_in": "path",
-    "description": "The IID of the Alert"
+    "description": "The IID of the Alert",
+    "direction": "input"
   },
   {
     "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
     "param_name": "metric_image_id",
     "param_in": "path",
-    "description": "The ID of metric image"
+    "description": "The ID of metric image",
+    "direction": "input"
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "filename",
+    "param_in": "body",
+    "description": "filename",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "file_path",
+    "param_in": "body",
+    "description": "file_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "url",
+    "param_in": "body",
+    "description": "url",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesMetricImageId",
+    "param_name": "url_text",
+    "param_in": "body",
+    "description": "url_text",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
     "param_name": "alert_iid",
     "param_in": "path",
-    "description": "The IID of the Alert"
+    "description": "The IID of the Alert",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "filename",
+    "param_in": "body",
+    "description": "filename",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "file_path",
+    "param_in": "body",
+    "description": "file_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "url",
+    "param_in": "body",
+    "description": "url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "url_text",
+    "param_in": "body",
+    "description": "url_text",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
     "param_name": "alert_iid",
     "param_in": "path",
-    "description": "The IID of the Alert"
+    "description": "The IID of the Alert",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
     "param_name": "file",
     "param_in": "body",
-    "description": "The image file to be uploaded"
+    "description": "The image file to be uploaded",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
     "param_name": "url",
     "param_in": "body",
-    "description": "The url to view more metric info"
+    "description": "The url to view more metric info",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
     "param_name": "url_text",
     "param_in": "body",
-    "description": "A description of the image or URL"
+    "description": "A description of the image or URL",
+    "direction": "input"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "filename",
+    "param_in": "body",
+    "description": "filename",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "file_path",
+    "param_in": "body",
+    "description": "file_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "url",
+    "param_in": "body",
+    "description": "url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImages",
+    "param_name": "url_text",
+    "param_in": "body",
+    "description": "url_text",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesAuthorize",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4ProjectsIdAlertManagementAlertsAlertIidMetricImagesAuthorize",
     "param_name": "alert_iid",
     "param_in": "path",
-    "description": "The IID of the Alert"
+    "description": "The IID of the Alert",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
     "param_name": "database",
     "param_in": "query",
-    "description": "The name of the database"
+    "description": "The name of the database",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
     "param_name": "id",
     "param_in": "path",
-    "description": "The batched background migration id"
+    "description": "The batched background migration id",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
+    "param_name": "job_class_name",
+    "param_in": "body",
+    "description": "job_class_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
+    "param_name": "table_name",
+    "param_in": "body",
+    "description": "table_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
+    "param_name": "status",
+    "param_in": "body",
+    "description": "status",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
+    "param_name": "progress",
+    "param_in": "body",
+    "description": "progress",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrationsId",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4AdminBatchedBackgroundMigrations",
     "param_name": "database",
     "param_in": "query",
-    "description": "The name of the database, the default `main`"
+    "description": "The name of the database, the default `main`",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrations",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrations",
+    "param_name": "job_class_name",
+    "param_in": "body",
+    "description": "job_class_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrations",
+    "param_name": "table_name",
+    "param_in": "body",
+    "description": "table_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrations",
+    "param_name": "status",
+    "param_in": "body",
+    "description": "status",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrations",
+    "param_name": "progress",
+    "param_in": "body",
+    "description": "progress",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminBatchedBackgroundMigrations",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
   },
   {
     "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
     "param_name": "id",
     "param_in": "path",
-    "description": "The batched background migration id"
+    "description": "The batched background migration id",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
     "param_name": "database",
     "param_in": "body",
-    "description": "The name of the database"
+    "description": "The name of the database",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
+    "param_name": "job_class_name",
+    "param_in": "body",
+    "description": "job_class_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
+    "param_name": "table_name",
+    "param_in": "body",
+    "description": "table_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
+    "param_name": "status",
+    "param_in": "body",
+    "description": "status",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
+    "param_name": "progress",
+    "param_in": "body",
+    "description": "progress",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdResume",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
   },
   {
     "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
     "param_name": "id",
     "param_in": "path",
-    "description": "The batched background migration id"
+    "description": "The batched background migration id",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
     "param_name": "database",
     "param_in": "body",
-    "description": "The name of the database"
+    "description": "The name of the database",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
+    "param_name": "job_class_name",
+    "param_in": "body",
+    "description": "job_class_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
+    "param_name": "table_name",
+    "param_in": "body",
+    "description": "table_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
+    "param_name": "status",
+    "param_in": "body",
+    "description": "status",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
+    "param_name": "progress",
+    "param_in": "body",
+    "description": "progress",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminBatchedBackgroundMigrationsIdPause",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4AdminCiVariablesKey",
     "param_name": "key",
     "param_in": "path",
-    "description": "The key of a variable"
+    "description": "The key of a variable",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariablesKey",
+    "param_name": "variable_type",
+    "param_in": "body",
+    "description": "variable_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariablesKey",
+    "param_name": "key",
+    "param_in": "body",
+    "description": "key",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariablesKey",
+    "param_name": "value",
+    "param_in": "body",
+    "description": "value",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariablesKey",
+    "param_name": "protected",
+    "param_in": "body",
+    "description": "protected",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariablesKey",
+    "param_name": "masked",
+    "param_in": "body",
+    "description": "masked",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariablesKey",
+    "param_name": "raw",
+    "param_in": "body",
+    "description": "raw",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariablesKey",
+    "param_name": "environment_scope",
+    "param_in": "body",
+    "description": "environment_scope",
+    "direction": "response"
   },
   {
     "operationId": "putApiV4AdminCiVariablesKey",
     "param_name": "key",
     "param_in": "path",
-    "description": "The key of a variable"
+    "description": "The key of a variable",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminCiVariablesKey",
     "param_name": "value",
     "param_in": "body",
-    "description": "The value of a variable"
+    "description": "The value of a variable",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminCiVariablesKey",
     "param_name": "protected",
     "param_in": "body",
-    "description": "Whether the variable is protected"
+    "description": "Whether the variable is protected",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminCiVariablesKey",
     "param_name": "masked",
     "param_in": "body",
-    "description": "Whether the variable is masked"
+    "description": "Whether the variable is masked",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminCiVariablesKey",
     "param_name": "raw",
     "param_in": "body",
-    "description": "Whether the variable will be expanded"
+    "description": "Whether the variable will be expanded",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminCiVariablesKey",
     "param_name": "variable_type",
     "param_in": "body",
-    "description": "The type of a variable. Available types are: env_var (default) and file"
+    "description": "The type of a variable. Available types are: env_var (default) and file",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "variable_type",
+    "param_in": "body",
+    "description": "variable_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "key",
+    "param_in": "body",
+    "description": "key",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "value",
+    "param_in": "body",
+    "description": "value",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "protected",
+    "param_in": "body",
+    "description": "protected",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "masked",
+    "param_in": "body",
+    "description": "masked",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "raw",
+    "param_in": "body",
+    "description": "raw",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminCiVariablesKey",
+    "param_name": "environment_scope",
+    "param_in": "body",
+    "description": "environment_scope",
+    "direction": "response"
   },
   {
     "operationId": "deleteApiV4AdminCiVariablesKey",
     "param_name": "key",
     "param_in": "path",
-    "description": "The key of a variable"
+    "description": "The key of a variable",
+    "direction": "input"
+  },
+  {
+    "operationId": "deleteApiV4AdminCiVariablesKey",
+    "param_name": "variable_type",
+    "param_in": "body",
+    "description": "variable_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminCiVariablesKey",
+    "param_name": "key",
+    "param_in": "body",
+    "description": "key",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminCiVariablesKey",
+    "param_name": "value",
+    "param_in": "body",
+    "description": "value",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminCiVariablesKey",
+    "param_name": "protected",
+    "param_in": "body",
+    "description": "protected",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminCiVariablesKey",
+    "param_name": "masked",
+    "param_in": "body",
+    "description": "masked",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminCiVariablesKey",
+    "param_name": "raw",
+    "param_in": "body",
+    "description": "raw",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminCiVariablesKey",
+    "param_name": "environment_scope",
+    "param_in": "body",
+    "description": "environment_scope",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4AdminCiVariables",
     "param_name": "page",
     "param_in": "query",
-    "description": "Current page number"
+    "description": "Current page number",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4AdminCiVariables",
     "param_name": "per_page",
     "param_in": "query",
-    "description": "Number of items per page"
+    "description": "Number of items per page",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariables",
+    "param_name": "variable_type",
+    "param_in": "body",
+    "description": "variable_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariables",
+    "param_name": "key",
+    "param_in": "body",
+    "description": "key",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariables",
+    "param_name": "value",
+    "param_in": "body",
+    "description": "value",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariables",
+    "param_name": "protected",
+    "param_in": "body",
+    "description": "protected",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariables",
+    "param_name": "masked",
+    "param_in": "body",
+    "description": "masked",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariables",
+    "param_name": "raw",
+    "param_in": "body",
+    "description": "raw",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminCiVariables",
+    "param_name": "environment_scope",
+    "param_in": "body",
+    "description": "environment_scope",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4AdminCiVariables",
     "param_name": "key",
     "param_in": "body",
-    "description": "The key of the variable. Max 255 characters"
+    "description": "The key of the variable. Max 255 characters",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminCiVariables",
     "param_name": "value",
     "param_in": "body",
-    "description": "The value of a variable"
+    "description": "The value of a variable",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminCiVariables",
     "param_name": "protected",
     "param_in": "body",
-    "description": "Whether the variable is protected"
+    "description": "Whether the variable is protected",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminCiVariables",
     "param_name": "masked",
     "param_in": "body",
-    "description": "Whether the variable is masked"
+    "description": "Whether the variable is masked",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminCiVariables",
     "param_name": "raw",
     "param_in": "body",
-    "description": "Whether the variable will be expanded"
+    "description": "Whether the variable will be expanded",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminCiVariables",
     "param_name": "variable_type",
     "param_in": "body",
-    "description": "The type of a variable. Available types are: env_var (default) and file"
+    "description": "The type of a variable. Available types are: env_var (default) and file",
+    "direction": "input"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "variable_type",
+    "param_in": "body",
+    "description": "variable_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "key",
+    "param_in": "body",
+    "description": "key",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "value",
+    "param_in": "body",
+    "description": "value",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "protected",
+    "param_in": "body",
+    "description": "protected",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "masked",
+    "param_in": "body",
+    "description": "masked",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "raw",
+    "param_in": "body",
+    "description": "raw",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminCiVariables",
+    "param_name": "environment_scope",
+    "param_in": "body",
+    "description": "environment_scope",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4AdminDatabasesDatabaseNameDictionaryTablesTableName",
     "param_name": "database_name",
     "param_in": "path",
-    "description": "The database name"
+    "description": "The database name",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4AdminDatabasesDatabaseNameDictionaryTablesTableName",
     "param_name": "table_name",
     "param_in": "path",
-    "description": "The table name"
+    "description": "The table name",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4AdminDatabasesDatabaseNameDictionaryTablesTableName",
+    "param_name": "table_name",
+    "param_in": "body",
+    "description": "table_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminDatabasesDatabaseNameDictionaryTablesTableName",
+    "param_name": "feature_categories",
+    "param_in": "body",
+    "description": "feature_categories",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4AdminClustersClusterId",
     "param_name": "cluster_id",
     "param_in": "path",
-    "description": "The cluster ID"
+    "description": "The cluster ID",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "domain",
+    "param_in": "body",
+    "description": "domain",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "enabled",
+    "param_in": "body",
+    "description": "enabled",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "managed",
+    "param_in": "body",
+    "description": "managed",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "provider_type",
+    "param_in": "body",
+    "description": "provider_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "platform_type",
+    "param_in": "body",
+    "description": "platform_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "environment_scope",
+    "param_in": "body",
+    "description": "environment_scope",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "cluster_type",
+    "param_in": "body",
+    "description": "cluster_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "namespace_per_environment",
+    "param_in": "body",
+    "description": "namespace_per_environment",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "user",
+    "param_in": "body",
+    "description": "user",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "platform_kubernetes",
+    "param_in": "body",
+    "description": "platform_kubernetes",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "provider_gcp",
+    "param_in": "body",
+    "description": "provider_gcp",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClustersClusterId",
+    "param_name": "management_project",
+    "param_in": "body",
+    "description": "management_project",
+    "direction": "response"
   },
   {
     "operationId": "putApiV4AdminClustersClusterId",
     "param_name": "cluster_id",
     "param_in": "path",
-    "description": "The cluster ID"
+    "description": "The cluster ID",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminClustersClusterId",
     "param_name": "name",
     "param_in": "body",
-    "description": "Cluster name"
+    "description": "Cluster name",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminClustersClusterId",
     "param_name": "enabled",
     "param_in": "body",
-    "description": "Enable or disable Gitlab's connection to your Kubernetes cluster"
+    "description": "Enable or disable Gitlab's connection to your Kubernetes cluster",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminClustersClusterId",
     "param_name": "environment_scope",
     "param_in": "body",
-    "description": "The associated environment to the cluster"
+    "description": "The associated environment to the cluster",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminClustersClusterId",
     "param_name": "namespace_per_environment",
     "param_in": "body",
-    "description": "Deploy each environment to a separate Kubernetes namespace"
+    "description": "Deploy each environment to a separate Kubernetes namespace",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminClustersClusterId",
     "param_name": "domain",
     "param_in": "body",
-    "description": "Cluster base domain"
+    "description": "Cluster base domain",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminClustersClusterId",
     "param_name": "management_project_id",
     "param_in": "body",
-    "description": "The ID of the management project"
+    "description": "The ID of the management project",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminClustersClusterId",
     "param_name": "managed",
     "param_in": "body",
-    "description": "Determines if GitLab will manage namespaces and service accounts for this cluster"
+    "description": "Determines if GitLab will manage namespaces and service accounts for this cluster",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminClustersClusterId",
     "param_name": "platform_kubernetes_attributes[api_url]",
     "param_in": "body",
-    "description": "URL to access the Kubernetes API"
+    "description": "URL to access the Kubernetes API",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminClustersClusterId",
     "param_name": "platform_kubernetes_attributes[token]",
     "param_in": "body",
-    "description": "Token to authenticate against Kubernetes"
+    "description": "Token to authenticate against Kubernetes",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminClustersClusterId",
     "param_name": "platform_kubernetes_attributes[ca_cert]",
     "param_in": "body",
-    "description": "TLS certificate (needed if API is using a self-signed TLS certificate)"
+    "description": "TLS certificate (needed if API is using a self-signed TLS certificate)",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4AdminClustersClusterId",
     "param_name": "platform_kubernetes_attributes[namespace]",
     "param_in": "body",
-    "description": "Unique namespace related to Project"
+    "description": "Unique namespace related to Project",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "domain",
+    "param_in": "body",
+    "description": "domain",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "enabled",
+    "param_in": "body",
+    "description": "enabled",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "managed",
+    "param_in": "body",
+    "description": "managed",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "provider_type",
+    "param_in": "body",
+    "description": "provider_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "platform_type",
+    "param_in": "body",
+    "description": "platform_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "environment_scope",
+    "param_in": "body",
+    "description": "environment_scope",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "cluster_type",
+    "param_in": "body",
+    "description": "cluster_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "namespace_per_environment",
+    "param_in": "body",
+    "description": "namespace_per_environment",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "user",
+    "param_in": "body",
+    "description": "user",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "platform_kubernetes",
+    "param_in": "body",
+    "description": "platform_kubernetes",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "provider_gcp",
+    "param_in": "body",
+    "description": "provider_gcp",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4AdminClustersClusterId",
+    "param_name": "management_project",
+    "param_in": "body",
+    "description": "management_project",
+    "direction": "response"
   },
   {
     "operationId": "deleteApiV4AdminClustersClusterId",
     "param_name": "cluster_id",
     "param_in": "path",
-    "description": "The cluster ID"
+    "description": "The cluster ID",
+    "direction": "input"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "domain",
+    "param_in": "body",
+    "description": "domain",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "enabled",
+    "param_in": "body",
+    "description": "enabled",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "managed",
+    "param_in": "body",
+    "description": "managed",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "provider_type",
+    "param_in": "body",
+    "description": "provider_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "platform_type",
+    "param_in": "body",
+    "description": "platform_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "environment_scope",
+    "param_in": "body",
+    "description": "environment_scope",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "cluster_type",
+    "param_in": "body",
+    "description": "cluster_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "namespace_per_environment",
+    "param_in": "body",
+    "description": "namespace_per_environment",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "user",
+    "param_in": "body",
+    "description": "user",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "platform_kubernetes",
+    "param_in": "body",
+    "description": "platform_kubernetes",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "provider_gcp",
+    "param_in": "body",
+    "description": "provider_gcp",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4AdminClustersClusterId",
+    "param_name": "management_project",
+    "param_in": "body",
+    "description": "management_project",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4AdminClustersAdd",
     "param_name": "name",
     "param_in": "body",
-    "description": "Cluster name"
+    "description": "Cluster name",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminClustersAdd",
     "param_name": "enabled",
     "param_in": "body",
-    "description": "Determines if cluster is active or not, defaults to true"
+    "description": "Determines if cluster is active or not, defaults to true",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminClustersAdd",
     "param_name": "environment_scope",
     "param_in": "body",
-    "description": "The associated environment to the cluster"
+    "description": "The associated environment to the cluster",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminClustersAdd",
     "param_name": "namespace_per_environment",
     "param_in": "body",
-    "description": "Deploy each environment to a separate Kubernetes namespace"
+    "description": "Deploy each environment to a separate Kubernetes namespace",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminClustersAdd",
     "param_name": "domain",
     "param_in": "body",
-    "description": "Cluster base domain"
+    "description": "Cluster base domain",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminClustersAdd",
     "param_name": "management_project_id",
     "param_in": "body",
-    "description": "The ID of the management project"
+    "description": "The ID of the management project",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminClustersAdd",
     "param_name": "managed",
     "param_in": "body",
-    "description": "Determines if GitLab will manage namespaces and service accounts for this cluster, defaults to true"
+    "description": "Determines if GitLab will manage namespaces and service accounts for this cluster, defaults to true",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminClustersAdd",
     "param_name": "platform_kubernetes_attributes[api_url]",
     "param_in": "body",
-    "description": "URL to access the Kubernetes API"
+    "description": "URL to access the Kubernetes API",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminClustersAdd",
     "param_name": "platform_kubernetes_attributes[token]",
     "param_in": "body",
-    "description": "Token to authenticate against Kubernetes"
+    "description": "Token to authenticate against Kubernetes",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminClustersAdd",
     "param_name": "platform_kubernetes_attributes[ca_cert]",
     "param_in": "body",
-    "description": "TLS certificate (needed if API is using a self-signed TLS certificate)"
+    "description": "TLS certificate (needed if API is using a self-signed TLS certificate)",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminClustersAdd",
     "param_name": "platform_kubernetes_attributes[namespace]",
     "param_in": "body",
-    "description": "Unique namespace related to Project"
+    "description": "Unique namespace related to Project",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminClustersAdd",
     "param_name": "platform_kubernetes_attributes[authorization_type]",
     "param_in": "body",
-    "description": "Cluster authorization type, defaults to RBAC"
+    "description": "Cluster authorization type, defaults to RBAC",
+    "direction": "input"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "domain",
+    "param_in": "body",
+    "description": "domain",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "enabled",
+    "param_in": "body",
+    "description": "enabled",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "managed",
+    "param_in": "body",
+    "description": "managed",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "provider_type",
+    "param_in": "body",
+    "description": "provider_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "platform_type",
+    "param_in": "body",
+    "description": "platform_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "environment_scope",
+    "param_in": "body",
+    "description": "environment_scope",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "cluster_type",
+    "param_in": "body",
+    "description": "cluster_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "namespace_per_environment",
+    "param_in": "body",
+    "description": "namespace_per_environment",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "user",
+    "param_in": "body",
+    "description": "user",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "platform_kubernetes",
+    "param_in": "body",
+    "description": "platform_kubernetes",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "provider_gcp",
+    "param_in": "body",
+    "description": "provider_gcp",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4AdminClustersAdd",
+    "param_name": "management_project",
+    "param_in": "body",
+    "description": "management_project",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "domain",
+    "param_in": "body",
+    "description": "domain",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "enabled",
+    "param_in": "body",
+    "description": "enabled",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "managed",
+    "param_in": "body",
+    "description": "managed",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "provider_type",
+    "param_in": "body",
+    "description": "provider_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "platform_type",
+    "param_in": "body",
+    "description": "platform_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "environment_scope",
+    "param_in": "body",
+    "description": "environment_scope",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "cluster_type",
+    "param_in": "body",
+    "description": "cluster_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "namespace_per_environment",
+    "param_in": "body",
+    "description": "namespace_per_environment",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "user",
+    "param_in": "body",
+    "description": "user",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "platform_kubernetes",
+    "param_in": "body",
+    "description": "platform_kubernetes",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "provider_gcp",
+    "param_in": "body",
+    "description": "provider_gcp",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4AdminClusters",
+    "param_name": "management_project",
+    "param_in": "body",
+    "description": "management_project",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4AdminMigrationsTimestampMark",
     "param_name": "timestamp",
     "param_in": "path",
-    "description": "The migration version timestamp"
+    "description": "The migration version timestamp",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4AdminMigrationsTimestampMark",
     "param_name": "database",
     "param_in": "body",
-    "description": "The name of the database"
+    "description": "The name of the database",
+    "direction": "input"
   },
   {
     "operationId": "deleteApiV4ApplicationsId",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID of the application (not the application_id)"
+    "description": "The ID of the application (not the application_id)",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4Applications",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4Applications",
+    "param_name": "application_id",
+    "param_in": "body",
+    "description": "application_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4Applications",
+    "param_name": "application_name",
+    "param_in": "body",
+    "description": "application_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4Applications",
+    "param_name": "callback_url",
+    "param_in": "body",
+    "description": "callback_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4Applications",
+    "param_name": "confidential",
+    "param_in": "body",
+    "description": "confidential",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4Applications",
     "param_name": "name",
     "param_in": "body",
-    "description": "Name of the application."
+    "description": "Name of the application.",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4Applications",
     "param_name": "redirect_uri",
     "param_in": "body",
-    "description": "Redirect URI of the application."
+    "description": "Redirect URI of the application.",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4Applications",
     "param_name": "scopes",
     "param_in": "body",
-    "description": "Scopes of the application. You can specify multiple scopes by separating\\\n                                 each scope using a space"
+    "description": "Scopes of the application. You can specify multiple scopes by separating\\\n                                 each scope using a space",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4Applications",
     "param_name": "confidential",
     "param_in": "body",
-    "description": "The application is used where the client secret can be kept confidential. Native mobile apps \\\n                        and Single Page Apps are considered non-confidential. Defaults to true if not supplied"
+    "description": "The application is used where the client secret can be kept confidential. Native mobile apps \\\n                        and Single Page Apps are considered non-confidential. Defaults to true if not supplied",
+    "direction": "input"
+  },
+  {
+    "operationId": "postApiV4Applications",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4Applications",
+    "param_name": "application_id",
+    "param_in": "body",
+    "description": "application_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4Applications",
+    "param_name": "application_name",
+    "param_in": "body",
+    "description": "application_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4Applications",
+    "param_name": "callback_url",
+    "param_in": "body",
+    "description": "callback_url",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4Applications",
+    "param_name": "confidential",
+    "param_in": "body",
+    "description": "confidential",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4Applications",
+    "param_name": "secret",
+    "param_in": "body",
+    "description": "secret",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4Avatar",
     "param_name": "email",
     "param_in": "query",
-    "description": "Public email address of the user"
+    "description": "Public email address of the user",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4Avatar",
     "param_name": "size",
     "param_in": "query",
-    "description": "Single pixel dimension for Gravatar images"
+    "description": "Single pixel dimension for Gravatar images",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4Avatar",
+    "param_name": "avatar_url",
+    "param_in": "body",
+    "description": "avatar_url",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4BroadcastMessagesId",
     "param_name": "id",
     "param_in": "path",
-    "description": "Broadcast message ID"
+    "description": "Broadcast message ID",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "param_name": "message",
+    "param_in": "body",
+    "description": "message",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "param_name": "starts_at",
+    "param_in": "body",
+    "description": "starts_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "param_name": "ends_at",
+    "param_in": "body",
+    "description": "ends_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "param_name": "color",
+    "param_in": "body",
+    "description": "color",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "param_name": "font",
+    "param_in": "body",
+    "description": "font",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "param_name": "target_access_levels",
+    "param_in": "body",
+    "description": "target_access_levels",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "param_name": "target_path",
+    "param_in": "body",
+    "description": "target_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "param_name": "broadcast_type",
+    "param_in": "body",
+    "description": "broadcast_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "param_name": "dismissable",
+    "param_in": "body",
+    "description": "dismissable",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessagesId",
+    "param_name": "active",
+    "param_in": "body",
+    "description": "active",
+    "direction": "response"
   },
   {
     "operationId": "putApiV4BroadcastMessagesId",
     "param_name": "id",
     "param_in": "path",
-    "description": "Broadcast message ID"
+    "description": "Broadcast message ID",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4BroadcastMessagesId",
     "param_name": "message",
     "param_in": "body",
-    "description": "Message to display"
+    "description": "Message to display",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4BroadcastMessagesId",
     "param_name": "starts_at",
     "param_in": "body",
-    "description": "Starting time"
+    "description": "Starting time",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4BroadcastMessagesId",
     "param_name": "ends_at",
     "param_in": "body",
-    "description": "Ending time"
+    "description": "Ending time",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4BroadcastMessagesId",
     "param_name": "color",
     "param_in": "body",
-    "description": "Background color"
+    "description": "Background color",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4BroadcastMessagesId",
     "param_name": "font",
     "param_in": "body",
-    "description": "Foreground color"
+    "description": "Foreground color",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4BroadcastMessagesId",
     "param_name": "target_access_levels",
     "param_in": "body",
-    "description": "Target user roles"
+    "description": "Target user roles",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4BroadcastMessagesId",
     "param_name": "target_path",
     "param_in": "body",
-    "description": "Target path"
+    "description": "Target path",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4BroadcastMessagesId",
     "param_name": "broadcast_type",
     "param_in": "body",
-    "description": "Broadcast Type"
+    "description": "Broadcast Type",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4BroadcastMessagesId",
     "param_name": "dismissable",
     "param_in": "body",
-    "description": "Is dismissable"
+    "description": "Is dismissable",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "message",
+    "param_in": "body",
+    "description": "message",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "starts_at",
+    "param_in": "body",
+    "description": "starts_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "ends_at",
+    "param_in": "body",
+    "description": "ends_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "color",
+    "param_in": "body",
+    "description": "color",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "font",
+    "param_in": "body",
+    "description": "font",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "target_access_levels",
+    "param_in": "body",
+    "description": "target_access_levels",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "target_path",
+    "param_in": "body",
+    "description": "target_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "broadcast_type",
+    "param_in": "body",
+    "description": "broadcast_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "dismissable",
+    "param_in": "body",
+    "description": "dismissable",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4BroadcastMessagesId",
+    "param_name": "active",
+    "param_in": "body",
+    "description": "active",
+    "direction": "response"
   },
   {
     "operationId": "deleteApiV4BroadcastMessagesId",
     "param_name": "id",
     "param_in": "path",
-    "description": "Broadcast message ID"
+    "description": "Broadcast message ID",
+    "direction": "input"
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "param_name": "message",
+    "param_in": "body",
+    "description": "message",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "param_name": "starts_at",
+    "param_in": "body",
+    "description": "starts_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "param_name": "ends_at",
+    "param_in": "body",
+    "description": "ends_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "param_name": "color",
+    "param_in": "body",
+    "description": "color",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "param_name": "font",
+    "param_in": "body",
+    "description": "font",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "param_name": "target_access_levels",
+    "param_in": "body",
+    "description": "target_access_levels",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "param_name": "target_path",
+    "param_in": "body",
+    "description": "target_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "param_name": "broadcast_type",
+    "param_in": "body",
+    "description": "broadcast_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "param_name": "dismissable",
+    "param_in": "body",
+    "description": "dismissable",
+    "direction": "response"
+  },
+  {
+    "operationId": "deleteApiV4BroadcastMessagesId",
+    "param_name": "active",
+    "param_in": "body",
+    "description": "active",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4BroadcastMessages",
     "param_name": "page",
     "param_in": "query",
-    "description": "Current page number"
+    "description": "Current page number",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4BroadcastMessages",
     "param_name": "per_page",
     "param_in": "query",
-    "description": "Number of items per page"
+    "description": "Number of items per page",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "message",
+    "param_in": "body",
+    "description": "message",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "starts_at",
+    "param_in": "body",
+    "description": "starts_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "ends_at",
+    "param_in": "body",
+    "description": "ends_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "color",
+    "param_in": "body",
+    "description": "color",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "font",
+    "param_in": "body",
+    "description": "font",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "target_access_levels",
+    "param_in": "body",
+    "description": "target_access_levels",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "target_path",
+    "param_in": "body",
+    "description": "target_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "broadcast_type",
+    "param_in": "body",
+    "description": "broadcast_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "dismissable",
+    "param_in": "body",
+    "description": "dismissable",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BroadcastMessages",
+    "param_name": "active",
+    "param_in": "body",
+    "description": "active",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4BroadcastMessages",
     "param_name": "message",
     "param_in": "body",
-    "description": "Message to display"
+    "description": "Message to display",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BroadcastMessages",
     "param_name": "starts_at",
     "param_in": "body",
-    "description": "Starting time"
+    "description": "Starting time",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BroadcastMessages",
     "param_name": "ends_at",
     "param_in": "body",
-    "description": "Ending time"
+    "description": "Ending time",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BroadcastMessages",
     "param_name": "color",
     "param_in": "body",
-    "description": "Background color"
+    "description": "Background color",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BroadcastMessages",
     "param_name": "font",
     "param_in": "body",
-    "description": "Foreground color"
+    "description": "Foreground color",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BroadcastMessages",
     "param_name": "target_access_levels",
     "param_in": "body",
-    "description": "Target user roles"
+    "description": "Target user roles",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BroadcastMessages",
     "param_name": "target_path",
     "param_in": "body",
-    "description": "Target path"
+    "description": "Target path",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BroadcastMessages",
     "param_name": "broadcast_type",
     "param_in": "body",
-    "description": "Broadcast type. Defaults to banner"
+    "description": "Broadcast type. Defaults to banner",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BroadcastMessages",
     "param_name": "dismissable",
     "param_in": "body",
-    "description": "Is dismissable"
+    "description": "Is dismissable",
+    "direction": "input"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "message",
+    "param_in": "body",
+    "description": "message",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "starts_at",
+    "param_in": "body",
+    "description": "starts_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "ends_at",
+    "param_in": "body",
+    "description": "ends_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "color",
+    "param_in": "body",
+    "description": "color",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "font",
+    "param_in": "body",
+    "description": "font",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "target_access_levels",
+    "param_in": "body",
+    "description": "target_access_levels",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "target_path",
+    "param_in": "body",
+    "description": "target_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "broadcast_type",
+    "param_in": "body",
+    "description": "broadcast_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "dismissable",
+    "param_in": "body",
+    "description": "dismissable",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BroadcastMessages",
+    "param_name": "active",
+    "param_in": "body",
+    "description": "active",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
     "param_name": "import_id",
     "param_in": "path",
-    "description": "The ID of user's GitLab Migration"
+    "description": "The ID of user's GitLab Migration",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
     "param_name": "entity_id",
     "param_in": "path",
-    "description": "The ID of GitLab Migration entity"
+    "description": "The ID of GitLab Migration entity",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "bulk_import_id",
+    "param_in": "body",
+    "description": "bulk_import_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "status",
+    "param_in": "body",
+    "description": "status",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "entity_type",
+    "param_in": "body",
+    "description": "entity_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "source_full_path",
+    "param_in": "body",
+    "description": "source_full_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "destination_full_path",
+    "param_in": "body",
+    "description": "destination_full_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "destination_name",
+    "param_in": "body",
+    "description": "destination_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "destination_slug",
+    "param_in": "body",
+    "description": "destination_slug",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "destination_namespace",
+    "param_in": "body",
+    "description": "destination_namespace",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "parent_id",
+    "param_in": "body",
+    "description": "parent_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "namespace_id",
+    "param_in": "body",
+    "description": "namespace_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "project_id",
+    "param_in": "body",
+    "description": "project_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "updated_at",
+    "param_in": "body",
+    "description": "updated_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "failures",
+    "param_in": "body",
+    "description": "failures",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntitiesEntityId",
+    "param_name": "migrate_projects",
+    "param_in": "body",
+    "description": "migrate_projects",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4BulkImportsImportIdEntities",
     "param_name": "import_id",
     "param_in": "path",
-    "description": "The ID of user's GitLab Migration"
+    "description": "The ID of user's GitLab Migration",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4BulkImportsImportIdEntities",
     "param_name": "status",
     "param_in": "query",
-    "description": "Return import entities with specified status"
+    "description": "Return import entities with specified status",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4BulkImportsImportIdEntities",
     "param_name": "page",
     "param_in": "query",
-    "description": "Current page number"
+    "description": "Current page number",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4BulkImportsImportIdEntities",
     "param_name": "per_page",
     "param_in": "query",
-    "description": "Number of items per page"
+    "description": "Number of items per page",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "bulk_import_id",
+    "param_in": "body",
+    "description": "bulk_import_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "status",
+    "param_in": "body",
+    "description": "status",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "entity_type",
+    "param_in": "body",
+    "description": "entity_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "source_full_path",
+    "param_in": "body",
+    "description": "source_full_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "destination_full_path",
+    "param_in": "body",
+    "description": "destination_full_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "destination_name",
+    "param_in": "body",
+    "description": "destination_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "destination_slug",
+    "param_in": "body",
+    "description": "destination_slug",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "destination_namespace",
+    "param_in": "body",
+    "description": "destination_namespace",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "parent_id",
+    "param_in": "body",
+    "description": "parent_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "namespace_id",
+    "param_in": "body",
+    "description": "namespace_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "project_id",
+    "param_in": "body",
+    "description": "project_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "updated_at",
+    "param_in": "body",
+    "description": "updated_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "failures",
+    "param_in": "body",
+    "description": "failures",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportIdEntities",
+    "param_name": "migrate_projects",
+    "param_in": "body",
+    "description": "migrate_projects",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4BulkImportsImportId",
     "param_name": "import_id",
     "param_in": "path",
-    "description": "The ID of user's GitLab Migration"
+    "description": "The ID of user's GitLab Migration",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportId",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportId",
+    "param_name": "status",
+    "param_in": "body",
+    "description": "status",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportId",
+    "param_name": "source_type",
+    "param_in": "body",
+    "description": "source_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportId",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsImportId",
+    "param_name": "updated_at",
+    "param_in": "body",
+    "description": "updated_at",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4BulkImportsEntities",
     "param_name": "page",
     "param_in": "query",
-    "description": "Current page number"
+    "description": "Current page number",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4BulkImportsEntities",
     "param_name": "per_page",
     "param_in": "query",
-    "description": "Number of items per page"
+    "description": "Number of items per page",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4BulkImportsEntities",
     "param_name": "sort",
     "param_in": "query",
-    "description": "Return GitLab Migrations sorted in created by `asc` or `desc` order."
+    "description": "Return GitLab Migrations sorted in created by `asc` or `desc` order.",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4BulkImportsEntities",
     "param_name": "status",
     "param_in": "query",
-    "description": "Return all GitLab Migrations' entities with specified status"
+    "description": "Return all GitLab Migrations' entities with specified status",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "bulk_import_id",
+    "param_in": "body",
+    "description": "bulk_import_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "status",
+    "param_in": "body",
+    "description": "status",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "entity_type",
+    "param_in": "body",
+    "description": "entity_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "source_full_path",
+    "param_in": "body",
+    "description": "source_full_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "destination_full_path",
+    "param_in": "body",
+    "description": "destination_full_path",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "destination_name",
+    "param_in": "body",
+    "description": "destination_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "destination_slug",
+    "param_in": "body",
+    "description": "destination_slug",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "destination_namespace",
+    "param_in": "body",
+    "description": "destination_namespace",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "parent_id",
+    "param_in": "body",
+    "description": "parent_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "namespace_id",
+    "param_in": "body",
+    "description": "namespace_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "project_id",
+    "param_in": "body",
+    "description": "project_id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "updated_at",
+    "param_in": "body",
+    "description": "updated_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "failures",
+    "param_in": "body",
+    "description": "failures",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImportsEntities",
+    "param_name": "migrate_projects",
+    "param_in": "body",
+    "description": "migrate_projects",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4BulkImports",
     "param_name": "page",
     "param_in": "query",
-    "description": "Current page number"
+    "description": "Current page number",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4BulkImports",
     "param_name": "per_page",
     "param_in": "query",
-    "description": "Number of items per page"
+    "description": "Number of items per page",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4BulkImports",
     "param_name": "sort",
     "param_in": "query",
-    "description": "Return GitLab Migrations sorted in created by `asc` or `desc` order."
+    "description": "Return GitLab Migrations sorted in created by `asc` or `desc` order.",
+    "direction": "input"
   },
   {
     "operationId": "getApiV4BulkImports",
     "param_name": "status",
     "param_in": "query",
-    "description": "Return GitLab Migrations with specified status"
+    "description": "Return GitLab Migrations with specified status",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4BulkImports",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImports",
+    "param_name": "status",
+    "param_in": "body",
+    "description": "status",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImports",
+    "param_name": "source_type",
+    "param_in": "body",
+    "description": "source_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImports",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4BulkImports",
+    "param_name": "updated_at",
+    "param_in": "body",
+    "description": "updated_at",
+    "direction": "response"
   },
   {
     "operationId": "postApiV4BulkImports",
     "param_name": "configuration[url]",
     "param_in": "body",
-    "description": "Source GitLab instance URL"
+    "description": "Source GitLab instance URL",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BulkImports",
     "param_name": "configuration[access_token]",
     "param_in": "body",
-    "description": "Access token to the source GitLab instance"
+    "description": "Access token to the source GitLab instance",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BulkImports",
     "param_name": "entities[source_type]",
     "param_in": "body",
-    "description": "Source entity type"
+    "description": "Source entity type",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BulkImports",
     "param_name": "entities[source_full_path]",
     "param_in": "body",
-    "description": "Relative path of the source entity to import"
+    "description": "Relative path of the source entity to import",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BulkImports",
     "param_name": "entities[destination_namespace]",
     "param_in": "body",
-    "description": "Destination namespace for the entity"
+    "description": "Destination namespace for the entity",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BulkImports",
     "param_name": "entities[destination_slug]",
     "param_in": "body",
-    "description": "Destination slug for the entity"
+    "description": "Destination slug for the entity",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BulkImports",
     "param_name": "entities[destination_name]",
     "param_in": "body",
-    "description": "Deprecated: Use :destination_slug instead. Destination slug for the entity"
+    "description": "Deprecated: Use :destination_slug instead. Destination slug for the entity",
+    "direction": "input"
   },
   {
     "operationId": "postApiV4BulkImports",
     "param_name": "entities[migrate_projects]",
     "param_in": "body",
-    "description": "Indicates group migration should include nested projects"
+    "description": "Indicates group migration should include nested projects",
+    "direction": "input"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "id",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "status",
+    "param_in": "body",
+    "description": "status",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "source_type",
+    "param_in": "body",
+    "description": "source_type",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "created_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "postApiV4BulkImports",
+    "param_name": "updated_at",
+    "param_in": "body",
+    "description": "updated_at",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "title",
+    "param_in": "body",
+    "description": "title",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "description",
+    "param_in": "body",
+    "description": "description",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "pwa_name",
+    "param_in": "body",
+    "description": "pwa_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "pwa_short_name",
+    "param_in": "body",
+    "description": "pwa_short_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "pwa_description",
+    "param_in": "body",
+    "description": "pwa_description",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "logo",
+    "param_in": "body",
+    "description": "logo",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "pwa_icon",
+    "param_in": "body",
+    "description": "pwa_icon",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "header_logo",
+    "param_in": "body",
+    "description": "header_logo",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "favicon",
+    "param_in": "body",
+    "description": "favicon",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "new_project_guidelines",
+    "param_in": "body",
+    "description": "new_project_guidelines",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "profile_image_guidelines",
+    "param_in": "body",
+    "description": "profile_image_guidelines",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "header_message",
+    "param_in": "body",
+    "description": "header_message",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "footer_message",
+    "param_in": "body",
+    "description": "footer_message",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "message_background_color",
+    "param_in": "body",
+    "description": "message_background_color",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "message_font_color",
+    "param_in": "body",
+    "description": "message_font_color",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationAppearance",
+    "param_name": "email_header_and_footer_enabled",
+    "param_in": "body",
+    "description": "email_header_and_footer_enabled",
+    "direction": "response"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "title",
     "param_in": "body",
-    "description": "Instance title on the sign in / sign up page"
+    "description": "Instance title on the sign in / sign up page",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "description",
     "param_in": "body",
-    "description": "Markdown text shown on the sign in / sign up page"
+    "description": "Markdown text shown on the sign in / sign up page",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "pwa_name",
     "param_in": "body",
-    "description": "Name of the Progressive Web App"
+    "description": "Name of the Progressive Web App",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "pwa_short_name",
     "param_in": "body",
-    "description": "Optional, short name for Progressive Web App"
+    "description": "Optional, short name for Progressive Web App",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "pwa_description",
     "param_in": "body",
-    "description": "An explanation of what the Progressive Web App does"
+    "description": "An explanation of what the Progressive Web App does",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "logo",
     "param_in": "body",
-    "description": "Instance image used on the sign in / sign up page"
+    "description": "Instance image used on the sign in / sign up page",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "pwa_icon",
     "param_in": "body",
-    "description": "Icon used for Progressive Web App"
+    "description": "Icon used for Progressive Web App",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "header_logo",
     "param_in": "body",
-    "description": "Instance image used for the main navigation bar"
+    "description": "Instance image used for the main navigation bar",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "favicon",
     "param_in": "body",
-    "description": "Instance favicon in .ico/.png format"
+    "description": "Instance favicon in .ico/.png format",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "new_project_guidelines",
     "param_in": "body",
-    "description": "Markdown text shown on the new project page"
+    "description": "Markdown text shown on the new project page",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "profile_image_guidelines",
     "param_in": "body",
-    "description": "Markdown text shown on the profile page below Public Avatar"
+    "description": "Markdown text shown on the profile page below Public Avatar",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "header_message",
     "param_in": "body",
-    "description": "Message within the system header bar"
+    "description": "Message within the system header bar",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "footer_message",
     "param_in": "body",
-    "description": "Message within the system footer bar"
+    "description": "Message within the system footer bar",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "message_background_color",
     "param_in": "body",
-    "description": "Background color for the system header / footer bar"
+    "description": "Background color for the system header / footer bar",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "message_font_color",
     "param_in": "body",
-    "description": "Font color for the system header / footer bar"
+    "description": "Font color for the system header / footer bar",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationAppearance",
     "param_name": "email_header_and_footer_enabled",
     "param_in": "body",
-    "description": "Add header and footer to all outgoing emails if enabled"
+    "description": "Add header and footer to all outgoing emails if enabled",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "title",
+    "param_in": "body",
+    "description": "title",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "description",
+    "param_in": "body",
+    "description": "description",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "pwa_name",
+    "param_in": "body",
+    "description": "pwa_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "pwa_short_name",
+    "param_in": "body",
+    "description": "pwa_short_name",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "pwa_description",
+    "param_in": "body",
+    "description": "pwa_description",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "logo",
+    "param_in": "body",
+    "description": "logo",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "pwa_icon",
+    "param_in": "body",
+    "description": "pwa_icon",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "header_logo",
+    "param_in": "body",
+    "description": "header_logo",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "favicon",
+    "param_in": "body",
+    "description": "favicon",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "new_project_guidelines",
+    "param_in": "body",
+    "description": "new_project_guidelines",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "profile_image_guidelines",
+    "param_in": "body",
+    "description": "profile_image_guidelines",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "header_message",
+    "param_in": "body",
+    "description": "header_message",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "footer_message",
+    "param_in": "body",
+    "description": "footer_message",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "message_background_color",
+    "param_in": "body",
+    "description": "message_background_color",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "message_font_color",
+    "param_in": "body",
+    "description": "message_font_color",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationAppearance",
+    "param_name": "email_header_and_footer_enabled",
+    "param_in": "body",
+    "description": "email_header_and_footer_enabled",
+    "direction": "response"
   },
   {
     "operationId": "getApiV4ApplicationPlanLimits",
     "param_name": "plan_name",
     "param_in": "query",
-    "description": "Name of the plan to get the limits from. Default: default."
+    "description": "Name of the plan to get the limits from. Default: default.",
+    "direction": "input"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "ci_pipeline_size",
+    "param_in": "body",
+    "description": "ci_pipeline_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "ci_active_jobs",
+    "param_in": "body",
+    "description": "ci_active_jobs",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "ci_project_subscriptions",
+    "param_in": "body",
+    "description": "ci_project_subscriptions",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "ci_pipeline_schedules",
+    "param_in": "body",
+    "description": "ci_pipeline_schedules",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "ci_needs_size_limit",
+    "param_in": "body",
+    "description": "ci_needs_size_limit",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "ci_registered_group_runners",
+    "param_in": "body",
+    "description": "ci_registered_group_runners",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "ci_registered_project_runners",
+    "param_in": "body",
+    "description": "ci_registered_project_runners",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "conan_max_file_size",
+    "param_in": "body",
+    "description": "conan_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "enforcement_limit",
+    "param_in": "body",
+    "description": "enforcement_limit",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "generic_packages_max_file_size",
+    "param_in": "body",
+    "description": "generic_packages_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "helm_max_file_size",
+    "param_in": "body",
+    "description": "helm_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "limits_history",
+    "param_in": "body",
+    "description": "limits_history",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "maven_max_file_size",
+    "param_in": "body",
+    "description": "maven_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "notification_limit",
+    "param_in": "body",
+    "description": "notification_limit",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "npm_max_file_size",
+    "param_in": "body",
+    "description": "npm_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "nuget_max_file_size",
+    "param_in": "body",
+    "description": "nuget_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "pipeline_hierarchy_size",
+    "param_in": "body",
+    "description": "pipeline_hierarchy_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "pypi_max_file_size",
+    "param_in": "body",
+    "description": "pypi_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "terraform_module_max_file_size",
+    "param_in": "body",
+    "description": "terraform_module_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4ApplicationPlanLimits",
+    "param_name": "storage_size_limit",
+    "param_in": "body",
+    "description": "storage_size_limit",
+    "direction": "response"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "plan_name",
     "param_in": "body",
-    "description": "Name of the plan to update"
+    "description": "Name of the plan to update",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "ci_pipeline_size",
     "param_in": "body",
-    "description": "Maximum number of jobs in a single pipeline"
+    "description": "Maximum number of jobs in a single pipeline",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "ci_active_jobs",
     "param_in": "body",
-    "description": "Total number of jobs in currently active pipelines"
+    "description": "Total number of jobs in currently active pipelines",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "ci_project_subscriptions",
     "param_in": "body",
-    "description": "Maximum number of pipeline subscriptions to and from a project"
+    "description": "Maximum number of pipeline subscriptions to and from a project",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "ci_pipeline_schedules",
     "param_in": "body",
-    "description": "Maximum number of pipeline schedules"
+    "description": "Maximum number of pipeline schedules",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "ci_needs_size_limit",
     "param_in": "body",
-    "description": "Maximum number of needs dependencies that a job can have"
+    "description": "Maximum number of needs dependencies that a job can have",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "ci_registered_group_runners",
     "param_in": "body",
-    "description": "Maximum number of runners registered per group"
+    "description": "Maximum number of runners registered per group",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "ci_registered_project_runners",
     "param_in": "body",
-    "description": "Maximum number of runners registered per project"
+    "description": "Maximum number of runners registered per project",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "conan_max_file_size",
     "param_in": "body",
-    "description": "Maximum Conan package file size in bytes"
+    "description": "Maximum Conan package file size in bytes",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "enforcement_limit",
     "param_in": "body",
-    "description": "Maximum storage size for the root namespace enforcement in MiB"
+    "description": "Maximum storage size for the root namespace enforcement in MiB",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "generic_packages_max_file_size",
     "param_in": "body",
-    "description": "Maximum generic package file size in bytes"
+    "description": "Maximum generic package file size in bytes",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "helm_max_file_size",
     "param_in": "body",
-    "description": "Maximum Helm chart file size in bytes"
+    "description": "Maximum Helm chart file size in bytes",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "maven_max_file_size",
     "param_in": "body",
-    "description": "Maximum Maven package file size in bytes"
+    "description": "Maximum Maven package file size in bytes",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "notification_limit",
     "param_in": "body",
-    "description": "Maximum storage size for the root namespace notifications in MiB"
+    "description": "Maximum storage size for the root namespace notifications in MiB",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "npm_max_file_size",
     "param_in": "body",
-    "description": "Maximum NPM package file size in bytes"
+    "description": "Maximum NPM package file size in bytes",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "nuget_max_file_size",
     "param_in": "body",
-    "description": "Maximum NuGet package file size in bytes"
+    "description": "Maximum NuGet package file size in bytes",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "pypi_max_file_size",
     "param_in": "body",
-    "description": "Maximum PyPI package file size in bytes"
+    "description": "Maximum PyPI package file size in bytes",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "terraform_module_max_file_size",
     "param_in": "body",
-    "description": "Maximum Terraform Module package file size in bytes"
+    "description": "Maximum Terraform Module package file size in bytes",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "storage_size_limit",
     "param_in": "body",
-    "description": "Maximum storage size for the root namespace in MiB"
+    "description": "Maximum storage size for the root namespace in MiB",
+    "direction": "input"
   },
   {
     "operationId": "putApiV4ApplicationPlanLimits",
     "param_name": "pipeline_hierarchy_size",
     "param_in": "body",
-    "description": "Maximum number of downstream pipelines in a pipeline's hierarchy tree"
+    "description": "Maximum number of downstream pipelines in a pipeline's hierarchy tree",
+    "direction": "input"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_pipeline_size",
+    "param_in": "body",
+    "description": "ci_pipeline_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_active_jobs",
+    "param_in": "body",
+    "description": "ci_active_jobs",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_project_subscriptions",
+    "param_in": "body",
+    "description": "ci_project_subscriptions",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_pipeline_schedules",
+    "param_in": "body",
+    "description": "ci_pipeline_schedules",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_needs_size_limit",
+    "param_in": "body",
+    "description": "ci_needs_size_limit",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_registered_group_runners",
+    "param_in": "body",
+    "description": "ci_registered_group_runners",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "ci_registered_project_runners",
+    "param_in": "body",
+    "description": "ci_registered_project_runners",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "conan_max_file_size",
+    "param_in": "body",
+    "description": "conan_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "enforcement_limit",
+    "param_in": "body",
+    "description": "enforcement_limit",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "generic_packages_max_file_size",
+    "param_in": "body",
+    "description": "generic_packages_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "helm_max_file_size",
+    "param_in": "body",
+    "description": "helm_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "limits_history",
+    "param_in": "body",
+    "description": "limits_history",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "maven_max_file_size",
+    "param_in": "body",
+    "description": "maven_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "notification_limit",
+    "param_in": "body",
+    "description": "notification_limit",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "npm_max_file_size",
+    "param_in": "body",
+    "description": "npm_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "nuget_max_file_size",
+    "param_in": "body",
+    "description": "nuget_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "pipeline_hierarchy_size",
+    "param_in": "body",
+    "description": "pipeline_hierarchy_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "pypi_max_file_size",
+    "param_in": "body",
+    "description": "pypi_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "terraform_module_max_file_size",
+    "param_in": "body",
+    "description": "terraform_module_max_file_size",
+    "direction": "response"
+  },
+  {
+    "operationId": "putApiV4ApplicationPlanLimits",
+    "param_name": "storage_size_limit",
+    "param_in": "body",
+    "description": "storage_size_limit",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4Metadata",
+    "param_name": "version",
+    "param_in": "body",
+    "description": "version",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4Metadata",
+    "param_name": "revision",
+    "param_in": "body",
+    "description": "revision",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4Metadata",
+    "param_name": "kas",
+    "param_in": "body",
+    "description": "kas",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4Metadata",
+    "param_name": "enterprise",
+    "param_in": "body",
+    "description": "enterprise",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4Version",
+    "param_name": "version",
+    "param_in": "body",
+    "description": "version",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4Version",
+    "param_name": "revision",
+    "param_in": "body",
+    "description": "revision",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4Version",
+    "param_name": "kas",
+    "param_in": "body",
+    "description": "kas",
+    "direction": "response"
+  },
+  {
+    "operationId": "getApiV4Version",
+    "param_name": "enterprise",
+    "param_in": "body",
+    "description": "enterprise",
+    "direction": "response"
   },
   {
     "operationId": "listProjectJobs",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "listProjectJobs",
     "param_name": "scope",
     "param_in": "query",
-    "description": "Return all jobs with the specified statuses"
+    "description": "Return all jobs with the specified statuses",
+    "direction": "input"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "The ID of the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "The name of the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "status",
+    "param_in": "body",
+    "description": "The current status of the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "stage",
+    "param_in": "body",
+    "description": "The stage of the job in the CI/CD pipeline",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "The creation time of the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "started_at",
+    "param_in": "body",
+    "description": "The start time of the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "finished_at",
+    "param_in": "body",
+    "description": "The finish time of the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "commit",
+    "param_in": "body",
+    "description": "commit",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "archived",
+    "param_in": "body",
+    "description": "Indicates if the job is archived",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "allow_failure",
+    "param_in": "body",
+    "description": "Indicates if the job is allowed to fail",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "erased_at",
+    "param_in": "body",
+    "description": "The time when the job was erased, if applicable",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "duration",
+    "param_in": "body",
+    "description": "The duration of the job in seconds",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "queued_duration",
+    "param_in": "body",
+    "description": "The duration the job was queued before execution, in seconds",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "ref",
+    "param_in": "body",
+    "description": "The reference for the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "artifacts",
+    "param_in": "body",
+    "description": "The artifacts produced by the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "tag",
+    "param_in": "body",
+    "description": "Indicates if the job is tagged",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "The URL for accessing the job in the web interface",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "project",
+    "param_in": "body",
+    "description": "project",
+    "direction": "response"
+  },
+  {
+    "operationId": "listProjectJobs",
+    "param_name": "user",
+    "param_in": "body",
+    "description": "user",
+    "direction": "response"
   },
   {
     "operationId": "getSingleJob",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "getSingleJob",
     "param_name": "job_id",
     "param_in": "path",
-    "description": "The ID of the job"
+    "description": "The ID of the job",
+    "direction": "input"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "id",
+    "param_in": "body",
+    "description": "The ID of the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "name",
+    "param_in": "body",
+    "description": "The name of the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "status",
+    "param_in": "body",
+    "description": "The current status of the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "stage",
+    "param_in": "body",
+    "description": "The stage of the job in the CI/CD pipeline",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "created_at",
+    "param_in": "body",
+    "description": "The creation time of the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "started_at",
+    "param_in": "body",
+    "description": "The start time of the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "finished_at",
+    "param_in": "body",
+    "description": "The finish time of the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "commit",
+    "param_in": "body",
+    "description": "commit",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "archived",
+    "param_in": "body",
+    "description": "Indicates if the job is archived",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "allow_failure",
+    "param_in": "body",
+    "description": "Indicates if the job is allowed to fail",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "erased_at",
+    "param_in": "body",
+    "description": "The time when the job was erased, if applicable",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "duration",
+    "param_in": "body",
+    "description": "The duration of the job in seconds",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "queued_duration",
+    "param_in": "body",
+    "description": "The duration the job was queued before execution, in seconds",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "ref",
+    "param_in": "body",
+    "description": "The reference for the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "artifacts",
+    "param_in": "body",
+    "description": "The artifacts produced by the job",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "tag",
+    "param_in": "body",
+    "description": "Indicates if the job is tagged",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "web_url",
+    "param_in": "body",
+    "description": "The URL for accessing the job in the web interface",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "project",
+    "param_in": "body",
+    "description": "project",
+    "direction": "response"
+  },
+  {
+    "operationId": "getSingleJob",
+    "param_name": "user",
+    "param_in": "body",
+    "description": "user",
+    "direction": "response"
   },
   {
     "operationId": "triggerManualJob",
     "param_name": "id",
     "param_in": "path",
-    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths)."
+    "description": "The ID or [URL-encoded path of the project](https://docs.gitlab.com/api/rest/#namespaced-paths).",
+    "direction": "input"
   },
   {
     "operationId": "triggerManualJob",
     "param_name": "job_id",
     "param_in": "path",
-    "description": "The ID of the manual job to run"
+    "description": "The ID of the manual job to run",
+    "direction": "input"
   },
   {
     "operationId": "triggerManualJob",
     "param_name": "job_variables_attributes",
     "param_in": "query",
-    "description": "An array containing the custom variables available to the job"
+    "description": "An array containing the custom variables available to the job",
+    "direction": "input"
   }
 ]

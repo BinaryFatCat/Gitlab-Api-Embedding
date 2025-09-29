@@ -27,15 +27,19 @@ def embed_descriptions():
     meta_info = []
 
     for op in operations:
-        operation_id = op["operationId"]
+        if op.get("direction") not in ("input", "response"):
+            continue
         for param in op["parameters"]:
-            desc = param.get("description", "")
+            desc = param.get("description", "").strip()
+            if not desc:
+                desc = param["name"]
             texts.append(desc)
             meta_info.append({
-                "operationId": operation_id,
+                "operationId": op["operationId"],
                 "param_name": param["name"],
                 "param_in": param["in"],
-                "description": desc
+                "description": desc,
+                "direction": op["direction"]
             })
 
     print(f"🧠 正在对 {len(texts)} 个参数描述生成 embedding...")

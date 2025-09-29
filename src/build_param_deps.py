@@ -10,7 +10,6 @@ OUTPUT_FILE = Path("outputs/interface_parameter_dependencies.json")
 SIMILARITY_THRESHOLD = 0.75
 
 def main():
-    # 加载参数描述和embedding
     with open(PARAM_META_FILE, "r", encoding="utf-8") as f:
         meta = json.load(f)
 
@@ -22,26 +21,22 @@ def main():
     for i, m1 in enumerate(meta):
         for j, m2 in enumerate(meta):
             if i >= j:
-                continue  # 避免重复对
+                continue
+            if m1["direction"] != "response" or m2["direction"] != "input":
+                continue
             score = float(sim_matrix[i][j])
             if score >= SIMILARITY_THRESHOLD:
-                if m1["operationId"] == m2["operationId"]:
-                  continue
                 results.append({
                     "from_operationId": m1["operationId"],
                     "from_param_name": m1["param_name"],
-                    "from_param_in": m1["param_in"],
                     "from_description": m1["description"],
-
                     "to_operationId": m2["operationId"],
                     "to_param_name": m2["param_name"],
-                    "to_param_in": m2["param_in"],
                     "to_description": m2["description"],
-
-                    "similarity_score": score
+                    "similarity_score": score,
+                    "direction": "response → input"
                 })
 
-    # 按相似度排序
     results = sorted(results, key=lambda x: x["similarity_score"], reverse=True)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
